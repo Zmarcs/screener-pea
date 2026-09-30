@@ -1,0 +1,39 @@
+name: Test yfinance depuis GitHub Actions
+
+# Porte A (étape 2, screener PEA) : mesurer si Yahoo Finance bloque les requêtes yfinance
+# émises depuis les runners GitHub Actions, avant d'y faire tourner un pipeline de plus
+# grande échelle. Déclenchement MANUEL uniquement — aucun secret requis, aucun commit
+# automatique (le script écrit seulement un rapport, publié comme artefact du run).
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test-yfinance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      - name: Installer les dépendances (même requirements.txt que le pipeline)
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lancer le test yfinance
+        run: python scripts/test_yfinance_ci.py
+
+      - name: Publier le rapport (artefact du run, pas de commit)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-test-yfinance
+          path: |
+            rapport_test_yfinance_ci.md
+            rapport_test_yfinance_ci.json
+          retention-days: 30
