@@ -1,0 +1,55 @@
+# Vérification manuelle (étape 1) : valeurs relevées À LA MAIN dans les tableaux des rapports
+# annuels PUBLIÉS (PDF), pour comparaison avec les valeurs XBRL retenues par le pipeline.
+# Relevé du 2026-09-29. Montants tels qu'affichés, dans l'unité du tableau.
+# page = folio imprimé en bas de page ; page_pdf = numéro de page dans le fichier PDF.
+
+societes:
+  969500Y4IJGHJE2MTJ13:
+    nom: Hermès International
+    document: "Document d'enregistrement universel 2025 incluant le rapport financier annuel (FR)"
+    url: "https://assets-finance.hermes.com/s3fs-public/node/pdf_file/2026-04/1777391814/260319_hermes_urd2025_fr.pdf"
+    unite: "millions d'euros"
+    multiplicateur: 1000000
+    exercices: {N: 2025, N-1: 2024}
+    valeurs:
+      chiffre_affaires:       {N: 16002,  N-1: 15170,  page: 364, page_pdf: 356, tableau: "5.1 Compte de résultat consolidé", ligne: "Chiffre d'affaires"}
+      marge_brute:            {N: 11379,  N-1: 10660,  page: 364, page_pdf: 356, tableau: "5.1 Compte de résultat consolidé", ligne: "Marge brute"}
+      ebit:                   {N: 6569,   N-1: 6150,   page: 364, page_pdf: 356, tableau: "5.1 Compte de résultat consolidé", ligne: "Résultat opérationnel"}
+      resultat_net:           {N: 4524,   N-1: 4603,   page: 364, page_pdf: 356, tableau: "5.1 Compte de résultat consolidé", ligne: "Résultat net – part du groupe"}
+      bnpa:                   {N: 43.15,  N-1: 43.93,  page: 364, page_pdf: 356, tableau: "5.1 Compte de résultat consolidé", ligne: "Résultat de base par action en euros", unite: "euros", multiplicateur: 1}
+      actif_courant:          {N: 15911,  N-1: 15476,  page: 365, page_pdf: 357, tableau: "5.3 Bilan consolidé – actif", ligne: "Actifs courants"}
+      actif_total:            {N: 24322,  N-1: 23084,  page: 365, page_pdf: 357, tableau: "5.3 Bilan consolidé – actif", ligne: "TOTAL ACTIF"}
+      capitaux_propres:       {N: 18846,  N-1: 17334,  page: 365, page_pdf: 357, tableau: "5.3 Bilan consolidé – passif", ligne: "Capitaux propres"}
+      dette_long_terme:       {N: 34,     N-1: 61,     page: 365, page_pdf: 357, tableau: "5.3 Bilan consolidé – passif", ligne: "Emprunts et dettes financières à plus d'un an"}
+      dettes_courantes:       {N: 3186,   N-1: 3629,   page: 365, page_pdf: 357, tableau: "5.3 Bilan consolidé – passif", ligne: "Passifs courants"}
+      reserves:               {N: 19054,  N-1: 17163,  page: 366, page_pdf: 358, tableau: "5.4 État de variation des capitaux propres consolidés", ligne: "Colonne « Réserves consolidées et résultat net part du groupe », soldes au 31 décembre"}
+      cash_flow_operationnel: {N: 5374,   N-1: 5139,   page: 367, page_pdf: 359, tableau: "5.5 État des flux de trésorerie consolidés", ligne: "Flux de trésorerie liés à l'activité (A)"}
+      nombre_actions:         {N: 105569412, N-1: 105569412, page: 366, page_pdf: 358, tableau: "5.4 État de variation des capitaux propres consolidés", ligne: "Nombre d'actions au 31 décembre", unite: "actions", multiplicateur: 1}
+    notes:
+      - "Bilan p. 365 : « Réserves » 14 443 (N) / 12 464 (N−1) et « Résultat net – part du groupe » 4 524 / 4 603, soit 18 967 / 17 067. L'écart de 87 M€ (2025) et 96 M€ (2024) avec la colonne de l'état de variation p. 366 correspond aux écarts actuariels (−87 / −95 selon ce tableau), présentés dans « Réserves » au bilan mais dans une colonne distincte à la p. 366. Le pipeline retient le fait ESEF ifrs-full:Equity[RetainedEarningsMember] = 19 054, qui est la valeur de la p. 366."
+      - "Dettes totales : aucun total « dettes » au bilan ; calculées = TOTAL PASSIF − Capitaux propres = 24 322 − 18 846 = 5 476 (N) et 23 084 − 17 334 = 5 750 (N−1)."
+
+  724500Y6DUVHQD6OXN27:
+    nom: ASML Holding N.V.
+    document: "2025 Annual Report based on IFRS (EN)"
+    url: "https://ourbrand.asml.com/m/6ea363f69344ebd4/original/asml-2025-annual-report-based-on-ifrs.pdf"
+    unite: "millions d'euros"
+    multiplicateur: 1000000
+    exercices: {N: 2025, N-1: 2024}
+    valeurs:
+      chiffre_affaires:       {N: 32667.3, N-1: 28262.9, page: 270, page_pdf: 270, tableau: "Consolidated statement of profit or loss", ligne: "Total net sales"}
+      marge_brute:            {N: 16931.4, N-1: 14283.8, page: 270, page_pdf: 270, tableau: "Consolidated statement of profit or loss", ligne: "Gross profit"}
+      ebit:                   {N: 12054.0, N-1: 9937.1,  page: 270, page_pdf: 270, tableau: "Consolidated statement of profit or loss", ligne: "Operating income"}
+      resultat_net:           {N: 10213.0, N-1: 8349.0,  page: 270, page_pdf: 270, tableau: "Consolidated statement of profit or loss", ligne: "Net income"}
+      bnpa:                   {N: 26.29,   N-1: 21.23,   page: 270, page_pdf: 270, tableau: "Consolidated statement of profit or loss", ligne: "Basic net income per ordinary share", unite: "euros", multiplicateur: 1}
+      actif_courant:          {N: 30240.5, N-1: 30357.2, page: 272, page_pdf: 272, tableau: "Consolidated statement of financial position", ligne: "Total current assets"}
+      actif_total:            {N: 55576.8, N-1: 52566.5, page: 272, page_pdf: 272, tableau: "Consolidated statement of financial position", ligne: "Total assets"}
+      capitaux_propres:       {N: 24185.0, N-1: 22021.9, page: 272, page_pdf: 272, tableau: "Consolidated statement of financial position", ligne: "Shareholders' equity"}
+      dette_long_terme:       {N: 2709.0,  N-1: 3677.3,  page: 272, page_pdf: 272, tableau: "Consolidated statement of financial position", ligne: "Long-term debt"}
+      dettes_courantes:       {N: 24439.4, N-1: 20049.5, page: 272, page_pdf: 272, tableau: "Consolidated statement of financial position", ligne: "Total current liabilities"}
+      reserves:               {N: 16534.8, N-1: 13515.6, page: 274, page_pdf: 274, tableau: "Consolidated statement of changes in equity (continued)", ligne: "Retained earnings + Net income, balance at December 31 (6 321,8 + 10 213,0 ; 5 166,6 + 8 349,0)"}
+      cash_flow_operationnel: {N: 13826.5, N-1: 12369.7, page: 275, page_pdf: 275, tableau: "Consolidated statement of cash flows", ligne: "Net cash provided by operating activities"}
+      nombre_actions:         {N: 385.4,   N-1: 393.3,   page: 274, page_pdf: 274, tableau: "Consolidated statement of changes in equity (continued)", ligne: "Issued and outstanding shares, balance at December 31", unite: "millions d'actions", multiplicateur: 1000000}
+    notes:
+      - "Dettes totales : calculées = Total assets − Shareholders' equity = 55 576,8 − 24 185,0 = 31 391,8 (N) et 52 566,5 − 22 021,9 = 30 544,6 (N−1)."
+      - "Résultat net : ASML n'a pas d'intérêts minoritaires ; « Net income » = résultat part du groupe (concept ESEF ifrs-full:ProfitLoss)."

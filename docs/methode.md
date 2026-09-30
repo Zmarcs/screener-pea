@@ -17,16 +17,29 @@ Tags d'origine affichés sur chaque carte :
 - Seuil : CAGR 5 ans ≥ 10 % ET au maximum 1 année en baisse. `PARAMÈTRE`
 - Affiché aussi : pente log-linéaire, historique en barres (années en baisse en rouge).
 - Limite : croissance externe et effets de change gonflent le CA.
+- Historique insuffisant : moins de 6 exercices disponibles (= 5 variations annuelles) → critère
+  « non évaluable », jamais ✅. Le CAGR calculé sur l'historique existant est affiché avec son
+  libellé réel (ex. « CAGR 3 ans ») et son année de base. `PARAMÈTRE` (minimum : 6 exercices)
 
 ### P2 — Marges `FORMATION`
 - Marge EBIT > 20 % (mode strict) OU top quartile du secteur (mode relatif).
 - Marge nette > 10 %.
 - Tendance des marges : pente ≥ −0,5 pt/an. `PARAMÈTRE`
 - Marge EBITDA affichée pour information seulement (IFRS 16 la gonfle depuis 2019).
+- Fiabilité `COMPLÉMENT` : si le dernier exercice utilisé vient de yfinance (retard de
+  publication ESEF) et que son EBIT diffère de l'ESEF de plus de 5 % sur l'exercice commun
+  (`PARAMÈTRE`), P2 est recalculé sur les seules années ESEF disponibles (plus anciennes) et
+  comparé au calcul complet. Même conclusion → gardée sans plafonnement (le calcul ESEF seul
+  devient la référence). Conclusion différente → statut « dépend d'une donnée non recoupée »,
+  non évaluable, verdict plafonné à SURVEILLANCE. Ce libellé (pas « non fiable ») est délibéré :
+  le calcul sur années ESEF plus anciennes ne prouve pas que la donnée yfinance est fausse, il
+  montre seulement que la conclusion dépend de la donnée retenue. Sans aucun rapport ESEF du
+  tout (source 100 % yfinance) : statut « non recoupé », non évaluable (aucun repli possible).
 
 ### P3 — Croissance du BNPA `FORMATION`
 - Seuil : CAGR 5 ans ≥ 10 %.
 - BNPA de départ négatif ou nul : CAGR non calculable → critère ❌ avec mention explicite.
+- Historique insuffisant (moins de 6 exercices) : « non évaluable », même règle que P1. `PARAMÈTRE`
 
 ### P4 — Piotroski F-score ≥ 6 `COMPLÉMENT`
 Santé financière en 9 tests binaires (1 point chacun), sur 2 exercices :
@@ -34,6 +47,17 @@ Santé financière en 9 tests binaires (1 point chacun), sur 2 exercices :
 - Structure : dette long terme / actif en baisse ; ratio de liquidité courante en hausse ; pas d'émission d'actions nouvelles.
 - Efficacité : marge brute en hausse ; rotation de l'actif (CA / actif) en hausse.
 - Si la marge brute n'est pas publiée (compte de résultat par nature) : remplacée par la marge EBIT, avec badge.
+- Actif de référence `COMPLÉMENT` : les 4 tests utilisant l'actif total (ROA, ROA en hausse,
+  levier, rotation de l'actif) sont calculés en convention Piotroski originale — actif
+  D'OUVERTURE (= actif de clôture de l'exercice précédent), pas de clôture. Si l'actif
+  d'ouverture de l'exercice N−1 est indisponible (historique insuffisant) : ces 4 tests sont non
+  évaluables, sans repli silencieux sur la clôture (affichée à titre indicatif seulement).
+- Fiabilité `COMPLÉMENT` : même règle que P2 — pour les sociétés à données en retard (dernier
+  exercice yfinance), le F-score est recalculé sur les seules années ESEF disponibles (N−1 vs
+  N−2, plus anciennes) et comparé au calcul avec l'exercice yfinance. Même conclusion → gardée
+  sans plafonnement. Conclusion différente → statut « dépend d'une donnée non recoupée », non
+  évaluable, verdict plafonné à SURVEILLANCE (le calcul ESEF seul, plus ancien, ne prouve pas que
+  yfinance est faux).
 
 ### P5 — Altman Z''-score > 1,1 `COMPLÉMENT`
 Risque de défaillance (version non-industrielle) :
@@ -62,6 +86,13 @@ percentiles. Métrique manquante = exclue de la moyenne, jamais remplacée.
 ### Valeur — 30 % `PARAMÈTRE`
 - V1 Rendement EBIT / EV — plus haut = mieux.
 - V2 PER actuel / médiane du PER sur 5 ans (PER négatifs exclus) — plus bas = mieux. `FORMATION` (adapté : 5 ans, médiane)
+  - Approximation : « PER actuel » = cours du jour / BNPA du dernier exercice publié
+    (ESEF ne fournit pas de BNPA sur 12 mois glissants). Affiché sous le nom
+    « PER sur dernier exercice publié (FYxxxx) ». Le BNPA 12 mois de yfinance est montré
+    à titre indicatif seulement, il n'entre pas dans le calcul.
+  - PER historique d'un exercice = cours de clôture du dernier jour de l'exercice / BNPA de
+    l'exercice. Cours et BNPA toujours dans la même devise (conversion au taux BCE de la date
+    du cours si nécessaire).
 - V3 Rendement FCF = FCF / capitalisation — plus haut = mieux.
 
 ### Momentum — 30 % `PARAMÈTRE`
@@ -86,6 +117,8 @@ percentiles. Métrique manquante = exclue de la moyenne, jamais remplacée.
 - ACHAT : porte ✅ ET score ≥ 70 ET timing 🟢.
 - SURVEILLANCE : porte ✅ ET score ≥ 50, timing 🟡/🔴 ou score entre 50 et 70.
 - REJET : porte ❌ OU score < 50.
+- Critère de porte « non évaluable » (historique insuffisant ou donnée indisponible), sans aucun ❌ :
+  verdict plafonné à SURVEILLANCE (jamais ACHAT). `PARAMÈTRE`
 - Justification en 3 points générée par règles : les 3 éléments les plus discriminants (critère de porte le plus juste, meilleur et pire sous-score).
 - Seuils 50 / 70 : `PARAMÈTRE`.
 

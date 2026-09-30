@@ -1,0 +1,4 @@
+isin,lei,statut,source,verifie_le,commentaire
+SE0025158629,549300S5CCFESE4C6Y07,actuel,"Nasdaq Nordic api.nasdaq.com/api/nordic/search : groupe Shares Main Market, orderbookId TX310, symbole MYCR ; GLEIF lei-records/549300S5CCFESE4C6Y07/isins",2026-09-29,Action ordinaire Mycronic AB (publ)
+SE0000375115,549300S5CCFESE4C6Y07,historique,"Déclarations Finansinspektionen 2017-2021 (indiqué par l'utilisateur) ; absent de Nasdaq Nordic (NO_INST_FOUND) et non relié au LEI dans GLEIF",2026-09-29,Ancien ISIN de l'action ordinaire Mycronic
+SE0002135970,549300S5CCFESE4C6Y07,non_identifie,"GLEIF lei-records/549300S5CCFESE4C6Y07/isins ; absent de Nasdaq Nordic (NO_INST_FOUND)",2026-09-29,Nature inconnue (obligation ou ancien instrument ?) ; non utilisé

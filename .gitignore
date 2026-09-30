@@ -1,0 +1,25 @@
+# Environnement Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Caches de téléchargement (ESEF, cours, taux BCE…)
+data/cache/
+.cache/
+
+# Sorties générées par le pipeline (régénérables via .venv/bin/python -m pipeline.run) :
+# dépôt public, ne pas publier de données yfinance re-servies telles quelles
+data/processed/
+
+# PDF de tiers (rapports annuels téléchargés) : jamais dans un dépôt public
+*.pdf
+
+# Configuration/état locaux de l'outil Claude Code
+.claude/
+
+# Positions personnelles : ne jamais publier (dépôt public)
+data/manual/portefeuille.yaml

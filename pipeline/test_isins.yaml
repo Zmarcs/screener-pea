@@ -1,0 +1,14 @@
+# Panel de test de l'étape 1 (10 sociétés). Clé interne du pipeline = LEI (résolu
+# automatiquement : data/manual/isin_lei.csv puis API GLEIF). L'ISIN est l'ISIN ACTUEL.
+# ticker = symbole yfinance ; marche = marché de cotation principal.
+societes:
+  - {isin: FR0000052292, nom: "Hermès International", ticker: RMS.PA,   pays: FR, marche: "Euronext Paris",        taille: large, role: "témoin positif probable"}
+  - {isin: NL0010273215, nom: "ASML Holding",         ticker: ASML.AS,  pays: NL, marche: "Euronext Amsterdam",    taille: large, role: "vérification manuelle F/Z'' (avec Hermès)"}
+  - {isin: DE0007164600, nom: "SAP",                  ticker: SAP.DE,   pays: DE, marche: "Xetra",                 taille: large, role: "Allemagne : repli yfinance"}
+  - {isin: SE0017486889, nom: "Atlas Copco A",        ticker: ATCO-A.ST, pays: SE, marche: "Nasdaq Stockholm",     taille: large, role: "SEK, split 2022"}
+  - {isin: SE0020050417, nom: "Boliden",              ticker: BOL.ST,   pays: SE, marche: "Nasdaq Stockholm",      taille: large, role: "cyclique (mines, métaux)"}
+  - {isin: IT0004764699, nom: "Brunello Cucinelli",   ticker: BC.MI,    pays: IT, marche: "Euronext Milan",        taille: mid,   role: "Italie"}
+  - {isin: FR0013333432, nom: "Thermador Groupe",     ticker: THEP.PA,  pays: FR, marche: "Euronext Paris",        taille: small, role: "petite capitalisation, liquidité"}
+  - {isin: FR0010202606, nom: "Sidetrade",            ticker: ALBFR.PA, pays: FR, marche: "Euronext Growth Paris", taille: small, role: "Euronext Growth : repli yfinance"}
+  - {isin: SE0025158629, nom: "Mycronic",             ticker: MYCR.ST,  pays: SE, marche: "Nasdaq Stockholm",      taille: small, role: "changement d'ISIN, correspondance manuelle"}
+  - {isin: FR0004056851, nom: "Valneva",              ticker: VLA.PA,   pays: FR, marche: "Euronext Paris",        taille: small, role: "déficitaire : CAGR BNPA non calculable, PER exclu"}

@@ -1,0 +1,11 @@
+# Rapports ESEF dont la métadonnée d'index de filings.xbrl.org est incohérente avec le contenu.
+# Par défaut, un rapport incohérent est EXCLU des calculs. Il n'est réintégré que s'il figure
+# ici, avec l'explication vérifiée. Supprimer une entrée = exclure à nouveau le rapport.
+rapports:
+  "969500Y4IJGHJE2MTJ13-2026-12-31-ESEF-FR-0":
+    exercice_reel_cloture: 2025-12-31
+    explication: >
+      Index filings.xbrl.org : period_end = 2026-12-31. Contenu vérifié le 2026-09-29 :
+      fichier JSON nommé hermes-2025-12-31-1-fr.json, déposé le 2026-03-24 ; 267 faits sur la
+      période 01/01/2025 → 31/12/2025, 148 sur 2024, bilans au 31/12/2024 et 31/12/2025 ;
+      aucun fait sur 2026. C'est le rapport annuel FY2025 : seule la métadonnée d'index est fausse.

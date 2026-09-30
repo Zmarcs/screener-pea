@@ -1,0 +1,6 @@
+# Modèle. Copier en data/manual/portefeuille.yaml (fichier ignoré par git, jamais publié).
+lignes:
+  - isin: FR0000000000
+    quantite: 0
+    prix_revient: 0.0
+    date_achat: 2026-01-01

@@ -1,0 +1,10 @@
+# Python 3.14 — installer avec : .venv/bin/pip install -r requirements.txt
+xbrl-filings-api==1.0   # interrogation de filings.xbrl.org (rapports ESEF)
+requests==2.34.2        # téléchargements HTTP (GLEIF, fichiers ESEF, BCE)
+certifi==2026.7.22      # certificats SSL (le Python python.org n'en fournit pas)
+yfinance==1.7.0         # cours, volumes, secteur, splits, repli fondamentaux
+pandas==3.0.6           # tableaux de données
+numpy==2.5.3            # calculs numériques
+PyYAML==6.0.3           # lecture des fichiers de configuration
+pytest==9.1.1           # tests unitaires
+pypdf==6.19.0           # lecture des rapports annuels PDF (vérification manuelle des pages)

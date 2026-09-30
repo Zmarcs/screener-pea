@@ -1,0 +1,232 @@
+# Correspondance poste → concepts IFRS (taxonomie ifrs-full) balisés dans les rapports ESEF.
+# Pour chaque poste : liste de concepts candidats, par ordre de priorité.
+# Le premier concept trouvé pour un exercice donné est retenu ; le concept retenu est
+# enregistré avec la valeur (traçabilité).
+#
+# type : flux  = montant sur l'exercice (compte de résultat, tableau de flux)
+#        stock = montant à la date de clôture (bilan)
+#        par_action = montant par action ; actions = nombre d'actions
+#
+# Seuls les faits SANS dimension (pas de ventilation par segment, etc.) sont lus.
+# Un concept peut porter une dimension : "concept[axe=membre]" (ex. composante de capitaux propres).
+# « secours »  = calcul de repli, toujours signalé par un badge.
+# « sommes »   = listes de concepts à additionner, essayées dans l'ordre si aucun concept direct.
+#                partielle_autorisee: true → somme des composants présents + badge « somme partielle »
+#                partielle_autorisee: false → tous les composants sont exigés.
+
+postes:
+  chiffre_affaires:
+    type: flux
+    concepts:
+      - ifrs-full:Revenue
+      - ifrs-full:RevenueFromContractsWithCustomers
+
+  marge_brute:            # montant du résultat brut ; absent si compte de résultat par nature
+    type: flux
+    concepts:
+      - ifrs-full:GrossProfit
+    # Secours (item 30) : chiffre_affaires − cout_des_ventes, si le compte de résultat est
+    # présenté par fonction (CostOfSales balisé) sans que GrossProfit le soit explicitement
+    # (ex. Valneva). Badge « marge brute reconstituée ».
+    secours: marge_brute_par_difference
+
+  cout_des_ventes:        # auxiliaire (secours marge_brute ci-dessus, item 30)
+    type: flux
+    concepts:
+      - ifrs-full:CostOfSales
+
+  ebit:
+    type: flux
+    concepts:
+      - ifrs-full:ProfitLossFromOperatingActivities
+    # Secours (demandé) : résultat avant impôt + charges financières − produits financiers.
+    # Limite : inclut la quote-part des sociétés mises en équivalence. Badge « EBIT reconstitué ».
+    secours: ebit_reconstitue
+
+  resultat_avant_impot:
+    type: flux
+    concepts:
+      - ifrs-full:ProfitLossBeforeTax
+
+  charges_financieres:    # montant positif = charge (convention de la taxonomie IFRS)
+    type: flux
+    concepts:
+      - ifrs-full:FinanceCosts
+
+  produits_financiers:
+    type: flux
+    concepts:
+      - ifrs-full:FinanceIncome
+
+  resultat_net:           # HYPOTHÈSE : part du groupe (cohérent avec le BNPA)
+    type: flux
+    concepts:
+      - ifrs-full:ProfitLossAttributableToOwnersOfParent
+      - ifrs-full:ProfitLoss
+
+  bnpa:                   # HYPOTHÈSE : BNPA de base (non dilué)
+    type: par_action
+    concepts:
+      - ifrs-full:BasicEarningsLossPerShare
+      - ifrs-full:BasicEarningsLossPerShareFromContinuingOperations
+
+  cash_flow_operationnel:   # HYPOTHÈSE : flux net APRÈS variation du BFR (ligne finale du tableau
+    type: flux              # des flux de trésorerie). Ne JAMAIS ajouter un concept "avant variation
+    concepts:                # du BFR" (ex. ifrs-full:CashFlowsFromUsedInOperationsBeforeChangesIn-
+      - ifrs-full:CashFlowsFromUsedInOperatingActivities   # WorkingCapital) : Hermès FY2025 le distingue
+                              # explicitement (5 607 M€ avant BFR vs 5 374 M€ après, valeur retenue
+                              # ici, vérifiée à la main). Vérifié par test_cfo_ne_prend_jamais_la_ligne_avant_bfr.
+
+  capex:                  # HYPOTHÈSE : acquisitions d'immobilisations corporelles + incorporelles
+    type: flux
+    concepts:
+      - ifrs-full:PurchaseOfPropertyPlantAndEquipmentIntangibleAssetsOtherThanGoodwillInvestmentPropertyAndOtherNoncurrentAssets
+    partielle_autorisee: true
+    sommes:
+      - [ifrs-full:PurchaseOfPropertyPlantAndEquipmentClassifiedAsInvestingActivities,
+         ifrs-full:PurchaseOfIntangibleAssetsClassifiedAsInvestingActivities]
+      - [ifrs-full:PurchaseOfPropertyPlantAndEquipment, ifrs-full:PurchaseOfIntangibleAssets]
+
+  actif_total:
+    type: stock
+    concepts:
+      - ifrs-full:Assets
+
+  actif_courant:
+    type: stock
+    concepts:
+      - ifrs-full:CurrentAssets
+    # Secours : actif total − actif non courant (identité du bilan). Badge « calculé ».
+    secours: actif_courant_par_difference
+
+  dettes_courantes:
+    type: stock
+    concepts:
+      - ifrs-full:CurrentLiabilities
+    # Secours : dettes totales − passifs non courants. Badge « calculé ».
+    secours: dettes_courantes_par_difference
+
+  actif_non_courant:      # sert uniquement aux calculs de secours
+    type: stock
+    concepts:
+      - ifrs-full:NoncurrentAssets
+
+  passif_non_courant:     # sert uniquement aux calculs de secours
+    type: stock
+    concepts:
+      - ifrs-full:NoncurrentLiabilities
+
+  dette_long_terme:       # HYPOTHÈSE : emprunts non courants, hors dettes locatives IFRS 16
+    type: stock
+    concepts:
+      - ifrs-full:LongtermBorrowings
+      - ifrs-full:NoncurrentPortionOfNoncurrentBorrowings
+      - ifrs-full:NoncurrentFinancialLiabilities
+
+  dette_court_terme:      # HYPOTHÈSE : emprunts courants, hors dettes locatives (sert à l'EV)
+    type: stock
+    concepts:
+      - ifrs-full:CurrentBorrowingsAndCurrentPortionOfNoncurrentBorrowings
+    partielle_autorisee: true
+    sommes:
+      - [ifrs-full:ShorttermBorrowings, ifrs-full:CurrentPortionOfLongtermBorrowings]
+
+  capitaux_propres:       # HYPOTHÈSE : capitaux propres totaux (y compris minoritaires)
+    type: stock
+    concepts:
+      - ifrs-full:Equity
+
+  reserves:               # HYPOTHÈSE : « réserves » du Z'' = résultats non distribués (Altman :
+    type: stock           # retained earnings), résultat de l'exercice inclus
+    concepts:
+      - ifrs-full:RetainedEarnings
+      - "ifrs-full:Equity[ifrs-full:ComponentsOfEquityAxis=ifrs-full:RetainedEarningsMember]"
+    partielle_autorisee: false
+    sommes:
+      - [ifrs-full:RetainedEarningsExcludingProfitLossForReportingPeriod,
+         ifrs-full:RetainedEarningsProfitLossForReportingPeriod]
+      - ["ifrs-full:Equity[ifrs-full:ComponentsOfEquityAxis=ifrs-full:RetainedEarningsExcludingProfitLossForReportingPeriodMember]",
+         "ifrs-full:Equity[ifrs-full:ComponentsOfEquityAxis=ifrs-full:RetainedEarningsProfitLossForReportingPeriodMember]"]
+
+  dettes_totales:
+    type: stock
+    concepts:
+      - ifrs-full:Liabilities
+    # Secours : actif total − capitaux propres totaux (identité du bilan). Badge « calculé ».
+    secours: dettes_par_difference
+
+  tresorerie:
+    type: stock
+    concepts:
+      - ifrs-full:CashAndCashEquivalents
+
+  nombre_actions:         # HYPOTHÈSE : actions émises à la clôture
+    type: actions
+    concepts:
+      - ifrs-full:NumberOfSharesIssued
+      - ifrs-full:NumberOfSharesIssuedAndFullyPaid
+      - ifrs-full:NumberOfSharesOutstanding
+      - ifrs-full:WeightedAverageShares
+
+  dette_location_ifrs16:   # auxiliaire (comparaison F5 avec/sans dettes locatives, règle
+    type: stock            # ajoutée) : dettes locatives non courantes IFRS 16, EXCLUES par
+    concepts:               # défaut de dette_long_terme (hypothèse ci-dessus). Rarement balisée
+      - ifrs-full:NoncurrentLeaseLiabilities   # séparément (ex. ASML : donnée indisponible).
+
+  nombre_actions_moyen_pondere:   # auxiliaire (ne sert qu'au contrôle d'identité BNPA × actions
+    type: flux                    # ≈ résultat net, règle ajoutée) : nombre d'actions moyen
+    concepts:                     # pondéré sur l'exercice (IAS 33), cohérent avec le
+      - ifrs-full:WeightedAverageShares                # dénominateur du BNPA — pas le nombre
+      - ifrs-full:AdjustedWeightedAverageShares         # d'actions de clôture (poste ci-dessus)
+
+# Extensions propres à une société (concepts « maison » des émetteurs), par LEI.
+# Chaque entrée a été vérifiée dans le rapport publié (libellé de la ligne) : source indiquée.
+# Elles ne sont consultées que si les concepts génériques ci-dessus sont absents.
+extensions:
+  969500Y4IJGHJE2MTJ13:   # Hermès International
+    reserves:
+      partielle_autorisee: false
+      sommes:
+        - [hermes:Reserves, ifrs-full:RetainedEarningsProfitLossForReportingPeriod]
+      source: "Bilan consolidé : lignes « Réserves » + « Résultat net – part du groupe » (DEU 2025, § 5.3)"
+  969500SSIGMAGT008F11:   # Thermador Groupe
+    reserves:
+      partielle_autorisee: false
+      sommes:
+        - [thermador:ConsolidatedReserves, ifrs-full:RetainedEarningsProfitLossForReportingPeriod]
+      source: "Bilan : lignes « Réserves consolidées » + « Résultat de l'exercice - Part du groupe » (ESEF 2025)"
+    ebit:
+      concepts: [thermador:OperatingProfit]
+      source: "Compte de résultat : ligne « RÉSULTAT OPÉRATIONNEL » (ESEF 2021)"
+    capex:
+      concepts: [thermador:OutflowsForTheAcquisitionOfTangibleAndIntangibleFixedAssets]
+      source: >-
+        NON VÉRIFIÉ contre le rapport publié dans cette session (pas d'accès Internet) —
+        à la différence des deux entrées ci-dessus. Nom du concept auto-descriptif
+        (« sorties pour l'acquisition d'immobilisations corporelles et incorporelles »),
+        cohérent avec la définition capex de l'hypothèse #7 et avec le tableau des flux de
+        trésorerie (valeurs négatives, ex. -12 221 000 € en FY2021, cohérentes avec un flux
+        sortant). À confirmer contre le rapport annuel imprimé avant de considérer la
+        vérification complète (item 29).
+
+# Repli yfinance (sociétés sans ESEF ou exercice non encore indexé) : libellés des lignes
+# des états financiers annuels yfinance, par ordre de priorité. Badge « historique court ».
+yfinance:
+  chiffre_affaires: ["Total Revenue", "Operating Revenue"]
+  marge_brute: ["Gross Profit"]
+  ebit: ["Operating Income", "EBIT"]
+  resultat_avant_impot: ["Pretax Income"]
+  resultat_net: ["Net Income Common Stockholders", "Net Income"]
+  bnpa: ["Basic EPS"]
+  cash_flow_operationnel: ["Operating Cash Flow"]
+  capex: ["Capital Expenditure"]          # négatif chez yfinance : converti en valeur positive
+  actif_total: ["Total Assets"]
+  actif_courant: ["Current Assets"]
+  dettes_courantes: ["Current Liabilities"]
+  dette_long_terme: ["Long Term Debt"]
+  dette_court_terme: ["Current Debt"]
+  capitaux_propres: ["Total Equity Gross Minority Interest", "Stockholders Equity"]
+  reserves: ["Retained Earnings"]
+  dettes_totales: ["Total Liabilities Net Minority Interest"]
+  tresorerie: ["Cash And Cash Equivalents"]
+  nombre_actions: ["Share Issued", "Ordinary Shares Number"]

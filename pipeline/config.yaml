@@ -1,0 +1,87 @@
+# Paramètres du pipeline. Source de vérité : docs/methode.md.
+# Convention des commentaires :
+#   PARAMÈTRE  = valeur écrite dans methode.md (tag PARAMÈTRE ou seuil explicite)
+#   HYPOTHÈSE  = choix d'implémentation absent de methode.md, listé dans le rapport d'étape
+#   RÉGLEMENTAIRE = fait extérieur (loi, norme), pas un choix
+
+historique:
+  fenetre_exercices: 5          # methode.md : « 5 derniers exercices »
+  min_exercices: 6              # PARAMÈTRE (règle ajoutée) : 6 exercices = 5 variations annuelles
+  min_exercices_alternatif: 5   # affichage « porte avec 5 exercices » (information seulement)
+  delai_publication_mois: 4     # RÉGLEMENTAIRE : directive Transparence, rapport annuel sous 4 mois
+  annees_atypiques:             # affichage à côté de l'année de base d'un CAGR (demande utilisateur)
+    2020: "Covid"
+
+porte:
+  mode: strict                  # strict | relatif (P2) ; les deux sont calculés et affichés
+  p1_croissance_ca:
+    cagr_min: 0.10              # PARAMÈTRE
+    max_annees_baisse: 1        # PARAMÈTRE
+  p2_marges:
+    marge_ebit_min: 0.20        # methode.md (mode strict)
+    quantile_relatif: 0.75      # methode.md : « top quartile du secteur » (mode relatif)
+    marge_nette_min: 0.10       # methode.md
+    pente_marge_min_pts: -0.5   # PARAMÈTRE : points de % par an
+    seuil_ecart_ebit_yfinance: 0.05   # PARAMÈTRE (règle ajoutée) : écart EBIT yfinance/ESEF sur
+                                       # l'exercice commun > seuil → P2 "non fiable" ; aucune
+                                       # source ESEF pour recouper → P2 "non recoupé" ; dans les
+                                       # deux cas, verdict plafonné à SURVEILLANCE
+  p3_croissance_bnpa:
+    cagr_min: 0.10              # methode.md
+  p4_fscore:
+    min: 6                      # methode.md
+  p5_zscore:
+    coefficients: {x1: 6.56, x2: 3.26, x3: 6.72, x4: 1.05}   # methode.md (Altman Z'')
+    seuil_detresse: 1.1         # methode.md : < 1,1 exclusion
+    seuil_sain: 2.6             # methode.md : > 2,6 saine ; entre les deux zone grise
+  p6_liquidite:
+    volume_moyen_min_eur: 100000   # PARAMÈTRE
+    fenetre_seances: 63            # HYPOTHÈSE : « 3 mois » = 63 séances de bourse
+
+qvm:
+  poids: {qualite: 0.40, valeur: 0.30, momentum: 0.30}   # PARAMÈTRE
+  min_societes_secteur: 10      # methode.md : sinon percentile sur l'univers entier
+  mention_panel_test: "non significatif"   # étape 1 : 10 sociétés seulement
+  min_univers_verdict: 30       # PARAMÈTRE (règle ajoutée) : taille minimale de l'univers pour
+                                 # qu'un ACHAT/REJET déterminé par le score soit définitif ; en
+                                 # dessous, verdict "PROVISOIRE" (avec le verdict qu'il serait)
+
+momentum:
+  seances_12m: 252              # HYPOTHÈSE : 12 mois = 252 séances
+  seances_1m: 21                # HYPOTHÈSE : 1 mois = 21 séances
+  seances_6m: 126               # HYPOTHÈSE : 6 mois = 126 séances
+  indice_reference: "^STOXX"    # STOXX Europe 600 (yfinance)
+
+timing:
+  rsi_periode: 14               # methode.md (FORMATION)
+  mm_courte: 50                 # methode.md
+  mm_longue: 200                # methode.md
+  pente_mm200_seances: 21       # HYPOTHÈSE : « MM200 en hausse sur 1 mois » = 21 séances
+  rsi_zone_entree: [35, 45]     # methode.md
+  ecart_mm50_max: 0.02          # methode.md : ± 2 %
+  rsi_surachat: 70              # methode.md
+
+verdict:
+  seuil_achat: 70               # PARAMÈTRE
+  seuil_surveillance: 50        # PARAMÈTRE
+
+sortie:
+  fscore_max: 4                 # methode.md (utilisé à l'étape 4)
+
+controles_identite:   # PARAMÈTRE (règle ajoutée) : contrôles de cohérence comptable sur les
+                       # valeurs retenues, tous postes/sociétés/exercices ; écart = valeur mise
+                       # en quarantaine (retirée) + entrée au journal
+  tolerance_ecart: 0.15         # BNPA × actions ≈ résultat net ; actif total ≈ dettes totales +
+                                 # capitaux propres (± 15 %, aucun seuil dédié dans methode.md :
+                                 # même tolérance réutilisée pour les deux identités approximatives)
+  borne_marge_ebit: 1.0         # marge EBIT ∈ [-100 %, +100 %]
+  seuil_partiel: 3               # PARAMÈTRE (règle ajoutée) : en dessous de ce nombre de
+                                  # contrôles exécutés (sur 4), badge "contrôle partiel"
+                                  # (0 exécuté = badge "non contrôlé" à la place)
+
+sources:
+  esef_langues_preferees: [fr, en]   # HYPOTHÈSE : en cas de doublon de langue (mêmes chiffres)
+  tolerance_ecart_relatif: 0.005     # HYPOTHÈSE : écart > 0,5 % entre 2 sources = signalé
+  tolerance_split: 0.02              # HYPOTHÈSE : facteur de retraitement ≈ ratio de split à 2 % près
+  seuil_incoherence_rapport: 0.5     # HYPOTHÈSE : comparatif N−1 (CA, actif total) différent de plus de 50 %
+                                     # du chiffre publié l'année précédente → rapport exclu (erreur de balisage)
