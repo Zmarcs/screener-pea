@@ -12,7 +12,9 @@ permissions:
 
 jobs:
   test-yfinance:
-    runs-on: ubuntu-latest
+    # ubuntu-latest migre vers Ubuntu 26 le 19/10/2026 : fige la version pour un test reproductible
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 

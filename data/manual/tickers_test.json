@@ -1,0 +1,17 @@
+{
+  "_commentaire": "Placeholder (12 tickers du test Porte A). À remplacer par la liste des tickers du pilote (issue de l'univers FIRDS, docs/univers.md) avant d'utiliser scripts/test_yfinance_echelle.py à grande échelle.",
+  "tickers": [
+    "RMS.PA",
+    "ASML.AS",
+    "SAP.DE",
+    "ATCO-A.ST",
+    "BC.MI",
+    "NOVO-B.CO",
+    "NOKIA.HE",
+    "EQNR.OL",
+    "UCB.BR",
+    "VIG.VI",
+    "ITX.MC",
+    "EDP.LS"
+  ]
+}
