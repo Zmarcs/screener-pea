@@ -2,7 +2,7 @@
 
 Généré le 2026-09-30 par `pipeline/report_etape1.py` à partir de `data/processed/`. Analyse, pas un conseil en investissement personnalisé.
 
-- Tests unitaires : `123 passed in 0.56s` (`.venv/bin/python -m pytest tests`).
+- Tests unitaires : `134 passed in 1.09s` (`.venv/bin/python -m pytest tests`).
 - Relancer : `.venv/bin/python -m pipeline.run` puis `.venv/bin/python -m pipeline.report_etape1`.
 - Les scores QVM de ce panel sont **non significatifs** (10 sociétés, percentiles sur l'univers entier).
 
@@ -33,16 +33,16 @@ Légende : ✅ validé · ❌ échec · ⚪ n.é. = non évaluable (historique i
 
 | Société | Ex. | P1 CA | P2 Marges | P3 BNPA | P4 F-score | P5 Z'' | P6 Liquidité | **Porte** | Porte avec 5 ex. | Porte mode relatif |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Hermès International | 7 | ✅ 20,2 % | ✅ EBIT 41,1 % · net 28,3 % | ✅ 26,6 % | ✅ 7/9 | ✅ 11,41 | ✅ 154,67 M€ | **✅** | ✅ | ✅ |
-| ASML Holding | 7 | ✅ 18,5 % | ✅ EBIT 36,9 % · net 31,3 % | ✅ 24,4 % | ✅ 7/9 | ✅ 3,92 | ✅ 863,12 M€ | **✅** | ✅ | ✅ |
-| SAP | 4 | ⚪ n.é. 7,6 % | ⚪ n.é. *non recoupé* EBIT 26,1 % · net 19,5 % | ⚪ n.é. 46,3 % | ✅ 7/9 | ✅ 5,25 | ✅ 424,40 M€ | **⚪ n.é.** | ⚪ n.é. | ⚪ n.é. |
-| Atlas Copco A | 6 | ✅ 11,0 % | ✅ EBIT 20,7 % · net 15,7 % | ✅ 12,3 % | ⚪ n.é. 5/7 | ✅ 5,00 | ✅ 67,81 M€ | **⚪ n.é.** | ⚪ n.é. | ❌ |
-| Boliden | 6 | ✅ 10,7 % | ❌ EBIT 15,3 % · net 11,2 % | ⚪ n.é. 1,2 % | ⚪ n.é. 5/8 | ✅ 4,08 | ✅ 50,01 M€ | **❌** | ❌ | ❌ |
-| Brunello Cucinelli | 6 | ✅ 20,9 % | ❌ EBIT 17,2 % · net 9,6 % | ⚪ n.é. indicatif 26,2 % | ⚪ n.é. 5/8 | ✅ 2,16 | ✅ 21,65 M€ | **❌** | ❌ | ❌ |
+| Hermès International | 7 | ✅ 20,2 % | ✅ EBIT 41,1 % · net 28,3 % | ✅ 26,6 % | ✅ 7/9 | ✅ 11,41 | ✅ 156,15 M€ | **✅** | ✅ | ✅ |
+| ASML Holding | 7 | ✅ 18,5 % | ✅ EBIT 36,9 % · net 31,3 % | ✅ 24,4 % | ✅ 7/9 | ✅ 3,92 | ✅ 879,91 M€ | **✅** | ✅ | ✅ |
+| SAP | 4 | ⚪ n.é. 7,6 % | ⚪ n.é. *non recoupé* EBIT 26,1 % · net 19,5 % | ⚪ n.é. 46,3 % | ✅ 7/9 | ✅ 5,25 | ✅ 427,99 M€ | **⚪ n.é.** | ⚪ n.é. | ⚪ n.é. |
+| Atlas Copco A | 6 | ✅ 11,0 % | ✅ EBIT 20,7 % · net 15,7 % | ✅ 12,3 % | ⚪ n.é. 5/7 | ✅ 5,00 | ✅ 68,75 M€ | **⚪ n.é.** | ⚪ n.é. | ❌ |
+| Boliden | 6 | ✅ 10,7 % | ❌ EBIT 15,3 % · net 11,2 % | ⚪ n.é. 1,2 % | ⚪ n.é. 5/8 | ✅ 4,08 | ✅ 50,45 M€ | **❌** | ❌ | ❌ |
+| Brunello Cucinelli | 6 | ✅ 20,9 % | ❌ EBIT 17,2 % · net 9,6 % | ⚪ n.é. indicatif 26,2 % | ⚪ n.é. 5/8 | ✅ 2,16 | ✅ 21,85 M€ | **❌** | ❌ | ❌ |
 | Thermador Groupe | 7 | ❌ 4,9 % | ❌ EBIT 11,8 % · net 8,8 % | ❌ 4,1 % | ❌ 5/9 | ✅ 7,85 | ✅ 0,37 M€ | **❌** | ❌ | ❌ |
-| Sidetrade | 4 | ⚪ n.é. 20,6 % | ⚪ n.é. *non recoupé* EBIT 14,2 % · net 14,0 % | ⚪ n.é. 37,4 % | ❌ 4/9 | ⚪ n.é. — | ✅ 0,32 M€ | **❌** | ❌ | ❌ |
-| Mycronic | 6 | ✅ 15,4 % | ✅ EBIT 25,4 % · net 19,7 % | ⚪ n.é. 17,2 % | ⚪ n.é. 3/7 | ✅ 7,05 | ✅ 7,09 M€ | **⚪ n.é.** | ⚪ n.é. | ❌ |
-| Valneva | 7 | ❌ 9,6 % | ❌ EBIT -47,0 % · net -66,0 % | ❌ non calc. | ❌ 2/8 | ❌ -4,43 | ✅ 2,14 M€ | **❌** | ❌ | ❌ |
+| Sidetrade | 4 | ⚪ n.é. 20,6 % | ⚪ n.é. *non recoupé* EBIT 14,2 % · net 14,0 % | ⚪ n.é. 37,4 % | ❌ 4/9 | ⚪ n.é. — | ✅ 0,33 M€ | **❌** | ❌ | ❌ |
+| Mycronic | 6 | ✅ 15,4 % | ✅ EBIT 25,4 % · net 19,7 % | ⚪ n.é. 17,2 % | ⚪ n.é. 3/7 | ✅ 7,05 | ✅ 7,25 M€ | **⚪ n.é.** | ⚪ n.é. | ❌ |
+| Valneva | 7 | ❌ 9,6 % | ❌ EBIT -47,0 % · net -66,0 % | ❌ non calc. | ❌ 2/8 | ❌ -4,43 | ✅ 2,15 M€ | **❌** | ❌ | ❌ |
 
 Seuils : P1 CAGR ≥ 10 % et ≤ 1 année en baisse ; P2 marge EBIT > 20 %, marge nette > 10 %, pente ≥ −0,5 pt/an ; P3 CAGR BNPA ≥ 10 % ; P4 F-score ≥ 6 (x/y = points / tests disponibles) ; P5 Z'' > 1,1 ; P6 volume moyen 3 mois > 100 000 €.
 
@@ -73,31 +73,31 @@ Règle ajoutée : univers (10 sociétés) < `qvm.min_univers_verdict` (30) → t
 
 | Société | Score QVM | Qualité | Valeur | Momentum | Timing | Verdict | Justification (3 points) |
 |---|---|---|---|---|---|---|---|
-| Hermès International | 57 *(non significatif)* | 68 | 81 | 19 | 🔴 RSI 36,3, cours/MM200 -22,4 % | **SURVEILLANCE** (porte ✅, score 57 entre 50 et 70) | Critère de porte le plus juste : P4 ✅ (écart au seuil +17%)<br>Meilleur sous-score : valeur (81/100)<br>Pire sous-score : momentum (19/100) |
-| ASML Holding | 63 *(non significatif)* | 80 | 11 | 93 | 🟡 RSI 67,9, cours/MM200 22,0 % | **SURVEILLANCE** (porte ✅, score 63 entre 50 et 70) | Critère de porte le plus juste : P4 ✅ (écart au seuil +17%)<br>Meilleur sous-score : momentum (93/100)<br>Pire sous-score : valeur (11/100) |
-| SAP | 61 *(non significatif)* | 47 | 77 | 63 | 🟡 RSI 53,4, cours/MM200 11,0 % | **SURVEILLANCE** (critère(s) de porte non évaluable(s) : verdict plafonné à SURVEILLANCE) | Critère de porte le plus juste : P4 ✅ (écart au seuil +17%)<br>Meilleur sous-score : valeur (77/100)<br>Pire sous-score : qualite (47/100) |
-| Atlas Copco A | 56 *(non significatif)* | 66 | 46 | 52 | 🟡 RSI 58,6, cours/MM200 12,5 % | **SURVEILLANCE** (critère(s) de porte non évaluable(s) : verdict plafonné à SURVEILLANCE) | Critère de porte le plus juste : P2 ✅ (écart au seuil +3%)<br>Meilleur sous-score : qualite (66/100)<br>Pire sous-score : valeur (46/100) |
-| Boliden | 49 *(non significatif)* | 36 | 64 | 52 | 🔴 RSI 43,7, cours/MM200 -6,7 % | **REJET** (porte ❌) | Critère de porte le plus juste : P2 ❌ (écart au seuil -23%)<br>Meilleur sous-score : valeur (64/100)<br>Pire sous-score : qualite (36/100) |
-| Brunello Cucinelli | 50 *(non significatif)* | 45 | 59 | 48 | 🔴 RSI 55,5, cours/MM200 -0,8 % | **REJET** (porte ❌) | Critère de porte le plus juste : P2 ❌ (écart au seuil -14%)<br>Meilleur sous-score : valeur (59/100)<br>Pire sous-score : qualite (45/100) |
-| Thermador Groupe | 65 *(non significatif)* | 67 | 83 | 44 | 🔴 RSI 40,8, cours/MM200 -5,0 % | **REJET** (porte ❌) | Critère de porte le plus juste : P3 ❌ (écart au seuil -59%)<br>Meilleur sous-score : valeur (83/100)<br>Pire sous-score : momentum (44/100) |
-| Sidetrade | 34 *(non significatif)* | 19 | 32 | 56 | 🟡 RSI 56,9, cours/MM200 11,0 % | **REJET** ⚠️ *REJET sur données non recoupées* (porte ❌) | Critère de porte le plus juste : P4 ❌ (écart au seuil -33%)<br>Meilleur sous-score : momentum (56/100)<br>Pire sous-score : qualite (19/100) |
-| Mycronic | 44 *(non significatif)* | 34 | 30 | 70 | 🟡 RSI 60,5, cours/MM200 26,5 % | **PROVISOIRE** (score non significatif (univers 10 < 30) : serait REJET (score 44 < 50)) | Critère de porte le plus juste : P2 ✅ (écart au seuil +27%)<br>Meilleur sous-score : momentum (70/100)<br>Pire sous-score : valeur (30/100) |
-| Valneva | 14 *(non significatif)* | 33 | 0 | 4 | 🔴 RSI 47,5, cours/MM200 -11,4 % | **REJET** (porte ❌) | Critère de porte le plus juste : P5 ❌ (écart au seuil -503%)<br>Meilleur sous-score : qualite (33/100)<br>Pire sous-score : valeur (0/100) |
+| Hermès International | 57 *(non significatif)* | 68 | 81 | 19 | 🔴 RSI 35,7, cours/MM200 -22,6 % | **SURVEILLANCE** (porte ✅, score 57 entre 50 et 70) | Critère de porte le plus juste : P4 ✅ (écart au seuil +17%)<br>Meilleur sous-score : valeur (81/100)<br>Pire sous-score : momentum (19/100) |
+| ASML Holding | 64 *(non significatif)* | 80 | 15 | 93 | 🟡 RSI 65,9, cours/MM200 20,3 % | **SURVEILLANCE** (porte ✅, score 64 entre 50 et 70) | Critère de porte le plus juste : P4 ✅ (écart au seuil +17%)<br>Meilleur sous-score : momentum (93/100)<br>Pire sous-score : valeur (15/100) |
+| SAP | 61 *(non significatif)* | 47 | 77 | 63 | 🟡 RSI 54,7, cours/MM200 11,6 % | **SURVEILLANCE** (critère(s) de porte non évaluable(s) : verdict plafonné à SURVEILLANCE) | Critère de porte le plus juste : P4 ✅ (écart au seuil +17%)<br>Meilleur sous-score : valeur (77/100)<br>Pire sous-score : qualite (47/100) |
+| Atlas Copco A | 56 *(non significatif)* | 66 | 46 | 52 | 🟡 RSI 56,6, cours/MM200 11,5 % | **SURVEILLANCE** (critère(s) de porte non évaluable(s) : verdict plafonné à SURVEILLANCE) | Critère de porte le plus juste : P2 ✅ (écart au seuil +3%)<br>Meilleur sous-score : qualite (66/100)<br>Pire sous-score : valeur (46/100) |
+| Boliden | 49 *(non significatif)* | 36 | 64 | 52 | 🔴 RSI 39,2, cours/MM200 -8,8 % | **REJET** (porte ❌) | Critère de porte le plus juste : P2 ❌ (écart au seuil -23%)<br>Meilleur sous-score : valeur (64/100)<br>Pire sous-score : qualite (36/100) |
+| Brunello Cucinelli | 49 *(non significatif)* | 45 | 55 | 48 | 🔴 RSI 54,5, cours/MM200 -1,2 % | **REJET** (porte ❌) | Critère de porte le plus juste : P2 ❌ (écart au seuil -14%)<br>Meilleur sous-score : valeur (55/100)<br>Pire sous-score : qualite (45/100) |
+| Thermador Groupe | 65 *(non significatif)* | 67 | 83 | 44 | 🔴 RSI 36,6, cours/MM200 -6,1 % | **REJET** (porte ❌) | Critère de porte le plus juste : P3 ❌ (écart au seuil -59%)<br>Meilleur sous-score : valeur (83/100)<br>Pire sous-score : momentum (44/100) |
+| Sidetrade | 34 *(non significatif)* | 19 | 32 | 56 | 🟡 RSI 56,5, cours/MM200 10,9 % | **REJET** ⚠️ *REJET sur données non recoupées* (porte ❌) | Critère de porte le plus juste : P4 ❌ (écart au seuil -33%)<br>Meilleur sous-score : momentum (56/100)<br>Pire sous-score : qualite (19/100) |
+| Mycronic | 44 *(non significatif)* | 34 | 30 | 70 | 🟡 RSI 58,7, cours/MM200 25,2 % | **PROVISOIRE** (score non significatif (univers 10 < 30) : serait REJET (score 44 < 50)) | Critère de porte le plus juste : P2 ✅ (écart au seuil +27%)<br>Meilleur sous-score : momentum (70/100)<br>Pire sous-score : valeur (30/100) |
+| Valneva | 14 *(non significatif)* | 33 | 0 | 4 | 🔴 RSI 44,3, cours/MM200 -13,1 % | **REJET** (porte ❌) | Critère de porte le plus juste : P5 ❌ (écart au seuil -503%)<br>Meilleur sous-score : qualite (33/100)<br>Pire sous-score : valeur (0/100) |
 
 ### a.4 Valorisation (devise de cotation = devise des comptes pour tout le panel)
 
 | Société | Cours (date) | PER sur dernier exercice publié | Médiane PER 5 ans (PER positifs) | BNPA 12 mois yfinance (indicatif) | Métriques QVM manquantes |
 |---|---|---|---|---|---|
-| Hermès International | 1 357,00 EUR (2026-09-30) | 31,4 (PER sur dernier exercice publié (FY2025)) | 49,2 | 42,96 | — |
-| ASML Holding | 1 623,80 EUR (2026-09-30) | 61,8 (PER sur dernier exercice publié (FY2025)) | 33,1 | 25,36 | — |
-| SAP | 184,34 EUR (2026-09-30) | 30,0 (PER sur dernier exercice publié (FY2025)) | 41,6 | 6,68 | — |
-| Atlas Copco A | 210,20 SEK (2026-09-30) | 38,7 (PER sur dernier exercice publié (FY2025)) | 30,1 | 5,46 | — |
-| Boliden | 516,80 SEK (2026-09-30) | 15,5 (PER sur dernier exercice publié (FY2025)) | 11,0 | 44,76 | — |
-| Brunello Cucinelli | 83,20 EUR (2026-09-30) | 41,9 (PER sur dernier exercice publié (FY2025)) | 58,3 | 111 944,91 ⚠️ incohérent avec le BNPA publié (donnée yfinance aberrante, ignorée) | — |
-| Thermador Groupe | 70,30 EUR (2026-09-30) | 14,6 (PER sur dernier exercice publié (FY2025)) | 14,8 | 4,96 | — |
-| Sidetrade | 193,80 EUR (2026-09-30) | 32,2 (PER sur dernier exercice publié (FY2025)) | 42,2 | 6,27 | — |
-| Mycronic | 341,00 SEK (2026-09-30) | 42,7 (PER sur dernier exercice publié (FY2025)) | 25,8 | 8,87 | — |
-| Valneva | 2,74 EUR (2026-09-30) | négatif : exclu (PER sur dernier exercice publié (FY2025)) | — | -0,90 | Q2 (résultat net ≤ 0 : ratio non interprétable)<br>V2 (PER actuel négatif ou indisponible : exclu) |
+| Hermès International | 1 352,50 EUR (2026-09-29) | 31,3 (PER sur dernier exercice publié (FY2025)) | 49,2 | 42,96 | — |
+| ASML Holding | 1 601,20 EUR (2026-09-29) | 60,9 (PER sur dernier exercice publié (FY2025)) | 33,1 | 25,36 | — |
+| SAP | 185,32 EUR (2026-09-29) | 30,2 (PER sur dernier exercice publié (FY2025)) | 41,6 | 6,68 | — |
+| Atlas Copco A | 208,20 SEK (2026-09-29) | 38,3 (PER sur dernier exercice publié (FY2025)) | 30,1 | 5,46 | — |
+| Boliden | 505,00 SEK (2026-09-29) | 15,1 (PER sur dernier exercice publié (FY2025)) | 11,0 | 44,76 | — |
+| Brunello Cucinelli | 82,88 EUR (2026-09-29) | 41,7 (PER sur dernier exercice publié (FY2025)) | 58,3 | 111 944,91 ⚠️ incohérent avec le BNPA publié (donnée yfinance aberrante, ignorée) | — |
+| Thermador Groupe | 69,50 EUR (2026-09-29) | 14,5 (PER sur dernier exercice publié (FY2025)) | 14,8 | 4,96 | — |
+| Sidetrade | 193,60 EUR (2026-09-29) | 32,1 (PER sur dernier exercice publié (FY2025)) | 42,2 | 6,27 | — |
+| Mycronic | 337,40 SEK (2026-09-29) | 42,2 (PER sur dernier exercice publié (FY2025)) | 25,8 | 8,87 | — |
+| Valneva | 2,69 EUR (2026-09-29) | négatif : exclu (PER sur dernier exercice publié (FY2025)) | — | -0,90 | Q2 (résultat net ≤ 0 : ratio non interprétable)<br>V2 (PER actuel négatif ou indisponible : exclu) |
 
 ## b) Vérification manuelle : Hermès et ASML
 
@@ -454,8 +454,14 @@ Sur les seules années ESEF (FY2024 vs FY2023) : **7/7**, statut ✅ — très d
 
 ### c.4 Journal du dernier run
 
+- [AVERT] `^STOXX` : clôture de la dernière séance (2026-09-30) non vérifiable : place non reconnue pour le suffixe de '^STOXX' (calendrier incomplet)
+- [AVERT] `RMS.PA` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Paris < clôture 17:30 + 60 min de délai de stabilisation
+- [AVERT] `ASML.AS` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Amsterdam < clôture 17:30 + 60 min de délai de stabilisation
+- [AVERT] `SAP.DE` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Berlin < clôture 17:30 + 60 min de délai de stabilisation
 - [AVERT] `213800T8PC8Q4FYJZR07` : données en retard : dernier ESEF 2024-12-31, attendu 2025-12-31 ; complété par yfinance (2025-12-31)
+- [AVERT] `ATCO-A.ST` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Stockholm < clôture 17:25 + 60 min de délai de stabilisation
 - [AVERT] `21380059QU7IM1ONDJ56` : données en retard : dernier ESEF 2024-12-31, attendu 2025-12-31 ; complété par yfinance (2025-12-31)
+- [AVERT] `BOL.ST` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Stockholm < clôture 17:25 + 60 min de délai de stabilisation
 - [AVERT] `5493003CX2RZ0FOBH256` : rapport 5493003CX2RZ0FOBH256-2025-12-31-ESEF-IT-0 exclu : comparatif chiffre_affaires 2024-12-31 = 188000 contre 1.27854e+09 publié dans 5493003CX2RZ0FOBH256-2024-12-31-ESEF-IT-0
 - [AVERT] `5493003CX2RZ0FOBH256` : données en retard : dernier ESEF 2024-12-31, attendu 2025-12-31 ; complété par yfinance (2025-12-31)
 - [AVERT] `5493003CX2RZ0FOBH256` : contrôles d'identité FY2020 : contrôle partiel (2/4 < seuil 3)
@@ -463,6 +469,7 @@ Sur les seules années ESEF (FY2024 vs FY2023) : **7/7**, statut ✅ — très d
 - [AVERT] `5493003CX2RZ0FOBH256` : contrôles d'identité FY2022 : contrôle partiel (2/4 < seuil 3)
 - [AVERT] `5493003CX2RZ0FOBH256` : contrôles d'identité FY2023 : contrôle partiel (2/4 < seuil 3)
 - [AVERT] `5493003CX2RZ0FOBH256` : contrôles d'identité FY2024 : contrôle partiel (2/4 < seuil 3)
+- [AVERT] `BC.MI` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Rome < clôture 17:30 + 60 min de délai de stabilisation
 - [AVERT] `969500SSIGMAGT008F11-2022-12-31-ESEF-FR-0` : rapport non converti par filings.xbrl.org (paquet ZIP seul, pas de xBRL-JSON) : exclu
 - [AVERT] `969500SSIGMAGT008F11` : contrôles d'identité FY2019 : contrôle partiel (2/4 < seuil 3)
 - [AVERT] `969500SSIGMAGT008F11` : contrôles d'identité FY2020 : contrôle partiel (2/4 < seuil 3)
@@ -471,8 +478,12 @@ Sur les seules années ESEF (FY2024 vs FY2023) : **7/7**, statut ✅ — très d
 - [AVERT] `969500SSIGMAGT008F11` : contrôles d'identité FY2023 : contrôle partiel (2/4 < seuil 3)
 - [AVERT] `969500SSIGMAGT008F11` : contrôles d'identité FY2024 : contrôle partiel (2/4 < seuil 3)
 - [AVERT] `969500SSIGMAGT008F11` : contrôles d'identité FY2025 : contrôle partiel (2/4 < seuil 3)
+- [AVERT] `THEP.PA` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Paris < clôture 17:30 + 60 min de délai de stabilisation
+- [AVERT] `ALBFR.PA` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Paris < clôture 17:30 + 60 min de délai de stabilisation
 - [AVERT] `549300S5CCFESE4C6Y07` : données en retard : dernier ESEF 2024-12-31, attendu 2025-12-31 ; complété par yfinance (2025-12-31)
+- [AVERT] `MYCR.ST` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Stockholm < clôture 17:25 + 60 min de délai de stabilisation
 - [AVERT] `969500DIVIP5VKNW4948` : contrôles d'identité FY2019 : contrôle partiel (2/4 < seuil 3)
+- [AVERT] `VLA.PA` : dernière séance (2026-09-30) retirée (en cours) : 17:30 Europe/Paris < clôture 17:30 + 60 min de délai de stabilisation
 
 ## d) Diagnostic des postes manquants (items 25bis, 27) — preuves, sans code
 

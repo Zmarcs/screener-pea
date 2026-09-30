@@ -69,6 +69,33 @@ reprise) et `docs/univers.md` (mesures Porte B). Résumé des décisions actées
   milliers de sociétés non-UE cross-cotées sur des MTF allemands). CFI = actions ordinaires
   (`ES*`). Pas de restriction a priori aux 5 groupes de bourses pour le pilote : décidé après
   mesure de la couverture.
+- **Venue FIRDS = `TradgVnRltdAttrbts/Id`, PAS `TechAttrbts/RlvntTradgVn`** (piège trouvé le
+  30/09 : ce second champ est un attribut de niveau ISIN — constant sur tous les enregistrements
+  d'un même ISIN, vérifié 0 exception sur 729 992 lignes — pas une venue par admission réelle).
+  Catégorie A/B/C par venue : A = marché réglementé (`RMKT` au registre ISO 10383, sens
+  juridique — ESEF obligatoire), B = MTF (`MLTF` au registre), C = dark/midpoint/
+  internalisateurs/OTF/plateformes-écran (filtré AVANT la règle A/B, y compris sur des venues
+  `RMKT`) ; règle de repli : une venue-écran (DUSD/EQTB/WBDM/JBUL/BETA) n'exclut jamais une
+  société qui n'a aucune autre venue A/B. **Catégorie principale d'une société = A si elle a au
+  moins une venue A, sinon B** (les cas « A+B » comptent en A, pas de catégorie mixte). Univers
+  final (30/09) : **5 806 ISIN / 5 700 LEI**.
+- **`filings.xbrl.org` : le champ `country` n'est PAS le pays de la société** (c'est le pays du
+  mécanisme officiellement désigné/OAM qui héberge le dépôt — SAP, allemande, y est étiquetée
+  `AT`). Ne jamais filtrer par ce champ pour une analyse par pays ; interroger par
+  `entity.identifier` (LEI) à la place. **Couverture ESEF réelle mesurée (30/09, sociétés
+  catégorie A, exercice 2024/2025) : 47,9 % en moyenne, mais 0 % pour l'Allemagne, la Bulgarie,
+  la Roumanie, la Tchéquie, la Lettonie et le Liechtenstein** (vérifié individuellement sur des
+  sociétés réelles, pas un bug) — cohérent avec `pipeline/test_isins.yaml` qui note déjà SAP en
+  repli yfinance pour l'Allemagne. Détail : `docs/univers.md` §26.
+  Détail, méthode complète, contrôle de vraisemblance par place : `docs/univers.md` (tête du
+  document — l'ancien contenu au mauvais champ est en annexe « NE PAS UTILISER »). Parsing FIRDS
+  testé : `pipeline/firds.py` + `tests/test_firds.py` (champ sourcé ESMA65-11-1193 §2.3.4.2).
+- **Règle de sourcing web (adoptée le 30/09, citée mot pour mot)** : « Toute valeur externe
+  citée doit provenir d'une page effectivement ouverte (URL, date de consultation, endroit du
+  passage), jamais d'un extrait de moteur de recherche ; sinon "non vérifié". » — plusieurs
+  citations antérieures (Finlande/Suède/BME Growth, `docs/univers.md` §12) se sont révélées
+  fausses, basées sur une réponse synthétisée d'un moteur de recherche sans vérification directe
+  de la page citée.
 - **Unité = société (LEI)**, pas ISIN (sociétés à plusieurs catégories d'actions). Titre de
   référence = nom légal GLEIF (déjà la convention du pipeline), pas le nom FIRDS.
 - **ISIN → LEI** : FIRDS d'abord, recoupé GLEIF (nom) + présence de rapport filings.xbrl.org.

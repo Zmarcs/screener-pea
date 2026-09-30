@@ -166,7 +166,10 @@ def collecter(soc: dict, cfg: dict) -> dict:
     res["controles_identite"] = normalize.controler_identites(series, cfg, res["cle"])
     res["corrections_manuelles"] = manual.appliquer_corrections(isin, series)
     res["series"] = series
-    res["cours"] = ingest_market.cours_yfinance(ticker)
+    cours = ingest_market.cours_yfinance(ticker)
+    res["cours"] = cours
+    res["cours_seance"] = cours.attrs.get("seance") if cours is not None else \
+        {"complete": None, "as_of": None, "raison": "cours indisponibles"}
     return res
 
 

@@ -83,20 +83,68 @@ pilote lancé), aucun code pipeline écrit.**
 
 ## 3. Chiffres mesurés
 
-### Univers FIRDS (détail complet : `docs/univers.md`)
+### Univers FIRDS (détail complet et à jour : `docs/univers.md`, tête du document (§1-19) — fait foi ; ancien §1-8 déplacé en annexe « NE PAS UTILISER » en fin de fichier)
+
+**Mise à jour supplémentaire** : `pipeline/firds.py` (parsing FIRDS, champ correct) +
+`tests/test_firds.py` (4 tests, extrait réel) ajoutés — première brique de code Porte B
+réellement écrite et testée. LEI : couverture confirmée complète sur les 5 700 LEI de l'univers
+final (0 relance nécessaire) ; 706 « à revoir » priorisés par présence ESEF (212/706 en ont un).
+**Attention sourcing web** : plusieurs chiffres externes cités dans une itération précédente de
+ce document (Finlande, Suède, BME Growth) se sont révélés faux en revérifiant la source
+directement (le moteur de recherche synthétisait un chiffre/date qui ne correspondait pas à la
+page réelle) — retirés, voir `docs/univers.md` §12. Règle adoptée (citée mot pour mot dans
+`CLAUDE.md`) : ne plus citer un chiffre externe sans l'avoir lu soi-même sur la page source.
+**Suède confirmée contre l'OCDE, ouverte directement** : 909 sociétés fin 2025
+(346 principal + 339 First North + 12 NGM régulé + 88 NGM Nordic SME + 124 Spotlight), mon
+univers à −3,7 %.
+
+**Règle de catégorie principale (point 34)** : A si ≥1 venue A, sinon B — les 287 « A+B »
+comptent en A. **Point 35** : plusieurs venues B sont contaminées par des cotations-reflet hors
+pays (JBUL 100 %, WBDM 86 %, DUSD 44 %) ; une règle de filtrage pays-venue=pays-ISIN est
+proposée (PAS codée) — ferait sortir 222 sociétés de l'univers (−3,9 %, Irlande −60 %).
+**Point 37** : l'agrégat Nasdaq marché-principal colle à 0,9 % près au chiffre officiel (669 vs
+675) ; le First North apparent (570 vs 444) s'explique aux 5/6 par 153 sociétés norvégiennes
+rattachées via l'extension transfrontalière documentée First North Sweden-Norway.
+**Point 30 (complétude ESEF par pays, indépendante du web)** : 47,9 % des sociétés A ont un ESEF
+2024/2025 sur `filings.xbrl.org` — mais **0 % pour l'Allemagne, la Bulgarie, la Roumanie, la
+Tchéquie, la Lettonie et le Liechtenstein** (vérifié : ce n'est pas un bug, 3 sociétés
+allemandes réelles et connues — BayWa AG notamment — confirmées à 0 dépôt individuellement).
+Cohérent avec `pipeline/test_isins.yaml` qui note déjà SAP comme repli yfinance pour
+l'Allemagne — ce point 30 confirme et étend ce constat à 5 autres pays. Détail complet :
+`docs/univers.md` §21-26.
+
+**⚠️ Chiffres ci-dessous datés (§1-8 de `docs/univers.md`), conservés pour l'historique du bug,
+NE PLUS UTILISER.** Bug trouvé le 30/09 (session suivante) : le champ FIRDS utilisé pour « la
+venue » de chaque enregistrement (`TechAttrbts/RlvntTradgVn`) est en réalité un attribut de
+niveau ISIN (constant sur tous les enregistrements d'un même ISIN, vérifié : 0 exception sur
+729 992 enregistrements), pas une venue par admission réelle. Champ correct :
+`TradgVnRltdAttrbts/Id`. Conséquence : 208 MIC réels observés (pas 134), univers recalculé à
+**5 806 ISIN / 5 700 LEI** (règle A/B — A = `RMKT` registre, B = `MLTF` registre, palier
+fonctionnel en information ; C = dark/midpoint/internalisateurs/plateformes-écran, avec une
+règle de repli pour ne jamais exclure une société qui n'a qu'une venue-écran comme seule
+option). Validé par un test décisif : les 10 sociétés du panel étape 1 sont toutes dans
+l'univers. **Contrôle de vraisemblance (corrigé le 30/09 — 3 citations précédentes invalidées
+en rouvrant les sources, voir `docs/univers.md` §12)** : Suède confirmée contre la source OCDE
+2026 réellement ouverte (909 sociétés fin 2025 — 346 marché principal + 339 First North + 12
+NGM régulé + 88 NGM Nordic SME + 124 Spotlight), mon univers (875) à −3,7 % ; Finlande contre
+Wikipédia (134/50, avril 2024, source faible, non datée fin 2025) à +1,5 %/−4,0 % ; Nasdaq
+Helsinki T4 2025 recherché spécifiquement sans succès → **non vérifié** ; BME Growth : pas de
+chiffre externe confirmé, mais 61,8 % de mon ES-B (131-132/212) sont des SOCIMI (foncières),
+hors périmètre `methode.md` — explique une bonne part de tout écart, filtre sectoriel pas encore
+codé. File de revue LEI reclassée en 3 niveaux (1 changement de nom confirmé, 12 LEI douteux, 10
+concordances confirmées manuellement, 706 à revoir, 212 avec ESEF disponible). Détail complet,
+table par MIC, méthode de pondération pour l'extrapolation du pilote : `docs/univers.md` (tête
+du document — ancien contenu en annexe « NE PAS UTILISER »). **Toujours aucun pilote lancé,
+aucun tirage effectué.**
+
 - Fichier `FULINS_E` (actions, hebdomadaire, 05/09/2026), 2 parties : **8,64 Mo + 3,61 Mo =
   12,25 Mo compressés** (public, sans authentification) ; **~550 Mo décompressés**.
 - 193 036 ISIN bruts (toutes classifications) → **6 385** avec CFI `ES*` + préfixe ISIN UE/EEE
-  → **6 335 ISIN retenus** (≥1 venue UE/EEE RMKT/MLTF non terminée).
-- **6 169 LEI distincts** (sociétés) ; 150 avec plusieurs ISIN ; 0 ISIN retenu sans LEI FIRDS.
-- 3 311 sociétés avec ≥1 marché réglementé ; 3 024 en MTF/Growth seul.
-- **134 MIC retenus** (table complète dans `docs/univers.md` §4, construite depuis le registre
-  officiel ISO 10383 du 14/09/2026).
+  → 6 335 ISIN retenus sous l'ANCIENNE règle RMKT/MLTF (§2 univers.md, non affectée par le bug
+  de champ pour les compteurs ISIN/LEI eux-mêmes — seul le détail par MIC était faux ; règle
+  remplacée depuis par A/B/C, voir ci-dessus).
 - 5 ISIN luxembourgeois confirmés sur XPAR/XAMS (Aperam, Reinet, ArcelorMittal, InPost,
   Younited Financial).
-- Cross-check GLEIF (échantillon 50, graine 42) : **50/50 trouvés**, 49/50 noms cohérents,
-  **1 incohérence** (LEI `959800JG44HG76EPWH68` : FIRDS "TECHNOMECA AEROSPACE, S.A." vs GLEIF
-  "TECNOQUARK TRUST S.A." — cause non déterminée, à investiguer si retenu dans un pilote).
 
 ### Cache et volumétrie (panel 10 sociétés, étape 1)
 - Cache pertinent au pipeline : **163,5 Mo** (dont `esef_json` 159 Mo / 43 rapports, 8/10
@@ -133,9 +181,10 @@ Python 3.14.7, yfinance 1.7.0, **9,95 s** pour 12 tickers.
 
 ## 4. Points en attente de validation
 
-1. Décider si les segments **Freiverkehr allemands régionaux** (hors XETA/FRAA) sont retenus
-   pour les sociétés allemandes elles-mêmes, ou exclus (`docs/univers.md` §5).
-2. Investiguer l'incohérence LEI `959800JG44HG76EPWH68` si la société entre dans un pilote.
+1. ~~Décider si les segments Freiverkehr allemands régionaux sont retenus~~ — **tranché** :
+   classification A/B/C (`docs/univers.md` §11), Freiverkehr = C partout.
+2. ~~Investiguer l'incohérence LEI `959800JG44HG76EPWH68`~~ — **résolue** : changement de
+   dénomination sociale confirmé (avis BME Growth du 16/09/2020), non exclu.
 3. **Lancer un run #3 sur GitHub Actions** avec le script mis à jour (états financiers +
    détection 429 + `ubuntu-24.04`/`timeout-minutes: 15`) pour confirmer à distance.
 4. Corriger la méthode de validation ISIN→ticker avant tout code : prioriser le code Bloomberg

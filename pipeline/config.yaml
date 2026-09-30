@@ -79,6 +79,12 @@ controles_identite:   # PARAMÈTRE (règle ajoutée) : contrôles de cohérence 
                                   # contrôles exécutés (sur 4), badge "contrôle partiel"
                                   # (0 exécuté = badge "non contrôlé" à la place)
 
+marche:
+  delai_stabilisation_minutes: 60   # PARAMÈTRE (règle ajoutée) : une séance datée d'aujourd'hui
+                                     # n'est retenue comme clôture que si l'heure locale de la
+                                     # place dépasse (heure de clôture + ce délai) ; sous ce délai,
+                                     # le cache du jour n'est jamais servi (retirage systématique)
+
 sources:
   esef_langues_preferees: [fr, en]   # HYPOTHÈSE : en cas de doublon de langue (mêmes chiffres)
   tolerance_ecart_relatif: 0.005     # HYPOTHÈSE : écart > 0,5 % entre 2 sources = signalé

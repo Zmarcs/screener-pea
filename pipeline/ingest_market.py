@@ -11,16 +11,19 @@ from __future__ import annotations
 
 import datetime as dt
 import io
+import json
 
 import pandas as pd
 
+from . import calendrier_marche
 from .common import JOURNAL, aujourd_hui, cache_json, chemin_cache, http_get
 
 HISTORIQUE = "8y"   # couvre la médiane des PER sur 5 exercices + MM200
 
 
 def _cache_csv(categorie: str, cle: str, producteur) -> pd.DataFrame:
-    """Cache journalier (clé datée) pour les séries de cours."""
+    """Cache journalier (clé datée), sans logique de complétude de séance — utilisé pour tout
+    ce qui n'est pas une série de cours (voir `_cache_cours` pour les cours)."""
     p = chemin_cache(categorie, f"{cle}_{aujourd_hui().isoformat()}", "csv")
     if p.exists():
         return pd.read_csv(p, parse_dates=["Date"])
@@ -28,6 +31,34 @@ def _cache_csv(categorie: str, cle: str, producteur) -> pd.DataFrame:
     if df is not None and len(df):
         df.to_csv(p, index=False)
     return df
+
+
+def _cache_cours(ticker: str, producteur) -> tuple[pd.DataFrame | None, dict | None]:
+    """Cache journalier pour les cours, structurellement conscient de la complétude de
+    séance : le cache écrit à un moment où la dernière barre n'était pas confirmée
+    close + délai de stabilisation n'est JAMAIS servi ensuite — un nouveau relevé est
+    forcé tant que la séance du jour n'est pas stabilisée (au lieu de rester bloqué toute
+    la journée sur un relevé intrajournalier, comme avant ce correctif). Stocke à côté du
+    CSV un fichier `_meta.json` : heure de relevé (UTC) et complétude constatée à ce moment."""
+    p = chemin_cache("cours", f"{ticker}_{aujourd_hui().isoformat()}", "csv")
+    meta_p = chemin_cache("cours", f"{ticker}_{aujourd_hui().isoformat()}_meta", "json")
+    if p.exists() and meta_p.exists():
+        with open(meta_p, encoding="utf-8") as f:
+            meta = json.load(f)
+        if meta.get("derniere_barre_complete") is not False:
+            return pd.read_csv(p, parse_dates=["Date"]), meta
+    df = producteur()
+    if df is None or df.empty:
+        return df, None
+    derniere = df["Date"].iloc[-1]
+    derniere = derniere.date() if hasattr(derniere, "date") else derniere
+    diag = calendrier_marche.seance_complete(ticker, derniere)
+    meta = {"releve_a": diag["as_of"], "derniere_barre_date": str(derniere),
+           "derniere_barre_complete": diag["complete"], "raison_au_releve": diag["raison"]}
+    df.to_csv(p, index=False)
+    with open(meta_p, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False)
+    return df, meta
 
 
 def cours_yfinance(ticker: str) -> pd.DataFrame | None:
@@ -41,12 +72,25 @@ def cours_yfinance(ticker: str) -> pd.DataFrame | None:
         h["Date"] = pd.to_datetime(h["Date"]).dt.tz_localize(None).dt.normalize()
         return h[["Date", "Open", "High", "Low", "Close", "Volume"]]
     try:
-        df = _cache_csv("cours", ticker, produire)
+        df, _meta = _cache_cours(ticker, produire)
     except Exception as e:  # noqa: BLE001
         JOURNAL.erreur(ticker, f"cours yfinance indisponibles : {e}")
         df = None
     if df is None or df.empty:
         df = cours_stooq(ticker)
+    if df is not None and not df.empty:
+        # Réévalué à CHAQUE appel (pas seulement au moment du relevé caché) pour que l'"as_of"
+        # et le retrait éventuel reflètent l'heure de LECTURE, pas seulement celle du relevé.
+        derniere = df["Date"].iloc[-1]
+        derniere = derniere.date() if hasattr(derniere, "date") else derniere
+        diag = calendrier_marche.seance_complete(ticker, derniere)
+        if diag["complete"] is False:
+            JOURNAL.avertissement(ticker, f"dernière séance ({derniere}) retirée (en cours) : {diag['raison']}")
+            df = df.iloc[:-1].reset_index(drop=True)
+        elif diag["complete"] is None:
+            JOURNAL.avertissement(ticker, f"clôture de la dernière séance ({derniere}) non vérifiable : "
+                                          f"{diag['raison']}")
+        df.attrs["seance"] = diag
     return df
 
 

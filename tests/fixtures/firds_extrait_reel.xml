@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Extrait RÉEL (2 RefData) du fichier ESMA FIRDS FULINS_E_20260905_01of02.xml, publication du
+05/09/2026 — pas de données inventées. Choisi pour la régression du bug de champ (voir
+docs/univers.md §9/§16, pipeline/firds.py) : dans les deux cas, TechAttrbts/RlvntTradgVn
+(le champ à NE PAS utiliser) diffère de TradgVnRltdAttrbts/Id (le champ correct).
+
+1. Paradox Interactive AB (SE0008294953) : admise sur SSME (First North Sweden - SME Growth
+   Market, admission demandée par l'émetteur — IssrReq=true) ; RlvntTradgVn affiche pourtant
+   XSTO (Nasdaq Stockholm, marché principal) — alors que Paradox Interactive n'y est PAS admise
+   dans cet enregistrement. Utiliser RlvntTradgVn conclurait à tort que Paradox est sur le
+   marché principal (catégorie A) au lieu de First North (catégorie B).
+2. Raisio Oyj (FI0009800395) : admise sur AQEU (Aquis Exchange Europe, une plateforme MTF
+   générique tierce, catégorie C) ; RlvntTradgVn affiche DHEL (Nasdaq Helsinki - Nordic@Mid).
+   Utiliser RlvntTradgVn associerait à tort cet enregistrement à un marché Nasdaq alors que la
+   venue réelle de CET enregistrement est une plateforme tierce sans rapport.
+-->
+<BizData xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.003.001.01 head.003.001.01.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:head.003.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Hdr><AppHdr xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:head.001.001.01 head.001.001.01_ESMAUG_1.0.0.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:head.001.001.01" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Fr><OrgId><Id><OrgId><Othr><Id>EU</Id></Othr></OrgId></Id></OrgId></Fr><To><OrgId><Id><OrgId><Othr><Id>Public</Id></Othr></OrgId></Id></OrgId></To><BizMsgIdr>EXTRAIT_TEST</BizMsgIdr><MsgDefIdr>auth.017.001.02</MsgDefIdr><CreDt>2026-09-05T05:59:26.637Z</CreDt></AppHdr></Hdr><Pyld><Document xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:auth.017.001.02 auth.017.001.02_ESMAUG_FULINS_1.1.0.xsd" xmlns="urn:iso:std:iso:20022:tech:xsd:auth.017.001.02" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><FinInstrmRptgRefDataRpt><RptHdr><RptgNtty><NtlCmptntAuthrty>EU</NtlCmptntAuthrty></RptgNtty><RptgPrd><Dt>2026-09-05</Dt></RptgPrd></RptHdr><RefData><FinInstrmGnlAttrbts><Id>SE0008294953</Id><FullNm>Paradox Interactive AB</FullNm><ShrtNm>PARADOXINT/SH</ShrtNm><ClssfctnTp>ESVUFR</ClssfctnTp><NtnlCcy>SEK</NtnlCcy><CmmdtyDerivInd>false</CmmdtyDerivInd></FinInstrmGnlAttrbts><Issr>529900QNSZUY53R5WW95</Issr><TradgVnRltdAttrbts><Id>SSME</Id><IssrReq>true</IssrReq><ReqForAdmssnDt>2007-11-01T00:00:00Z</ReqForAdmssnDt><FrstTradDt>2019-05-20T06:00:00Z</FrstTradDt></TradgVnRltdAttrbts><TechAttrbts><RlvntCmptntAuthrty>SE</RlvntCmptntAuthrty><PblctnPrd><FrDt>2026-06-11</FrDt></PblctnPrd><RlvntTradgVn>XSTO</RlvntTradgVn></TechAttrbts></RefData><RefData><FinInstrmGnlAttrbts><Id>FI0009800395</Id><FullNm>Raisio Oyj</FullNm><ShrtNm>RAISIO OYJ/SH  CL KANTA</ShrtNm><ClssfctnTp>ESETFR</ClssfctnTp><NtnlCcy>EUR</NtnlCcy><CmmdtyDerivInd>false</CmmdtyDerivInd></FinInstrmGnlAttrbts><Issr>74370083282NHIP4QD02</Issr><TradgVnRltdAttrbts><Id>AQEU</Id><IssrReq>false</IssrReq><FrstTradDt>2024-01-23T00:00:00Z</FrstTradDt></TradgVnRltdAttrbts><TechAttrbts><RlvntCmptntAuthrty>FI</RlvntCmptntAuthrty><PblctnPrd><FrDt>2024-02-07</FrDt></PblctnPrd><RlvntTradgVn>DHEL</RlvntTradgVn></TechAttrbts></RefData></FinInstrmRptgRefDataRpt></Document></Pyld></BizData>

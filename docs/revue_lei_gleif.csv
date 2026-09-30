@@ -1,0 +1,730 @@
+lei,niveau,nom_firds,nom_gleif,similarite,motif,pays_isin,pays_gleif,esef_disponible
+959800JG44HG76EPWH68,changement_de_nom_probable,"TECHNOMECA AEROSPACE, S.A.",TECNOQUARK TRUST S.A.,0.5,"Avis BME Growth du 16/09/2020 (Tecnoquark Trust S.A. -> Technomeca Aerospace, S.A.)",ES,ES,n/a
+ZSLF02UC3X1JFV1UX676,lei_douteux,KEYRUS,GOLDMAN SACHS PARIS INC ET CIE,0.056,noms sans rapport apparent (similarite 0.056),FR,FR,n/a
+259400AYQAVQKTR3N535,lei_douteux,FMG,WISE ENERGY SPÓŁKA AKCYJNA,0.069,noms sans rapport apparent (similarite 0.069),PL,PL,n/a
+549300XG9MYR1H5XU527,lei_douteux,Space Nord Invest AB ser. B,Hifab Group AB,0.071,noms sans rapport apparent (similarite 0.071),SE,SE,n/a
+984500942ABSAN9EC014,lei_douteux,ERWE Immobilien AG Inhaber-Aktien o.N.,KSLK Trust GmbH,0.08,noms sans rapport apparent (similarite 0.08),DE,DE,n/a
+549300G3TNLGOU8HV665,lei_douteux,Lasernet Group AB Namn-Aktier o.N.,FormPipe Software AB,0.093,noms sans rapport apparent (similarite 0.093),SE,SE,n/a
+259400PEQPFMN5UAUH53,lei_douteux,IBSM,WISE FINANCE SPÓŁKA AKCYJNA,0.129,noms sans rapport apparent (similarite 0.129),PL,PL,n/a
+5967007LIEEXZXI7OG55,lei_douteux,Voim ASA,ELECTROMAGNETIC GEOSERVICES ASA,0.129,noms sans rapport apparent (similarite 0.129),NO,NO,n/a
+2594005MHU94DXAACO94,lei_douteux,STOHID,YETIFORCE SPOLKA AKCYJNA,0.133,noms sans rapport apparent (similarite 0.133),PL,PL,n/a
+529900UM10B3V374TA43,lei_douteux,CIBIX,BEFIMMO,0.167,noms sans rapport apparent (similarite 0.167),BE,BE,n/a
+894500SA85VSINMMJ256,lei_douteux,WATERA,Mascara Nouvelles Technologies,0.167,noms sans rapport apparent (similarite 0.167),FR,FR,n/a
+213800HZ8NNFILOCWB40,lei_douteux,QEV,SPEAR Investments I B.V.,0.182,noms sans rapport apparent (similarite 0.182),NL,NL,n/a
+213800R54EFFINMY1P02,lei_douteux,Neles Oyj,TP ICAP (EUROPE),0.19,noms sans rapport apparent (similarite 0.19),NO,FR,n/a
+529900MBH2PPLPLX3782,a_revoir,BIF,Budapesti Ingatlan Hasznosítási és Fejlesztési nyilvánosan működő Részvénytársaság,0.071,"BIF / Budapesti Ingatlan Hasznositasi es Fejlesztesi : sigle partiel plausible (B.I.F., lettre H omise), non confirme",HU,HU,oui
+25940039ZHD3Z37GKR71,a_revoir,GPW,GIEŁDA PAPIERÓW WARTOŚCIOWYCH W WARSZAWIE SPÓŁKA AKCYJNA,0.102,similarite acceptable mais releve pour autre motif,PL,PL,oui
+QLPCKOOKVX32FUELX240,a_revoir,PZU,POWSZECHNY ZAKŁAD UBEZPIECZEŃ SPÓŁKA AKCYJNA,0.128,similarite acceptable mais releve pour autre motif,PL,PL,oui
+259400D4E0H5BGXNIK97,a_revoir,JSW,JASTRZĘBSKA SPÓŁKA WĘGLOWA SPÓŁKA AKCYJNA,0.136,similarite acceptable mais releve pour autre motif,PL,PL,oui
+P4GTT6GF1W40CVIMFR43,a_revoir,PKOBP,POWSZECHNA KASA OSZCZĘDNOŚCI BANK POLSKI SPÓŁKA AKCYJNA,0.167,similarite acceptable mais releve pour autre motif,PL,PL,oui
+549300VR2P8X3F1UOX13,a_revoir,NYORDA AB,TradeDoubler Aktiebolag,0.207,similarite basse (0.207) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+815600522538355AE429,a_revoir,Banca Farmafactoring SpA,BFF BANK S.P.A.,0.214,similarite basse (0.214) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,oui
+2549004BOCU15LMNDJ92,a_revoir,Bucharest Stock Exchange S.A. Nam.-Akt. LN 10,Bursa de Valori Bucuresti SA,0.222,similarite basse (0.222) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,oui
+529900CA1YDA41X76751,a_revoir,MTELEKOM,Magyar Telekom Távközlési Nyilvánosan Működő Részvénytársaság,0.232,similarite basse (0.232) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+5493006YOYPOSXPIQG40,a_revoir,WABERERS,WABERER'S INTERNATIONAL ZÁRTKÖRŰEN MŰKÖDŐ RÉSZVÉNYTÁRSASÁG,0.242,similarite basse (0.242) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+2594009QP38B3SQJ5505,a_revoir,CELTIC,CPD SPOLKA AKCYJNA,0.25,similarite basse (0.25) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400UFGNWWFSEQHE02,a_revoir,PRAGMAINK,NPL NOVA SPÓŁKA AKCYJNA,0.25,similarite basse (0.25) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+5967007LIEEXZXH86O96,a_revoir,Aqualis ASA,ABL GROUP ASA,0.25,similarite basse (0.25) mais pas assez extreme pour conclure a un LEI douteux,NO,NO,oui
+2594005FKXG2GEH2PN58,a_revoir,PGFGROUP,PGF POLSKA GRUPA FOTOWOLTAICZNA SPÓŁKA AKCYJNA,0.259,similarite basse (0.259) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+213800T9Y5XCOVRZ4Y57,a_revoir,"Public Power Corporation S.A. Inhaber-Aktien EO 2,48",DIMOSIA EPICHEIRISI ILEKTRISMOU ANONIMI ETAI,0.265,similarite basse (0.265) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+213800PO787VGL2S3704,a_revoir,"Cars Motorc.a.Mar.Eng.Tr.+Imp. Namens-Aktien EO -,36","EMPORIKI EISAGOGIKI AFTOKINITON DITROXON KAI MIXANON THALASSIS ANONIMI EMPORIKI ETAIRIA (MOTORCYCLES, CARS AND MARINE ENGINE TRADE AND IMPORT COMPANY) - (D.T. MOTODINAMIKI S.A.)",0.279,similarite basse (0.279) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+25940039TMMYH4AH0B81,a_revoir,06MAGNA,Magna Polonia Spółka Akcyjna,0.286,similarite basse (0.286) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+969500EQZGSVHQZQE212,a_revoir,CeGeREAL,VITURA S.A.,0.286,similarite basse (0.286) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,oui
+213800DIFN7NR7B97A50,a_revoir,MFE B,MEDIASET N.V.,0.308,similarite basse (0.308) mais pas assez extreme pour conclure a un LEI douteux,NL,IT,oui
+259400RQNR28Q0QPGH65,a_revoir,OTLOG,OT LOGISTICS SPÓŁKA AKCYJNA,0.312,similarite basse (0.312) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400CF6F57X2SKBR88,a_revoir,BBIDEV,BBI DEVELOPMENT SPÓŁKA AKCYJNA,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400KRSTOQ914TLT42,a_revoir,"Quercus TFI S.A. Inhaber-Aktien ZY -,10",QUERCUS TOWARZYSTWO FUNDUSZY INWESTYCYJNYCH SPÓŁKA AKCYJNA,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400YLRTOBISHBVX41,a_revoir,INGBSK,ING BANK ŚLĄSKI SPÓŁKA AKCYJNA,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+4851000025STPWS61L07,a_revoir,Salus d.d. Inhaber-Aktien Serie B o.N.,"SALUS promet s farmacevtskimi, medicinskimi in drugimi proizvodi, d.d., Ljubljana",0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,SI,SI,oui
+52990054JBNAT4BLVY62,a_revoir,LINAS AB LT 1,"Akcinė bendrovė ""LINAS""",0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,oui
+259400VVMM70CQREJT74,a_revoir,PKNORLEN,ORLEN SPÓŁKA AKCYJNA,0.357,similarite basse (0.357) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400LGXW3K0GDAG361,a_revoir,ERSTEPL,ERSTE BANK POLSKA SPÓŁKA AKCYJNA,0.359,similarite basse (0.359) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400NAPDFBOTNCRL54,a_revoir,TAURONPE,TAURON POLSKA ENERGIA SPÓŁKA AKCYJNA,0.364,similarite basse (0.364) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+48510000RTKGDN3E5X15,a_revoir,SNAIGE AB LT 1,"Akcine bendrove ""Snaige""",0.364,similarite basse (0.364) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,oui
+549300M3VH1A3ER1TB49,a_revoir,Essilor International Cie Generale d'Optique SA,ESSILORLUXOTTICA,0.367,similarite basse (0.367) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,oui
+529900WMJW5U55FMKN19,a_revoir,SPLUS,Shopper Park Plus Nyrt.,0.37,similarite basse (0.37) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+259400H4L81SMPRTW956,a_revoir,DINOPL,"""DINO POLSKA"" SPÓŁKA AKCYJNA",0.375,similarite basse (0.375) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+21380051TUVZ3KYK5G44,a_revoir,"Profile Systems & Software S.ANamens-Aktien EO 0,235",PROFILE COMMERCIAL AND INDUSTRIAL COMPANY OF INFORMATION TECHNOLOGY SOCIETE ANONYME,0.4,similarite basse (0.4) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+2594000PT4619ANETD77,a_revoir,FASTFIN,"""FAST FINANCE SPÓŁKA AKCYJNA""",0.412,similarite basse (0.412) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400IDXT24AP4TSI61,a_revoir,LSISOFT,LSI SOFTWARE SPÓŁKA AKCYJNA,0.412,similarite basse (0.412) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594008TBOIVL14UFL47,a_revoir,PANOVA,P.A. NOVA SPÓŁKA AKCYJNA,0.414,similarite basse (0.414) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PH9SC8DVWA4A65,a_revoir,08OCTAVA,OCTAVA SPÓŁKA AKCYJNA,0.414,similarite basse (0.414) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+549300TTCXZOGZM2EY83,a_revoir,Inditex SA,"INDUSTRIA DE DISEÑO TEXTIL, S.A.",0.424,similarite basse (0.424) mais pas assez extreme pour conclure a un LEI douteux,ES,ES,oui
+259400FOXC7GHTOUR230,a_revoir,"BOWIM S.A. Inh.-Aktien B,D,E,F ZY -,10","""BOWIM"" SPÓŁKA AKCYJNA",0.426,similarite basse (0.426) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+25940009X7VZW3QCSY86,a_revoir,MOSTALWAR,MOSTOSTAL WARSZAWA SPÓŁKA AKCYJNA,0.429,similarite basse (0.429) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400HOMOFT1EDB4H62,a_revoir,ULTGAMES,Ultimate Games Spółka Akcyjna,0.432,similarite basse (0.432) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400J8JJKET03PCT44,a_revoir,TOWERINVT,TOWER INVESTMENTS SPÓŁKA AKCYJNA,0.439,similarite basse (0.439) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400TOMPUOLS65II22,a_revoir,ORANGEPL,ORANGE POLSKA SPÓŁKA AKCYJNA,0.444,similarite basse (0.444) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PAFSEQGHKO2Q38,a_revoir,MAKARONPL,Makarony Polskie Spółka Akcyjna,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400VXHWE4T5N04P07,a_revoir,CZTOREBKA,"""CZERWONA TOREBKA"" SPÓŁKA AKCYJNA",0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400CFS72KTCP2L584,a_revoir,MWTRADE,M.W. TRADE SPÓŁKA AKCYJNA,0.452,similarite basse (0.452) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400KV9G7ARDY89677,a_revoir,PRAGMAFA,PRAGMAGO SPÓŁKA AKCYJNA,0.452,similarite basse (0.452) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+3H0Q3U74FVFED2SHZT16,a_revoir,MBH Bank Nyrt. Namens-Akt. UF 1000,MKB Bank Zrt.,0.455,similarite basse (0.455) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+259400EM1ITR201TTX36,a_revoir,CYFRPLSAT,CYFROWY POLSAT SPÓŁKA AKCYJNA,0.474,similarite basse (0.474) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+529900QYECVOWB4EMB78,a_revoir,CIGPANNONIA,CIG Pannónia Életbiztosító Nyrt.,0.476,similarite basse (0.476) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+23300093L1S775I81644,a_revoir,BGREIT,Biggeorge REIT Nyrt.,0.48,similarite basse (0.48) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+259400KZL1AE29PEEZ30,a_revoir,NOVAVISGR,NOVAVIS GROUP SPÓŁKA AKCYJNA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400NYD0RGQ3Q2EM07,a_revoir,RANKPROGR,RANK PROGRESS SPÓŁKA AKCYJNA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400O79EWIK4XZPL40,a_revoir,ASSECOPOL,ASSECO POLAND SPÓŁKA AKCYJNA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400OOMJ31L0SWCY70,a_revoir,INSTALKRK,INSTAL KRAKÓW SPÓŁKA AKCYJNA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+213800UFJ4FKKNS7HY05,a_revoir,Technical Olympic S.A. Namens-Aktien EO 5,TECHNIKI OLYMPIAKI ANONYMOS ETAIREIA,0.491,similarite basse (0.491) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+097900BGCW0000042109,a_revoir,"AB Novaturas Registered Shares    EO -,03","Akcine bendrove""Novaturas""",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,oui
+2138004YHORSLQZKAL65,a_revoir,Impresa SGPS SA,IMPRESA-SOCIEDADE GESTORA DE PARTICIPAÇÕES SOCIAIS S.A.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PT,PT,oui
+21380078FJXYHFE8KP46,a_revoir,"Gr. Sarantis S.A. Namens-Aktien EO 0,78","GRIGORIS SARANTIS ANONIMI VIOMICHANIKI KAI EMPORIKI ETAIREIA KALLYNTIKON, ENDYMATON, OIKIAKON KAI FARMAKEFTIKON EIDON",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+213800AQG2XP9JM4TF17,a_revoir,"Lampsa Hotel Co. Namens-Aktien EO 1,12",ETAIREIA ELLINIKON XENODOCHEION LAMPSA A.E.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+213800V2R9WMMZASKK57,a_revoir,Schouw and Co,AKTIESELSKABET SCHOUW & CO.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,DK,DK,oui
+213800V54ASIMZREDX49,a_revoir,Fourlis Holdings S.A. Namens-Aktien EO 1,FOURLIS ANONIMI ETAIREIA SYMMETOCHON,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+213800WRGLW3CY4MHW53,a_revoir,NCC AB (publ) - A,NCC AKTIEBOLAG,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+213800XNTZ8P8L74HM35,a_revoir,"Ballys Intralot S.A. Namens-Aktien EO 0,30",INTRALOT SOCIETE ANONYME - INTEGRATED INFORMATION SYSTEMS AND GAMING SERVICES,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+2594000NL3ACJPV93J19,a_revoir,BEST S.A. Inhaber-Aktien D ZY 1,BEST SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594001577BLP3DX2J37,a_revoir,"Boombit S.A. Inhaber-Aktien ZY -,50",BoomBit Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594001UUGG3ABII7997,a_revoir,"ONDE S.A. Inhaber-Aktien ZY -,02",ONDE Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594002F8HC0D6K6JI94,a_revoir,"Decora S.A. Inhaber-Aktien ZY -,05",DECORA SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594003XN1YW7FMB5Z63,a_revoir,TERMOREX,TERMO-REX SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+25940057WQ9YP5MOQF28,a_revoir,"Selvita S.A. Inhaber-Aktien Ser.B  ZY-,80",SELVITA SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594005FYDF78I9HEL86,a_revoir,"ZUE S.A. Inhaber-Aktien ZY -,25",ZUE Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594006DOIYZFLCUVQ09,a_revoir,"Erbud S.A. Inhaber-Aktien ZY -,10",Erbud Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594007GQP5TDYY9OD45,a_revoir,"Grodno S.A. Inhaber-Aktien ZY -,10",GRODNO Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594007NJKT8BOIW2107,a_revoir,ATMGRUPA,"""ATM GRUPA SPÓŁKA AKCYJNA""",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400AVUPSABLEXNT19,a_revoir,"XTB S.A. Inhaber-Aktien ZY -,05",XTB SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400B45UFSRKN5V388,a_revoir,"Mirbud S.A. Inhaber-Aktien ZY -,10",MIRBUD SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400DJS2K0KQ7GD198,a_revoir,"Wielton S.A. Inhaber-Aktien ZY -,20","""WIELTON"" SPÓŁKA AKCYJNA",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400H9PEQYON2NI017,a_revoir,"XTPL S.A. Inhaber-Aktien ZY -,10",XTPL Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400I7J8I4F638KS93,a_revoir,"R22 SA Inhaber-Aktien ZY -,02",R22 Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400IOJQXO1TS70C40,a_revoir,"Trakcja S.A. Inhaber-Aktien ZY -,80",TRAKCJA SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400JK2AT927YR9N41,a_revoir,"VRG S.A. Inhaber-Aktien ZY -,2",VRG SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400KB72KMYDMQCZ78,a_revoir,"Passus S.A. Inhaber-Aktien ZY-,1",Passus Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400NHKOAE0QE60D41,a_revoir,"Unibep S.A. Inhaber-Aktien ZY -,10",UNIBEP SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400P2WOSGWWQ8HP21,a_revoir,"Votum S.A. Inhaber-Aktien ZY -,10",VOTUM SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400P9VT804CUH6G16,a_revoir,"Vercom S.A. Inhaber-Aktien ZY -,20",VERCOM SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PA22KUVNBXX560,a_revoir,ENERGOINS,ENERGOINSTAL SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PP7G4I7G8EQR16,a_revoir,"PlayWay S.A. Inhaber-Aktien ZY-,10",PLAYWAY SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PS3E2KWWZSQV21,a_revoir,SELENAFM,SELENA FM SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400QBPJRPZ9M4M409,a_revoir,"Action S.A. Inhaber-Aktien ZY -,10",ACTION SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400SKRVBZ5VYJZ182,a_revoir,"LENTEX S.A. Inhaber-Aktien B ZY 0,41","""LENTEX"" SPÓŁKA AKCYJNA",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400T9LGW04YYW0T96,a_revoir,EDINVEST,ED INVEST SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400UVRNWHRKEFE432,a_revoir,ASMGROUP,ASM GROUP SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400WQUGWQ7KBPQB74,a_revoir,"Apator S.A. Inhaber-Aktien B ZY 0,10",APATOR SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400YL67XC455VOK03,a_revoir,"OPTeam SA Inhaber-Aktien ZY -,10",OPTEAM SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+48510000B3IAQZ9WMI43,a_revoir,TERME CATEZ,TERME ČATEŽ d.d. Čatež ob Savi,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,SI,SI,oui
+5299005LX7CTDURCX050,a_revoir,FORRAS/T,FORRAS Vagyonkezelesi es Befektetesi nyilvanosan mukodo Reszvenytarsasag,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+529900H88CH9J67U0764,a_revoir,DH Group Nyrt SHRS,DH Group Nyilvánosan Működő Részvénytársaság,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+5493001BIDO3E2AOA590,a_revoir,Spiltan Invest,Investment Aktiebolaget Spiltan,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+5493003N7PPOYDZI1G90,a_revoir,Cie d'Entreprises CFE,AANNEMINGSMAATSCHAPPIJ CFE,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,BE,BE,oui
+5493006164JBW2E60O73,a_revoir,"Terna Energy SA Namens-Aktien EO 0,30",TERNA ENERGEIAKI MONOPROSOPI ANONIMI VIOMICHAN EMPORIKI TECHNIKI ETAIREIA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+549300H1GO5N7BK34P37,a_revoir,LUKA KOPER D.D. Namens-Aktien o. N.,"LUKA KOPER, pristaniški in logistični sistem, delniška družba",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,SI,SI,oui
+549300J0TPYCTYE0CL94,a_revoir,Novabase SGPS SA,NOVABASE - SOCIEDADE GESTORA DE PARTICIPAÇÕES SOCIAIS S.A.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PT,PT,oui
+549300MIDJNNTH068E74,a_revoir,"CRH PLC Registered Shares EO -,32",CRH PUBLIC LIMITED COMPANY,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,oui
+5299006ETW1JYNUWJC79,a_revoir,"Graphisoft Park SE Namens-Akt. EO -,02",Graphisoft Park SE Ingatlanfejlesztő Európai Részvénytársaság,0.506,similarite basse (0.506) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+48510000PW42N5W74S87,a_revoir,"Rokiskio Suris PC Registered Shares EO 0,29","Akcinė bendrovė ""ROKIŠKIO SŪRIS""",0.511,similarite basse (0.511) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,oui
+213800TBZBVWRUAOPV78,a_revoir,"BRIQ Propert.Real Est.Inv.Co. Namens-Aktien EO 2,10",BriQ Properties ANONYMI ETAIREIA EPENDYSEON SE AKINITI PERIOUSIA,0.512,similarite basse (0.512) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+2594009C5G6JSN4HE060,a_revoir,KOMPUTRON,KOMPUTRONIK SPÓŁKA AKCYJNA,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400E3RDWMIUQHME95,a_revoir,APSENERGY,APS Energia Spółka Akcyjna,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+529900RGXD3CBR3BRU63,a_revoir,D/S Norden A/S,DAMPSKIBSSELSKABET NORDEN A/S,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,DK,DK,oui
+2138001H6FCSZBP26351,a_revoir,ITAB Group AB,ITAB Shop Concept AB,0.519,similarite basse (0.519) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+2594001A15UL7ZFMFT77,a_revoir,Ambra S.A. Inhaber-Aktien A ZY 1,"""AMBRA"" SPÓŁKA AKCYJNA",0.519,similarite basse (0.519) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+25940010K4EYCRO4OJ32,a_revoir,"Datawalk S.A. Inhaber-Aktien B-H ZY -,10",DATAWALK SPÓŁKA AKCYJNA,0.526,similarite basse (0.526) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+635400LNUHA2LDXXV850,a_revoir,"C&C Group PLC Registered Shares EO -,01",C & C GROUP PUBLIC LIMITED COMPANY,0.526,similarite basse (0.526) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,oui
+2594001SXSZ4ZPO6I014,a_revoir,STALPROFI,"""STALPROFIL"" SPÓŁKA AKCYJNA",0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400GFZ573WP2RBL28,a_revoir,JWWINVEST,JWW INVEST Spółka Akcyjna,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400ICV5B4DJQK8377,a_revoir,PJPMAKRUM,PJP MAKRUM SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400L5JZZHMLGBGT65,a_revoir,NTTSYSTEM,"""NTT SYSTEM"" SPÓŁKA AKCYJNA",0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PH7I8GT9D1H538,a_revoir,EKOEXPORT,Eko Export Spółka Akcyjna,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400QHOBTD4VCFCZ84,a_revoir,MEXPOLSKA,"""MEX POLSKA"" SPÓŁKA AKCYJNA",0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400QMZI2AZW7BIR21,a_revoir,ELEKTROTI,ELEKTROTIM SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400TYO5Q8SH8TL437,a_revoir,CDPROJEKT,CD PROJEKT SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400U0O19JWLVHQN14,a_revoir,"Synektik SA Inhaber-Aktien ZY -,50",SYNEKTIK SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400ZQ2L60G9NEO560,a_revoir,"Newag S.A. Inhaber-Aktien A,B,C, ZY -,25","""NEWAG"" SPÓŁKA AKCYJNA",0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+529900KWRWKAS4Z5GS25,a_revoir,Delta Group Nyrt SHRS,Delta Group Nyilvánosan Működő Részvénytársaság,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+5493006ZVS6SHCKH6I37,a_revoir,Svolder AB SHRS,Svolder Aktiebolag,0.533,similarite basse (0.533) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+549300AVDV7UC14MTH79,a_revoir,Ortivus AB SHRS,Ortivus Aktiebolag,0.533,similarite basse (0.533) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+213800HBUHCXKIPIYO13,a_revoir,"Attica Holdings S.A. Namens-Aktien EO 0,35",ATTICA A. E. SYMMETOCHON,0.541,similarite basse (0.541) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+259400LGO9UDV1Y18Z11,a_revoir,"Medinice S.A. Inhaber-Aktien ZY-,1",MEDINICE SPÓŁKA AKCYJNA,0.545,similarite basse (0.545) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+549300XDXYOF57JOFT72,a_revoir,"Prodea R.E.I.C. S.A. Namens-Aktien EO 2,71",PRODEA REAL ESTATE INVESTMENT COMPANY SOCIETE ANONYME,0.549,similarite basse (0.549) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+529900IIZX8UAI8MJ703,a_revoir,Zespol Elektr.Wrocl.Koge. S.A. Inhaber-Aktien ZY 5,ZESPOL ELEKTROCIEPLOWNI WROCLAWSKICH KOGENERACJA SPOLKA AKCYJNA,0.552,similarite basse (0.552) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+81560090173FFC67B069,a_revoir,Alerion Cleanpower SpA,ALERION CLEAN POWER S.P.A. IN FORMA ABBREVIATA ALERION S.P.A.,0.554,similarite basse (0.554) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,oui
+2594001OQ9XCY71S5051,a_revoir,"SimFabric S.A. Inhaber-Aktien ZY -,09",SIMFABRIC SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594009BXK9G311J7M79,a_revoir,MDIENERGIA,MDI ENERGIA Spółka Akcyjna,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400S74NHLG59KC394,a_revoir,"SpyroSoft S.A. Inhaber-Aktien ZY -,10",SPYROSOFT SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400HHPUDSWFR70D07,a_revoir,"Torpol S.A. Inhaber-Aktien A ZY -,20",TORPOL SPÓŁKA AKCYJNA,0.562,similarite basse (0.562) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400T6CRXYOG6H8U09,a_revoir,ZE PAK S.A. Inhaber-Aktien A1-1 ZY 2,ZE PAK SPÓŁKA AKCYJNA,0.562,similarite basse (0.562) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+254900YVPBL3EGW5A308,a_revoir,S.N. Nuclearelectrica S.A. Nam.-Akt. LN 10,"SOCIETATEA NATIONALA ""NUCLEARELECTRICA"" SA",0.563,similarite basse (0.563) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,oui
+259400QHBII9NV5JQT83,a_revoir,"Unimot Gaz S.A. Inhaber-Aktien C,D ZY 1",UNIMOT SPÓŁKA AKCYJNA,0.571,similarite basse (0.571) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+5967007LIEEXZXJO5C34,a_revoir,ALNG ASA,AWILCO LNG ASA,0.571,similarite basse (0.571) mais pas assez extreme pour conclure a un LEI douteux,NO,NO,oui
+2138008YD1QPCDECIJ70,a_revoir,Gyldendalske Boghandel,GYLDENDAL A/S,0.581,similarite basse (0.581) mais pas assez extreme pour conclure a un LEI douteux,DK,DK,oui
+259400GG96T088V4UG60,a_revoir,"Dekpol SA Inhaber-Aktien A,B ZY 1",Dekpol Spółka Akcyjna,0.581,similarite basse (0.581) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+81560036DCCA48CA0F08,a_revoir,Societa Sportiva Lazio SpA,S.S. LAZIO - S.P.A.,0.581,similarite basse (0.581) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,oui
+2138004MEYJUDFJ3IQ49,a_revoir,RS2 plc Ordinary EUR0.06,RS2 SOFTWARE P.L.C.,0.583,similarite basse (0.583) mais pas assez extreme pour conclure a un LEI douteux,MT,MT,oui
+635400HNBZBITDHQJG48,a_revoir,FBD Holdings PLC,F.B.D. Holdings Public Limited Company,0.585,similarite basse (0.585) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,oui
+529900Z152W0FLOBT573,a_revoir,eSense Human Resources SzolgalNamens-Aktien UF 2,eSense Human Resources Szolgáltató Nyilvánosan Működő részvénytársaság,0.593,similarite basse (0.593) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,oui
+2594005Q9DIECHVXBO95,a_revoir,"MLP Group S.A. Inhaber-Aktien A,B ZY -,25",MLP GROUP SPÓŁKA AKCYJNA,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+5299002NFQKOBT1E8569,a_revoir,DO and CO AG,DO & CO Aktiengesellschaft,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,AT,AT,oui
+254900R11L2IUTHIZ779,a_revoir,Soc.Na.de Tr.Gaze Nat.TransgazNam.-Akt. LN 10,SOCIETATEA NAȚIONALĂ DE TRANSPORT GAZE NATURALE TRANSGAZ SA,0.606,similarite basse (0.606) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,oui
+815600251190FB2E7172,a_revoir,Italian Wine Brands S.p.A. Azioni nom. o.N.,ITALIAN WINE BRANDS S.P.A. O IN FORMA ABBREVIATA IWB SPA,0.613,similarite basse (0.613) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,oui
+529900O0VPCGEWIDCX35,a_revoir,PANEVEZIO STATYBOS LT 1,"Akcine bendrove ""PANEVEZIO STATYBOS TRESTAS""",0.615,similarite basse (0.615) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,oui
+529900R809HC1RFRQA91,a_revoir,Mekonomen AB,MEKO AB,0.615,similarite basse (0.615) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+213800EYWS2GY56AWP42,a_revoir,"Elvalha. Hel.Cop.+Alu.Ind.SA Namens-Aktien EO 0,39",ELVALHALCOR HELLENIC COPPER AND ALUMINIUM INDUSTRY S.A.,0.622,similarite basse (0.622) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+969500HIUWVGY6NZSM05,a_revoir,Ose Immuno,OSE IMMUNOTHERAPEUTICS,0.625,similarite basse (0.625) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,oui
+549300365FORUXLUWL17,a_revoir,SinterCast AB (publ),SinterCast Aktiebolag,0.629,similarite basse (0.629) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+5493005UBN5S7Y6ROI22,a_revoir,Obducat AB Namn-Aktier B SK 8,Obducat Aktiebolag,0.636,similarite basse (0.636) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+959800QETXHEMRSX9V59,a_revoir,ESP Viviendas Alquiler SA SHRS,COMPAÑÍA ESPAÑOLA DE VIVIENDAS EN ALQUILER S.A.,0.638,similarite basse (0.638) mais pas assez extreme pour conclure a un LEI douteux,ES,ES,oui
+549300TRUWO2CD2G5692,a_revoir,UniCredit SpA,UNICREDITO ITALIANO S.P.A.,0.643,similarite basse (0.643) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,oui
+259400HA8L5O5KQEIV88,a_revoir,"SHOPER S.A. Inhaber-Aktien A-C ZY 0,10",SHOPER SPÓŁKA AKCYJNA,0.645,similarite basse (0.645) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+549300YJUYJ9A24RXL71,a_revoir,BillerudKorsnas AB,Billerud Aktiebolag,0.647,similarite basse (0.647) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+259400NXH0FT0MF6PV21,a_revoir,"Auto Partner S.A. Inhaber-Aktien A-G ZY -,10",AUTO PARTNER SPÓŁKA AKCYJNA,0.652,similarite basse (0.652) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+5299005U9E85Y55OHK45,a_revoir,"Zematijos Pienas AB Registered Shares EO 0,29","Akcine bendrove ""ZEMAITIJOS PIENAS""",0.653,similarite basse (0.653) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,oui
+259400MPYW0HAYEWJA27,a_revoir,G.A. Zaklady Chemiczne Pol.SA Inhaber-Aktien ZY 10,"GRUPA AZOTY ZAKLADY CHEMICZNE ""POLICE"" SPOLKA AKCYJNA",0.658,similarite basse (0.658) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+213800BFLX55D42JQM05,a_revoir,SPACE HELLAS S.A. (CR),SPACE HELLAS S.A. TELECOMMUNICATIONS IT SECURITY SYSTEMS & SERVICES PRIVATE ENTERPRISE FOR PROVISION OF SECURITY SERVICES,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,oui
+213800UPS1QEE4TD3T45,a_revoir,"DCC Energy PLC Registered Shares EO -,25",DCC ENERGY PUBLIC LIMITED COMPANY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,oui
+2594002H3ZAFID0MP378,a_revoir,PCC Exol S.A. Inhaber-Aktien D ZY 1,PCC EXOL SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594003GVVF9U3PSDS82,a_revoir,PCC Rokita S.A. Inhaber-Aktien B ZY 1,PCC ROKITA SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594004XCEJP2AO2DF56,a_revoir,"CI Games SE Inhaber-Aktien ZY -,01",CI Games Spółka Akcyjna,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+25940056N1CJFGQY3909,a_revoir,"PCF Group SA Inhaber-Aktien ZY -,02",PCF GROUP SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+25940062QUG3WEUEGE88,a_revoir,"Rainbow Tours S.A. Inhaber-Aktien ZY -,10",RAINBOW TOURS SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+25940082U6IJ0K29FS45,a_revoir,"All In! Games S.A. Inhaber-Aktien A-E ZY -,10",ALL IN! GAMES SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594008KNDCPLHVHMX88,a_revoir,"Mangata Holding S.A. Inhaber-Aktien ZY -,20",MANGATA HOLDING SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+2594009CXYWKREHIBZ14,a_revoir,"Global Cosmed S.A. Inhaber-Aktien C,F ZY 1",Global Cosmed Spółka Akcyjna,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400ANEBPTI981R546,a_revoir,"GAMING FACTORY S.A. Inhaber-Aktien Serie B ZY 0,1",GAMING FACTORY SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400EUNFX4E2BEHU15,a_revoir,"Scope Fluidics S.A. Inhaber-Aktien ZY-,10",SCOPE FLUIDICS SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400GMBFOA2TXIIJ11,a_revoir,"Orzel Bialy S.A. Inhaber-Aktien ZY -,43","""ORZEL BIALY"" SPOLKA AKCYJNA",0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400K7L993SDQOO531,a_revoir,"Bloober Team S.A. Inhaber-Aktien ZY -,01",BLOOBER TEAM SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400N95YGU76EEYD38,a_revoir,"Artifex Mundi S.A. Inhaber-Aktien ZY-,01",ARTIFEX MUNDI SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400PG5SPJZE6S2Z10,a_revoir,"Seco/Warwick SA Inhaber-Aktien ZY -,20",SECO/WARWICK SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+259400QGO1WYFEDFBC10,a_revoir,"Trans Polonia S.A. Inhaber-Aktien ZY -,10",TRANS POLONIA SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+52990050T51W55KK4X45,a_revoir,"ad pepper media Intl N.V. Aandelen aan toonder EO 0,05",ad pepper media International N.V.,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,oui
+5493000M6TVS2X0KWC97,a_revoir,"AS Tallinna Vesi Registered Shares A EO 0,6",AKTSIASELTS TALLINNA VESI,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,EE,EE,oui
+549300RC0HUZSJYJO751,a_revoir,Bergman and Beving AB,Bergman & Beving Aktiebolag,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+549300V2QS9QL4C1KQ31,a_revoir,Cynca Nordic AB (publ),WeSC AB (publ),0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+2549009R7KJ38D9RW354,a_revoir,Societ.Nat.de Gaze Nat.Romgaz Nam.-Akt. LN 1,"SOCIETATEA NATIONALA DE GAZE NATURALE ""ROMGAZ"" SA",0.674,similarite basse (0.674) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,oui
+259400LL41Q1CCOZ9M08,a_revoir,Cavatina Holding S.A. Inhaber-Aktien ZY - 13,CAVATINA HOLDING SPÓŁKA AKCYJNA,0.68,similarite basse (0.68) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+254900OLXCOUQC90M036,a_revoir,C.N.T.E.E. Transelectrica S.A.Nam.-Akt. LN 10,CNTEE TRANSELECTRICA SA,0.69,similarite basse (0.69) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,oui
+549300VEBQPHRZBKUX38,a_revoir,Investor AB - B,Investor Aktiebolag,0.69,similarite basse (0.69) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,oui
+259400O65SLJ2CVTSP22,a_revoir,"Medicalgorithmics S.A. Inhaber-Aktien ZY -,10",MEDICALGORITHMICS SPÓŁKA AKCYJNA,0.692,similarite basse (0.692) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+743700YQIO8Y4L4WKR40,a_revoir,Nokian Tyres PLC,Nokian Renkaat Oyj,0.692,similarite basse (0.692) mais pas assez extreme pour conclure a un LEI douteux,FI,FI,oui
+259400RAB30GC3EU1Y11,a_revoir,"ZAKLADY MAGNEZYTOWE ROP.SA Inhaber-Aktien ZY 2,50","ZAKLADY MAGNEZYTOWE ""ROPCZYCE"" SPOLKA AKCYJNA",0.697,similarite basse (0.697) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,oui
+213800ED5AN2J56N6Z02,a_revoir,Davide Campari-Milano SpA,DAVIDE CAMPARI-MILANO N.V.,1.0,pays ISIN NL != pays GLEIF IT,NL,IT,oui
+213800M4NRGFJCI34834,a_revoir,"Allwyn AG Inhaber-Aktien EO 0,75",ALLWYN AG,1.0,pays ISIN GR != pays GLEIF CH,GR,CH,oui
+213800OVMJPFP79OB449,a_revoir,PEPCO,PEPCO GROUP N.V.,1.0,pays ISIN NL != pays GLEIF GB,NL,GB,oui
+213800RQNIQT48SEEO85,a_revoir,PLUXEE N.V.,PLUXEE N.V.,1.0,pays ISIN NL != pays GLEIF FR,NL,FR,oui
+2221003G8BRH3CPABK72,a_revoir,Solutions 30 SE,SOLUTIONS 30 SE,1.0,pays ISIN FR != pays GLEIF LU,FR,LU,oui
+222100GEODKMZ0FFWK29,a_revoir,Sword Group,SWORD GROUP SE,1.0,pays ISIN FR != pays GLEIF LU,FR,LU,oui
+529900JEHFM47DYY3S57,a_revoir,Eurofins Scientific SE,EUROFINS SCIENTIFIC SE,1.0,pays ISIN FR != pays GLEIF LU,FR,LU,oui
+549300BLWVJN2BAT0A44,a_revoir,Brembo SpA,BREMBO N.V.,1.0,pays ISIN NL != pays GLEIF IT,NL,IT,oui
+549300DHT635Q5P8J715,a_revoir,Spar Nord Bank A/S,SPAR NORD BANK A/S,1.0,statut GLEIF INACTIVE,DK,DK,oui
+549300J0UEIKU81XO336,a_revoir,Shurgard Self Storage SA,SHURGARD SELF STORAGE LIMITED,1.0,pays ISIN LU != pays GLEIF GG,LU,GG,oui
+549300WGC2HZ5J67V817,a_revoir,CNH INDUSTRIAL,CNH Industrial N.V.,1.0,pays ISIN NL != pays GLEIF GB,NL,GB,oui
+549300ZWF2ZJDD9EOR96,a_revoir,Iveco Group NV,IVECO GROUP N.V.,1.0,pays ISIN NL != pays GLEIF IT,NL,IT,oui
+635400XJGDRCVHCKH516,a_revoir,"DIGI Communications N.V. Aandelen aan toonder EO -,01",Digi Communications N.V.,1.0,pays ISIN NL != pays GLEIF RO,NL,RO,oui
+724500FLODI49NSCIP70,a_revoir,Technip Energies NV,Technip Energies N.V.,1.0,pays ISIN NL != pays GLEIF FR,NL,FR,oui
+724500R38HLH2G58KQ51,a_revoir,"ASTARTA Holding PLC Aandelen op naam EO -,01",ASTARTA HOLDING PLC,1.0,pays ISIN NL != pays GLEIF CY,NL,CY,oui
+724500UWG6A61XNA3Y36,a_revoir,RHI Magnesita NV,RHI Magnesita N.V.,1.0,pays ISIN NL != pays GLEIF AT,NL,AT,oui
+8156008B101B97A43B02,a_revoir,Cementir Holding NV,Cementir Holding N.V.,1.0,pays ISIN NL != pays GLEIF IT,NL,IT,oui
+815600CC86D25A205563,a_revoir,Ariston Holding NV,Ariston Holding N.V.,1.0,pays ISIN NL != pays GLEIF IT,NL,IT,oui
+815600E31C4E7006AB54,a_revoir,UnipolSai Assicurazioni SpA,UNIPOLSAI ASSICURAZIONI S.P.A.,1.0,statut GLEIF INACTIVE,IT,IT,oui
+894500L53AVOFQK7T710,a_revoir,HAVAS ORD,Havas N.V.,1.0,pays ISIN NL != pays GLEIF FR,NL,FR,oui
+959800Y8LQ5MR2YZ4N96,a_revoir,eDreams ODIGEO SA,EDREAMS ODIGEO SA,1.0,pays ISIN LU != pays GLEIF ES,LU,ES,oui
+J48C8PCSJVUBR8KCW529,a_revoir,Banca Popolare di Sondrio SPA,BANCA POPOLARE DI SONDRIO SOCIETA' PER AZIONI,1.0,statut GLEIF INACTIVE,IT,IT,oui
+63540085VSYVDEINJO04,a_revoir,"Forgent PLC Registered Shares EO -,0001",EQTEC PUBLIC LIMITED COMPANY,0.125,"Forgent PLC / EQTEC : rachat/renommage possible dans le secteur energie, non confirme par une source",IE,IE,non
+213800CTOO8MOLMNEQ44,a_revoir,Connemara Mining Co. PLC,ARKLE RESOURCES PUBLIC LIMITED COMPANY,0.13,"Connemara Mining / Arkle Resources : meme secteur (mines irlandaises), rapprochement possible non confirme",IE,IE,non
+254900OEKYEX6EFPVO79,a_revoir,Francis Bacon - Dyer Triptyque,Art Share 002 S.A.,0.146,"Francis Bacon - Dyer Triptyque / Art Share 002 S.A. : vehicule de fractionnement d'oeuvre d'art, nom du produit different du nom de l'entite juridique porteuse -- schema explicable, pas confirme",LU,LU,non
+259400BC44FRAYD5SO68,a_revoir,iFun4all S.A.,DRAW DISTANCE SPÓŁKA AKCYJNA,0.167,"iFun4all / Draw Distance : rebranding plausible (secteur jeu video polonais), non confirme",PL,PL,non
+259400BDHMTY2P2GKT59,a_revoir,KME,KANCELARIA MEDIUS SPÓŁKA AKCYJNA,0.171,"KME / Kancelaria Medius : sigle partiel plausible (K.M. matche), non confirme",PL,PL,non
+259400OYSRD11PQDCY37,a_revoir,PEMUG,PME SPÓŁKA AKCYJNA,0.174,"PEMUG / PME Spolka Akcyjna : lien incertain, non confirme",PL,PL,non
+54930075I19A3091WR29,a_revoir,Vetted Assets AB BTA,Ytrade Group AB (publ),0.182,"Vetted Assets AB BTA / Ytrade Group AB : BTA = droits de souscription provisoires, renommage frequent a l'enregistrement definitif -- schema explicable, pas confirme",SE,SE,non
+2594005N09WVNV7NE844,a_revoir,PTWP,POLSKIE TOWARZYSTWO WSPIERANIA PRZEDSIĘBIORCZOŚCI SPÓŁKA AKCYJNA,0.118,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400GE6ZIIU20M7F43,a_revoir,KPPD,Koszalińskie Przedsiębiorstwo Przemysłu Drzewnego Spółka Akcyjna,0.118,similarite acceptable mais releve pour autre motif,PL,PL,non
+8156006FF475AB270436,a_revoir,TPS,TECHNICAL PUBLICATIONS SERVICE S.P.A. O IN BREVE T.P.S. S.P.A.,0.12,similarite acceptable mais releve pour autre motif,IT,IT,non
+815600E62E0F90F1EB81,a_revoir,RES,RECUPERO ETICO SOSTENIBILE SOCIETA' PER AZIONI,0.125,similarite acceptable mais releve pour autre motif,IT,IT,non
+259400BZ8HVMM31NI979,a_revoir,APS,AUTOMATYKA-POMIARY-STEROWANIE SPÓŁKA AKCYJNA,0.128,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400350W2M5JAFAG39,a_revoir,ARI,AGENCJA ROZWOJU INNOWACJI SPÓŁKA AKCYJNA,0.14,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400CC23911FEI5G35,a_revoir,CCS,CYFROWE CENTRUM SERWISOWE SPÓŁKA AKCYJNA,0.14,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400HT196UIMTSG008,a_revoir,PGH,POLSKA GRUPA HUTNICZA SPÓŁKA AKCYJNA,0.154,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400YUJQGWKDKND776,a_revoir,BSH,BRIDGE SOLUTIONS HUB SPÓŁKA AKCYJNA,0.158,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400JR9CIYIGMDGP26,a_revoir,IAP,INWESTYCJE ALTERNATYWNE PROFIT S.A.,0.182,statut GLEIF INACTIVE,PL,PL,non
+529900NIVCA04DSVFT52,a_revoir,MEGAKRAN,MEGAKRÁN Kereskedelmi és Szolgáltató Nyilvánosan Működő Részvénytársaság,0.2,similarite basse (0.2) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+8945002PAZHZLBGKGF02,a_revoir,Linde PLC,ROUNDERWAY PUBLIC LIMITED COMPANY,0.2,similarite basse (0.2) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+969500VQY0ALTZZ0WS92,a_revoir,SMTPC,SOCIETE MARSEILLAISE DU TUNNEL PRADO-CARENAGE,0.2,similarite basse (0.2) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+875500H2YZS363P1KK87,a_revoir,UPLAZA,Urban Plaza Plus Nyilvánosan Működő Részvénytársaság,0.207,similarite basse (0.207) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+259400ELLTLUZVI9PS87,a_revoir,LUXMEDTRI,SWISSMED PRYWATNY SERWIS MEDYCZNY SPÓŁKA AKCYJNA,0.211,similarite basse (0.211) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400ZHNI0QUZ42S869,a_revoir,AMESA,ADVANCED MEDICAL EQUIPMENT SPÓŁKA AKCYJNA,0.217,similarite acceptable mais releve pour autre motif,PL,PL,non
+969500PQAMHVVTV3SN62,a_revoir,EAVS SHRS,E.A.V.S. GROUPE ( EQUIPEMENTS AUDIOVISUELS ET SYSTEMES ),0.219,similarite basse (0.219) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+724500SS15GWPNLNXK69,a_revoir,PerfoTec Certificaten van aandelen B,Stichting Administratiekantoor Perfo Knowledgy,0.22,similarite basse (0.22) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+2594008U3JJCA2LEW807,a_revoir,CFSA,CENTRUM FINANSOWE SPÓŁKA AKCYJNA,0.222,similarite acceptable mais releve pour autre motif,PL,PL,non
+259400QIMOND007DX670,a_revoir,NTVSA,NEW TECH VENTURE SPÓŁKA AKCYJNA,0.222,similarite acceptable mais releve pour autre motif,PL,PL,non
+391200D52H4LDIJVCZ45,a_revoir,POB AG Namens-Aktien o.N.,Performance One AG,0.222,similarite basse (0.222) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+96950024A1S6095J5067,a_revoir,Dekuple,ADL PARTNER,0.222,similarite basse (0.222) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+969500N6BAT2PU986341,a_revoir,TFF Group,TONNELLERIE FRANCOIS FRERES,0.222,similarite basse (0.222) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+254900NJ75N8KF5TW497,a_revoir,BTT SA BUCURESTI,BIROUL DE TURISM PENTRU TINERET (B.T.T.) SA,0.226,similarite basse (0.226) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+98450088755769F55947,a_revoir,TELMES,Techno Electrical Management Equipment Solution S.P.A.,0.226,similarite basse (0.226) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+259400OVNXQK1MJBW196,a_revoir,VISION,EUROINVESTMENT SPOLKA AKCYJNA,0.229,similarite basse (0.229) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400F5LXGKNA39U948,a_revoir,"Carbon Group S.A. Inhaber-Aktien ZY -,10",ELEKTROMONT S.A.,0.231,similarite basse (0.231) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400H2TB4DUX39OI48,a_revoir,GOTFI,GO Towarzystwo Funduszy Inwestycyjnych S.A.,0.233,similarite basse (0.233) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400995TMRNXSY1Z78,a_revoir,FHDOM,FUNDUSZ HIPOTECZNY DOM SPÓŁKA AKCYJNA,0.238,similarite basse (0.238) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+894500XWJE7LIJNYQ547,a_revoir,Quantum Cyber N.V. Aandelen op naam EUR 1,Mainz Biomed N.V.,0.238,similarite basse (0.238) mais pas assez extreme pour conclure a un LEI douteux,NL,DE,non
+724500LJYA8QIT73H017,a_revoir,Frank's International NV,Expro Group Holdings N.V.,0.244,similarite basse (0.244) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+213800O4VARRLEDLGU79,a_revoir,"Kekrops SA Hotel,Touri.,Build.Inhaber-Aktien EO 0,30",Xenodocheiakai Touristikai Oikodomikai kai Latomikai Epicheiriseis o Kekrops Anonymos Etaireia,0.25,similarite basse (0.25) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+7245007WDP7LCTCKMY19,a_revoir,ZEPCAM Certificaten van aandelen,Stichting Administratiekantoor ZEPCAM 2021,0.25,similarite basse (0.25) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+213800GFTYPUAFKIRK95,a_revoir,"Dromeas Office Furniture Ind. Namens-Aktien EO -,31",PAPAPANAGIOTOU A.V.E.E.A.,0.255,similarite basse (0.255) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+549300CDVAKAUH9D5Z69,a_revoir,Neem's Hill AB B,Scandinavian ChemoTech AB (publ),0.256,similarite basse (0.256) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+259400ER9KN3AM8URP59,a_revoir,ABADONRE,MURAPOL REAL ESTATE S. A.,0.258,similarite basse (0.258) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+7872008RCGO1U014F068,a_revoir,NOVERE CAPITAL,META ESTATE TRUST S.A.,0.258,similarite basse (0.258) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+21380063ZX54EUEMBR73,a_revoir,Vastned Retail NV,ICAP WCLK LIMITED,0.261,similarite basse (0.261) mais pas assez extreme pour conclure a un LEI douteux,NL,GB,non
+254900WIKD77NGI97408,a_revoir,Xer Tech Holding AB SHRS,Renewable Ventures Nordic AB,0.261,similarite basse (0.261) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+5493008XD2OIYZHVGT82,a_revoir,GS ENH INDX SNA EQ,GOLDMAN SACHS PARAPLUFONDS 1 N.V.,0.261,similarite basse (0.261) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+969500HMVSZ0TCV65D58,a_revoir,AG3I SHRS,EURONEXT PARIS SA,0.261,similarite basse (0.261) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+984500D6446DFA5SE855,a_revoir,SENUS PLC Ordinary Shares,ADF FARM SOLUTIONS LIMITED,0.261,similarite basse (0.261) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+2138009WZ6Y8N8X48137,a_revoir,"Yalco Constantinou Namens-Aktien EO -,62",SOKRATIS D. KONSTANTINOU & YIOS A.E. EMPORIO-VIOMICHANIA YALIKON KAI EIDON OIKIAKIS CHRISIS,0.264,similarite basse (0.264) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800BC45UCMQYR4995,a_revoir,Athens International Airp.S.A. Namens-Aktien o.N.,DIETHNIS AEROLIMENAS ATHINON A.E.,0.264,similarite basse (0.264) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+233000N2S00AI2B4VB19,a_revoir,GOODWILLPHRM,"Goodwill Pharma Orvos-, és Gyógyszertudományi Nyilvánosan Működő Részvénytársaság",0.264,similarite basse (0.264) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+259400TB69IYA2WJEU71,a_revoir,DIAG,DIAGNOSTYKA SPÓŁKA AKCYJNA,0.267,similarite basse (0.267) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400FB2RUKJ5MP7B90,a_revoir,IFSA,INVESTMENT FRIENDS SE,0.273,similarite basse (0.273) mais pas assez extreme pour conclure a un LEI douteux,PL,EE,non
+5299000F8LVPF0D4MQ88,a_revoir,Global PVQ SE Inhaber-Stammaktien o.N.,Hanwha Q CELLS GmbH,0.273,similarite basse (0.273) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+724500X71OF1CVRGUC26,a_revoir,GS GLOB OPPORT FD,Goldman Sachs Europa Duurzaam Aandelen Fonds (NL) N.V.,0.273,similarite basse (0.273) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+894500GSHQ8WE0EXSC64,a_revoir,GoSol Energi AB SHRS,Renewable Ventures Nordic 3 AB,0.273,similarite basse (0.273) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+259400ZAP1AM5CJ4CP55,a_revoir,INTM,INTERMARUM SPÓŁKA AKCYJNA,0.276,similarite basse (0.276) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+894500909IR2G2GVHT96,a_revoir,Bianor Holding AD-Sofia,Wiser Technology,0.278,similarite basse (0.278) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+8945006ONNL6T6AF7527,a_revoir,Fin Collection SPV,LEV INVEST,0.286,similarite basse (0.286) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+2594002TB12YNHWCPU85,a_revoir,TRUEGS,TRUE GAMES SYNDICATE SPÓŁKA AKCYJNA,0.293,similarite basse (0.293) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594005SOM56AY386B86,a_revoir,MMCPL,"""MM CONFERENCES"" SPOLKA AKCYJNA",0.294,similarite basse (0.294) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400KHTY4904KMKT70,a_revoir,11BIT,11 BIT STUDIOS SPÓŁKA AKCYJNA,0.294,similarite basse (0.294) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+724500L9KR974FY2JM73,a_revoir,Xillio Certificaten van aandelen C,Stichting Administratiekantoor Xillio Nederland,0.296,similarite basse (0.296) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+213800SSQHPQHWMNMV25,a_revoir,PlanetClean Recycling Industries Plc,A.J. GREEN SHELL PLC,0.298,similarite basse (0.298) mais pas assez extreme pour conclure a un LEI douteux,CY,CY,non
+259400X5F21BVHI0OA11,a_revoir,FARMYFO,FARMY FOTOWOLTAIKI POLSKA SPÓŁKA AKCYJNA,0.298,similarite basse (0.298) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594001UMHBYXKQ16707,a_revoir,GKSKAT,GKS GIEKSA KATOWICE SPÓŁKA AKCYJNA,0.3,similarite basse (0.3) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+529900Q3CGRYVCW7E340,a_revoir,M1 Aesthetics AG Inhaber-Aktien o.N.,HAEMATO AG,0.3,similarite basse (0.3) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+259400GOMUY24V8QHQ48,a_revoir,SFKPOLKAP,SKOCZOWSKA FABRYKA KAPELUSZY POLKAP SPÓŁKA AKCYJNA,0.305,similarite basse (0.305) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594004MG2PE87BETB87,a_revoir,ACAUTOGAZ,AC Spółka Akcyjna,0.308,similarite basse (0.308) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400S25ZXPIGHB3767,a_revoir,"Boruta-Zachem S.A. Inhaber-Aktien ZY -,10",HUB.TECH SPÓŁKA AKCYJNA,0.308,similarite basse (0.308) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+959800DET8UZLU15UW84,a_revoir,LLEIDA,"LLEIDANETWORKS SERVEIS TELEMATICS, S.A.",0.308,similarite basse (0.308) mais pas assez extreme pour conclure a un LEI douteux,ES,ES,non
+254900NNETR3FG342072,a_revoir,BAD SA SUCEAVA,BAZA DE APROVIZIONARE SI DESFACERE SA,0.311,similarite basse (0.311) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+259400IN0WM160FX3910,a_revoir,CHEMOS,Chemoservis-Dwory Spółka Akcyjna,0.316,similarite basse (0.316) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+213800GZ4965BPRA1L87,a_revoir,"ATHENS MEDICAL CENTER S.A. Namens-Aktien EO 0,34",IATRIKO ATHINON EMPORIKI ANONYMOS ETAIREIA,0.317,similarite basse (0.317) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+724500HQS2HVLZ49QZ96,a_revoir,Image Building Certificaten van aandelen,Stichting Administratiekantoor IBH,0.324,similarite basse (0.324) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+259400XOHG752MNM5840,a_revoir,PRIVRNT,PRIVATE RENTED SECTOR SPÓŁKA AKCYJNA,0.326,similarite basse (0.326) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003VKDWVJ69XEY32,a_revoir,Prime ASI S.A. Inhaber-Aktien D ZY 10,PRIME ALTERNATYWNA SPÓŁKA INWESTYCYJNA SPÓŁKA AKCYJNA,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594008E5GJOD3SX9K47,a_revoir,IFLEASING,Internetowy Fundusz Leasingowy Spółka Akcyjna,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400HMD4X2FZKHYF68,a_revoir,BACT,"""B-ACT"" SPÓŁKA AKCYJNA",0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400S70PB8Z4C5F587,a_revoir,Zakl. Prz. Cukiern.'Wawel' SA Inhaber-Aktien ZY 5,WAWEL SPÓŁKA AKCYJNA,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400XP64OAWPWNT391,a_revoir,ASSECOBS,ASSECO BUSINESS SOLUTIONS SPÓŁKA AKCYJNA,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+635400QLBB6RSC7CO580,a_revoir,"Alkermes PLC Registered Shares DL -,01",Alkermes Pharma Ireland Limited Approved Profit Sharing Scheme,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+7245005K2VK8C2K8QR90,a_revoir,The Good Roll Certificaten van aandelen B,Stichting Administratiekantoor Goodroll Investors,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+724500GK6E0T9YKLJQ18,a_revoir,ON2Quest Certificaten van aandelen,Stichting Administratiekantoor ON2Quest,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+894500ODN68AR6F14J34,a_revoir,"MASOVAL AS Navne-Aksjer NOK -,25",Måsøval Fiskeoppdrett AS,0.333,similarite basse (0.333) mais pas assez extreme pour conclure a un LEI douteux,NO,NO,non
+7245000Y5KBY3G6RNN20,a_revoir,HyGear Certificaten van aandelen,Stichting Administratiekantoor Green Vision Holding,0.337,similarite basse (0.337) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+2594005B7F0QJQF14K08,a_revoir,SUNNET,SUNWAY NETWORK SPÓŁKA AKCYJNA,0.343,similarite basse (0.343) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400C6THDFIMOVIB42,a_revoir,KANCELWEC,"""KANCELARIA PRAWNA-INKASO WEC"" SPÓŁKA AKCYJNA",0.346,similarite basse (0.346) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+213800OYHR1MPQ5VJL60,a_revoir,"Piraeus Bank SA Namens-Aktien EO 0,93",TRAPEZA PEIRAIOS ANONYMOS ETAIREIA,0.348,similarite basse (0.348) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2594002PHHS39H756F73,a_revoir,GRUPAMZ,GRUPA MODNE ZAKUPY SPÓŁKA AKCYJNA,0.35,similarite basse (0.35) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+89450027AK4LSOGXGY18,a_revoir,SMART KITCHENS SOCIMI,Baltic LEI OÜ,0.353,similarite basse (0.353) mais pas assez extreme pour conclure a un LEI douteux,ES,EE,non
+894500E313JD6Z5L6910,a_revoir,Real Estates Investment Fund-FINI REIT /in liquidation/,FOND ZA INVESTICII V NEDVIJIMI IMOTI – FINI ADSIZ,0.353,similarite basse (0.353) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+259400O24FFHFHUAX029,a_revoir,FEMTECH,FEMION TECHNOLOGY SPÓŁKA AKCYJNA,0.359,similarite basse (0.359) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400COE203TD0BNW69,a_revoir,FOTOVOLT,FOTO VOLT EKO ENERGIA SPÓŁKA AKCYJNA,0.364,similarite basse (0.364) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400T7L0BLBYFU6U60,a_revoir,HILANDER,HIGHLANDER ENTERPRISE SPÓŁKA AKCYJNA,0.364,similarite basse (0.364) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+391200QOVA7CXIIBPO46,a_revoir,Diegem Kennedycert,Immolease-Trust,0.364,similarite basse (0.364) mais pas assez extreme pour conclure a un LEI douteux,BE,BE,non
+259400F1QVVUK3AP8P87,a_revoir,RSGAMES,RED SQUARE GAMES SPÓŁKA AKCYJNA,0.368,similarite basse (0.368) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400MBZQH0OSBYDM16,a_revoir,SOHODEV,SOHO DEVELOPMENT SPÓŁKA AKCYJNA,0.368,similarite basse (0.368) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400U9EFKNPKBQIB19,a_revoir,FARMINN,FARM INNOVATIONS SPÓŁKA AKCYJNA,0.368,similarite basse (0.368) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594002GWZT1HR379Q58,a_revoir,ABMSOLID,ABM SOLID S.A. w upadłości likwidacyjnej,0.372,similarite basse (0.372) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2138007QPGQL756VLG96,a_revoir,UP VENTURES PLC,UPYACHTING MANAGEMENT PLC,0.375,similarite basse (0.375) mais pas assez extreme pour conclure a un LEI douteux,CY,CY,non
+2594004P9DSER6P23F83,a_revoir,PBGAMES,PRIME BIT GAMES SPÓŁKA AKCYJNA,0.378,similarite basse (0.378) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+894500COIZFJT2X6K268,a_revoir,SIPARIO MOVIES,IERVOLINO ENTERTAINMENT SPA,0.378,similarite basse (0.378) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+259400825CQ8ESBDEQ34,a_revoir,CCENERGY,CLEAN&CARBON ENERGY SPÓŁKA AKCYJNA,0.381,similarite basse (0.381) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400FD5B69NRE7RH77,a_revoir,HONEYPAY,HONEY PAYMENT GROUP SPÓŁKA AKCYJNA,0.381,similarite basse (0.381) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940024059KXONNTA83,a_revoir,BUMECHDEF,BUMECH DEFENSE PARTNERS SPÓŁKA AKCYJNA,0.383,similarite basse (0.383) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594004VAEPVT9CAZQ84,a_revoir,MFOOD,M FOOD SPÓŁKA AKCYJNA,0.385,similarite basse (0.385) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400DU3N6597KSCV83,a_revoir,GDEVS,G-DEVS SPÓŁKA AKCYJNA,0.385,similarite basse (0.385) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+5299007F4BUUY6S14E44,a_revoir,MBHJB,MBH Jelzálogbank Nyrt.,0.385,similarite basse (0.385) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+259400PEVAAKFD0EEL83,a_revoir,LTGAMES,LONGTERM GAMES SPÓŁKA AKCYJNA,0.389,similarite basse (0.389) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400WA8H1H1I0B7K46,a_revoir,ICECODE,ICE CODE GAMES SPÓŁKA AKCYJNA,0.389,similarite basse (0.389) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400L9J5L9IP4NOO05,a_revoir,REMORSOL,REMOR SOLAR POLSKA SPÓŁKA AKCYJNA,0.39,similarite basse (0.39) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594009JB6XEQZE9HR27,a_revoir,POLHOLROZ,POLSKI HOLDING ROZWOJU SPÓŁKA AKCYJNA,0.391,similarite basse (0.391) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+969500EPORUC3580O341,a_revoir,Selcodis S.A. Actions au Porteur o.N.,CENTRE DISTRIBUTEUR E. LECLERC,0.393,similarite basse (0.393) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+213800MZRSTMODMKK465,a_revoir,"General Commercial & Ind. S.A. Namens-Aktien EO -,30",GENIKI EMPORIOU KAI VIOMICHANIAS ANONYMI ETAIREIA,0.395,similarite basse (0.395) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800SNEJL2ZM642D98,a_revoir,"Aktor SA Hldg Co.Tec+Energy Pr Namens-Aktien EO 0,30","AKTOR ANONYMI ETAIREIA SYMMETOCHON, TECHNIKON KAI ENERGEIAKON ERGON",0.4,similarite basse (0.4) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2594006OET1NIH25DM49,a_revoir,YBS,YELLOW BOSON S.A.,0.4,similarite basse (0.4) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400KSQ8PHW0768Y03,a_revoir,"JR Holding S.A. Inhaber-Aktien B,C ZY -,10",JR HOLDING ALTERNATYWNA SPÓŁKA INWESTYCYJNA SPÓŁKA AKCYJNA,0.4,similarite basse (0.4) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+8945007IDGKD0KZ4HD95,a_revoir,Shelly Group PLC Registered Shares EO 1,ALLTERCO SE,0.4,similarite basse (0.4) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+969500SYCOPKNKYE9T19,a_revoir,MHM Corporate S.A.,MYHOTELMATCH,0.4,similarite basse (0.4) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+213800N26LVNZDX7MY98,a_revoir,"Selected Textile Ind.Assoc. SA Namens-Aktien EO -,30",EPILEKTOS KLOISTOIFANTOYRGIA AEBE (SELECTED TEXTILES SA),0.41,similarite basse (0.41) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+259400K0J4QRUX2WAA61,a_revoir,IRONWOLF,Iron Wolf Studio Spółka Akcyjna,0.41,similarite basse (0.41) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940010NY03MKHC2A34,a_revoir,EXIMIT,e-Xim IT Spółka Akcyjna,0.414,similarite basse (0.414) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400HP2LJV880KG531,a_revoir,MGMSYS,MGM SPÓŁKA AKCYJNA,0.417,similarite basse (0.417) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594001W32JG8UQMVO63,a_revoir,BLACKROSE,BLACK ROSE PROJECTS SPÓŁKA AKCYJNA,0.419,similarite basse (0.419) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400G7BT50CAF7EE02,a_revoir,ROBSGROUP,ROBS GROUP LOGISTIC SPÓŁKA AKCYJNA,0.419,similarite basse (0.419) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400VYSK4AUEGVN066,a_revoir,TELEMEDPL,TELEMEDYCYNA POLSKA SPÓŁKA AKCYJNA,0.419,similarite basse (0.419) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400W39H7UHW9EJP66,a_revoir,MEDICOBIO,Medicofarma Biotech Spółka Akcyjna,0.419,similarite basse (0.419) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400N8Y7GRHJHXRD83,a_revoir,SPACEFOX,SPACE FOX GAMES SPÓŁKA AKCYJNA,0.421,similarite basse (0.421) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400X4R3YK8TN3ZG24,a_revoir,EUROTAX,EURO-TAX.PL SPÓŁKA AKCYJNA,0.424,similarite basse (0.424) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594006YL285MD8BZI97,a_revoir,5THAVENUE,5TH AVENUE HOLDING SPÓŁKA AKCYJNA,0.429,similarite basse (0.429) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400AYERGFSE0E8M98,a_revoir,TAXNET,TAX-NET SPÓŁKA AKCYJNA,0.429,similarite basse (0.429) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400L7OUOSPX2MGU41,a_revoir,EKIOSK,"""E-KIOSK SPÓŁKA AKCYJNA""",0.429,similarite basse (0.429) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400EAV9CCW6M1Y424,a_revoir,TNTPROENR,T&T PROENERGY SPÓŁKA AKCYJNA,0.432,similarite basse (0.432) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400GDEHFCFRWF0347,a_revoir,DEMGAMES,DEMOLISH GAMES SPÓŁKA AKCYJNA,0.432,similarite basse (0.432) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400NT1PFJEDVBCH34,a_revoir,PCCINTER,PCC INTERMODAL SPÓŁKA AKCYJNA,0.432,similarite basse (0.432) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400WNWSDRYM87YQ43,a_revoir,IDMSA,IDM SPÓŁKA AKCYJNA,0.435,similarite basse (0.435) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+529900GL5W5OLSTSBE42,a_revoir,Orion S.A. Actions au Nomin. o.N.,"Orion Engineered Carbons Co., Ltd.",0.435,similarite basse (0.435) mais pas assez extreme pour conclure a un LEI douteux,LU,KR,non
+259400FKQ5WP8BWRWZ57,a_revoir,MILISYS,MILISYSTEM SPÓŁKA AKCYJNA,0.438,similarite basse (0.438) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400N4PCP7YD0WPZ23,a_revoir,LGTRADE,LOGINTRADE SPÓŁKA AKCYJNA,0.438,similarite basse (0.438) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400WFTTP8VEBWC572,a_revoir,TELESTR,TELESTRADA SPÓŁKA AKCYJNA,0.438,similarite basse (0.438) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594009FS2KCL64IJK17,a_revoir,INTERSPPL,INTERSPORT POLSKA SPÓŁKA AKCYJNA,0.439,similarite basse (0.439) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400J8V8CJMDFB1P68,a_revoir,PURPLERAY,PURPLE RAY STUDIO SPÓŁKA AKCYJNA,0.439,similarite basse (0.439) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400MSY0KV1BIRK132,a_revoir,BIGCHEESE,BIG CHEESE STUDIO SPÓŁKA AKCYJNA,0.439,similarite basse (0.439) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400EWZEZ4GXCCRE72,a_revoir,"PRI EKOPARK SA Inhaber-Aktien ZY -,10",EKOPARK SPÓŁKA AKCYJNA,0.444,similarite basse (0.444) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400HDANXUO2M9Q704,a_revoir,1SOLUTION,One Solution Spółka Akcyjna,0.444,similarite basse (0.444) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400VBUVICWZ0E2775,a_revoir,SIGMADEF,SIGMA DEFENCE SPÓŁKA AKCYJNA,0.444,similarite basse (0.444) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594001GHN9EGK8LUS35,a_revoir,DARKPOINT,DARK POINT GAMES SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594001TKVMD88NGMW19,a_revoir,SWMANSION,SOFTWARE MANSION SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594002VHMR7UHMSBK72,a_revoir,LOKATYBUD,LOKATY BUDOWLANE SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940033LP8BM14HEY88,a_revoir,IBCPOLSKA,IBC POLSKA F & P SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594004VLD1CVBFO0S69,a_revoir,NTCAPITAL,NEW TECH CAPITAL SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400PCIRPVV7S0SZ37,a_revoir,POLARISIT,Polaris IT Group Spółka Akcyjna,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400T98WL4ND1OMM07,a_revoir,SOLARINOV,SOLAR INNOVATION SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400XLN2TP4IDXQH34,a_revoir,KONSSTALI,KONSORCJUM STALI SPÓŁKA AKCYJNA,0.45,similarite basse (0.45) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+894500848KJDNXTZE991,a_revoir,Slance Tobacco International AD,SLANCE STARA ZAGORA TABAC,0.453,similarite basse (0.453) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+9695005BDIQVS2PM7G48,a_revoir,PAREF,PARIS REALTY FUND,0.455,similarite basse (0.455) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+213800U7SBKWW79CBG88,a_revoir,"Trastor Real Estate Invt Co.SA Namens-Aktien EO 0,50",TRASTOR ANONYMI ETAIREIA EPENDYSEON AKINITIS PERIOUSIAS,0.456,similarite basse (0.456) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2594003O9PBUEBDCNE95,a_revoir,GRUPAREC,Grupa Recykl Spółka Akcyjna,0.457,similarite basse (0.457) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594008IVE3GCA7QSX60,a_revoir,GREENZEB,GREEN ZEBRAS SPÓŁKA AKCYJNA,0.457,similarite basse (0.457) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940019Z0EBJ7GB4X87,a_revoir,KRVITAMIN,KRYNICA VITAMIN SPÓŁKA AKCYJNA,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400BZMAEVV6VJI618,a_revoir,GHYDROGEN,GLOBAL HYDROGEN SPÓŁKA AKCYJNA,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400IJ7N5QIIQSBQ70,a_revoir,MSM,Massmedica S.A.,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400QK02LW991LO230,a_revoir,MOSTALPLC,Mostostal Plock Spolka Akcyjna,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400TSGFL31KMHOM60,a_revoir,VMAXSA,V-MAX SPÓŁKA AKCYJNA,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400ZBL6DOUA86FW60,a_revoir,STEMCELLS,STEM CELLS SPIN SPÓŁKA AKCYJNA,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400ZHB4F5I9W33V60,a_revoir,AQUAPOZ,AQUA SPOLKA AKCYJNA,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+724500C17UZL2NC2DE67,a_revoir,TRIODOS FAIR SHARE FUND,Triodos Investment Management B.V.,0.462,similarite basse (0.462) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+2594001E4NY9ZY0ZUT85,a_revoir,DIVOLIO,DI VOLIO SPÓŁKA AKCYJNA,0.467,similarite basse (0.467) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940028N3R8UJ6NUM52,a_revoir,UFGAMES,UF GAMES SPÓŁKA AKCYJNA,0.467,similarite basse (0.467) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940046IQE1NPRJ0C66,a_revoir,PLGROUP,PL GROUP SPÓŁKA AKCYJNA,0.467,similarite basse (0.467) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940053ZLUYB90M2625,a_revoir,3RGAMES,3R GAMES SPÓŁKA AKCYJNA,0.467,similarite basse (0.467) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594000Z9C27NOR5NP98,a_revoir,TERMOEXP,TERMOEXPERT SPÓŁKA AKCYJNA,0.471,similarite basse (0.471) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400DDUO3OPXPH8E49,a_revoir,PREFAGRP,Prefa Group Spółka Akcyjna,0.471,similarite basse (0.471) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400EP8BDGIUCNDP66,a_revoir,TECNTICA,TECNOVATICA SPÓŁKA AKCYJNA,0.471,similarite basse (0.471) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594006MOISZHCB5V819,a_revoir,AKCEPTFIN,AKCEPT FINANCE SPÓŁKA AKCYJNA,0.474,similarite basse (0.474) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400I5IEBCZXNAHG46,a_revoir,ATLANTAPL,ATLANTA POLAND SPÓŁKA AKCYJNA,0.474,similarite basse (0.474) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400J855Z337VYIH17,a_revoir,ABSINVEST,ABS INVESTMENT SPÓŁKA AKCYJNA,0.474,similarite basse (0.474) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+549300G0YWS61EEZQE20,a_revoir,Safestate Group AB Namn-Aktier o.N.,Eyeon Group AB (publ),0.476,similarite basse (0.476) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+5493000EWHDSR3MZWH98,a_revoir,"ACCENTURE A DL-,0000225",ACCENTURE PUBLIC LIMITED COMPANY,0.478,similarite basse (0.478) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+2594007DYK5CUE0SY342,a_revoir,INDYGO,INDYGOTECH MINERALS SA,0.48,similarite basse (0.48) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+5299006VZUU6GQ2DJF41,a_revoir,ENEFI Asset Management Plc SHRS,ENEFI Vagyonkezelő Nyrt.,0.48,similarite basse (0.48) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+213800XKY8GHKN57D970,a_revoir,"Noval Prop.SA Real Est.Inv.Co.Namens-Aktien EO 2,5",NOVAL PROPERTY ANONYMI ETAIREIA EPENDYSEON SE AKINITI PERIOUSIA,0.482,similarite basse (0.482) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+259400H00XNTVFRDP726,a_revoir,ORZLOPONY,ORZEL SPOLKA AKCYJNA,0.483,similarite basse (0.483) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+635400JUG5XJXOPPJJ47,a_revoir,"DOLE PLC Registered Shares DL -,01",DOLE PUBLIC LIMITED COMPANY,0.483,similarite basse (0.483) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+2594005GJE307WC5DQ35,a_revoir,WIERZYCL,"""WIERZYCIEL"" SPÓŁKA AKCYJNA",0.485,similarite basse (0.485) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400M05NII2GB4Z124,a_revoir,CONSOLEW,CONSOLEWAY SPÓŁKA AKCYJNA,0.485,similarite basse (0.485) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400QGYEAGRYCQ5Y56,a_revoir,KRAKCHEM,KRAKCHEMIA SPÓŁKA AKCYJNA,0.485,similarite basse (0.485) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400CLVF2IV73L7M89,a_revoir,CARBONSTU,Carbon Studio Spółka Akcyjna,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400DQXA7KMWKYYK18,a_revoir,TECHROBOT,TECH ROBOTICS SPÓŁKA AKCYJNA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400PVCMPEOKAG6032,a_revoir,PROGUNSGR,PROGUNS GROUP SPÓŁKA AKCYJNA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+549300DEVOUEDF13V046,a_revoir,INTERWOOD-XYLEMPORIA A.T.E.N.E. (CR),INTERGOUNT - XYLEMORIA ANONYMI TECHNIKI EMPOROVIOMICHANIKI NAFTILIAKI ETAIREIA,0.486,similarite basse (0.486) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+787200IISRQXO9PRB732,a_revoir,Soc.Pr.Ener.Elec.H.Hidroelec. Nam.-Akt. LN 10,"SOCIETATEA DE PRODUCERE A ENERGIEI ELECTRICE IN HIDROCENTRALE ""HIDROELECTRICA"" S.A.",0.492,similarite basse (0.492) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+213800634TPSMISOK357,a_revoir,"Mathios S.A. Namens-Aktien EO -,50",ANONYMOS VIOTECHNIKI EMPORIKI KAI TECHNIKI ETAIREIA MATHIOS PYRIMACHA A.E.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2138006G2GQXN273W598,a_revoir,"Bitros Holdings S.A. Namens-Aktien EO 1,51",Bitros Symmetochiki Anonymi Etairia,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2138007I87QL984QHP93,a_revoir,MEDITERRA S.A. (CR),MEDITERRA SA PRODUCTION AND DISTRIBUTION OF TRADITIONAL PRODUCTS,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+21380093P5MN4CJUHL68,a_revoir,"Sidma Steel S.A. Namens-Aktien EO 1,35",SIDIREMPORIKI MAKEDONIAS-SIDMA S.A.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800CJOATNW6QXZI77,a_revoir,"Minerva Knitwear Namens-Aktien EO 0,50",J AND B LADENIS BROTHERS S.A. KNITWEAR MANUFACTURING COMPANY,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800M481O3KA5PZB55,a_revoir,"Ilyda S.A. Namens-Aktien EO -,45",ILYDA ANONYMOUS COMMERCIAL CONSTRUCTION COMPANY FOR INFORMATION AND SYSTEMS AND SERVICES,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2549001R4N691MM8TL04,a_revoir,FAM SA GALATI,FABRICA DE ACCESORII METALICE FAM SA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+2549008A8COC7R7ING54,a_revoir,INCERTRANS SA BUCURESTI,Institutul De Cercetari In Transporturi Incertrans SA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+25940008VNCUKPJDPI14,a_revoir,"Xplus SA Inhaber-Aktien ZY -,01",XPLUS SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594001SQPVUF46JD857,a_revoir,"Proacta S.A. Inhaber-Aktien ZY -,50",PROACTA SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940028UYB80NKYWV05,a_revoir,"Gamivo S.A. Inhaber-Aktien ZY -,10",GAMIVO SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940031HO5P1FOZFV64,a_revoir,ATOMJELLY,ATOMIC JELLY SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400325KF6BPQ17643,a_revoir,"Medapp S.A. Inhaber-Aktien ZY -,10",MEDAPP SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003D7O7NDUV8GE29,a_revoir,READGENE,"""READ-GENE"" SPÓŁKA AKCYJNA",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003LAM4C1VYJJ536,a_revoir,PREMFOOD,Premium Food Restaurants S.A.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003WXZYB1T2YY370,a_revoir,"Jujubee S.A. Inhaber-Aktien ZY -,10",JUJUBEE SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940046U7RU78WNZ924,a_revoir,PROCHNIK,PRÓCHNIK S.A. w upadłości,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594004E42IGJTVNFO09,a_revoir,INVENTION,INVENTIONMED SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594004GI9JIDTT6DU23,a_revoir,"Moonlit S.A. Inhaber-Aktien ZY -,10",MOONLIT SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594004JMA089UP9PP18,a_revoir,ATCCARGO,"""ATC CARGO"" SPÓŁKA AKCYJNA",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940053KCS748J2BC03,a_revoir,RUCHCHORZ,"""RUCH"" CHORZÓW SPÓŁKA AKCYJNA",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594008OUU7YCBBPX726,a_revoir,GRUPAHRC,GRUPA HRC Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400B87KKXBG7YGE64,a_revoir,MBFGROUP,MBF Group Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400BHGMMJPONFVR31,a_revoir,"mPay S.A Inhaber-Aktien ZY -,50","""MPAY"" SPÓŁKA AKCYJNA",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400BOYYQV8AS06S97,a_revoir,RRHGROUP,RRH GROUP SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400C6YEIPY6KI6810,a_revoir,"Incuvo S.A. Inhaber-Aktien ZY -,50",Incuvo Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400CGG9W2J9CI7T82,a_revoir,"ATREM S.A. Inhaber-Aktien ZY -,50",ATREM SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400F1ML9OGF3R9703,a_revoir,"BTCS S.A. Inhaber-Aktien ZY -,50",BTCS SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400G9MUCF7RQLHQ45,a_revoir,SDSOPTIC,SDS OPTIC SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400IVDZQD3LOIGZ37,a_revoir,"Scanway S.A. Inhaber-Aktien ZY -,10",SCANWAY SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400KG5JVQPPZL6X53,a_revoir,"Mabion SA Inhaber-Aktien ZY -,10",Mabion Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400L72C5LYIFMI528,a_revoir,CTEGROUP,CTE GROUP SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400NUE5RV6FYCPE21,a_revoir,DORZECZY,DO RZECZY SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400NYO7I44HC1R952,a_revoir,JRCGROUP,JRC GROUP SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400PH8V65PVFZFY25,a_revoir,"Novina S.A. Inhaber-Aktien E ZY 1,16",NOVINA SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400SNF6X56X47FT06,a_revoir,WGPARTNER,W.G PARTNERS SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400TK5G3DLOFYIO93,a_revoir,"Munar S.A. Inhaber-Aktien ZY -,10",MUNAR SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400TYIX04DFP73M21,a_revoir,"Zortrax S.A. Inhaber-Aktien ZY -,10",ZORTRAX SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400V7KR5T2T4TPL09,a_revoir,"Devoran SA Inhaber-Aktien ZY -,10",DEVORAN SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400VSMNUS19PYEL33,a_revoir,"SFD S.A. Inhaber-Aktien ZY -,10",SFD SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400VX0J0TTO4MTF07,a_revoir,"Duality SA Inhaber-Aktien ZY -,10",Duality Spółka Akcyjna,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400WH9OYGKNDGAD64,a_revoir,"Rocca SA Inhaber-Aktien ZY -,05",ROCCA SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400Y74EQ3N0EVIA73,a_revoir,"DADELO S.A. Inhaber-Aktien ZY-,20",DADELO SPÓŁKA AKCYJNA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+3157007G7T4HYH589P37,a_revoir,IAMU SA BLAJ,I.A.M.U. SA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+48510000ZQJJELMSZC35,a_revoir,"Siguldas CMAS A/S Registered Shares EO 1,40","Akciju sabiedrība ""SIGULDAS CILTSLIETU UN MĀKSLĪGĀS APSĒKLOŠANAS STACIJA""",0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,LV,LV,non
+485100QDV09O74E83J88,a_revoir,Svinecomplex Nikolovo AD-Nikolovo,NIKOLOVO AGRO,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+485100UH6CDO0F908J69,a_revoir,HD Dunav AD,HOLDINGOVO DRUZESTVO DUNAV AD,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+529900JIV2O9HEPWIN77,a_revoir,Solid Fab,Solid Försäkringsaktiebolag,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+529900V0C6LJV204ZV80,a_revoir,NAP ZRT,NAP Nyilvánosan Működő Részvénytársaság,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+529900YKJ0ZBGIW5V921,a_revoir,GOPD ZRT,GOPD Nyilvánosan Működő Részvénytársaság,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+549300BURLR9SLYY2705,a_revoir,Trane Tech,TRANE TECHNOLOGIES PUBLIC LIMITED COMPANY,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+549300IFOQS6R1QLY196,a_revoir,"Perrigo Co. PLC Registered Shares EO -,001",PERRIGO COMPANY LIMITE,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+635400GUFTQDXIVUEM96,a_revoir,Ayfie International AS SHRS,AYFIE GROUP AS,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,NO,NO,non
+635400JG4YSDU5U1YU17,a_revoir,Malin Corp PLC,Malin Corporation Public Limited Company,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+724500SB1LKCXIB6UY42,a_revoir,KEMPEN SUSTAINABLE GLOBAL HIGH DIVIDEND FUND CLASS N,KEMPEN UMBRELLA FUND I N.V.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+8156007B843206924D33,a_revoir,ISCC FINTECH,INTEGRATED SYSTEM CREDIT CONSULTING FINTECH S.P.A.,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+81560088B57A84B33C64,a_revoir,ICOP SpA SHRS,ICOP S.P.A. SOCIETA' BENEFIT,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+815600D6F26FEBDF0C66,a_revoir,A.B.P. NOCIVELLI S.p.A. Azioni nom. o.N.,AZIENDA BRESCIANA PETROLI NOCIVELLI S.P.A. (A.B.P. NOCIVELLI S.P.A.),0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+89450089H17HDB1VN544,a_revoir,NIC Nadejda AD,NATIONAL INVESTMENT COMPANY NADEJDA AD,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+8945008OK90PXHE1RL82,a_revoir,Sopharma Properties REIT-SofiaInhaber-Aktien BW 1,SOPHARMA IMOTI,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+9676003MHRR65PEFOV44,a_revoir,Dierkunde van Antwerpen - Onroerend Patrimonium (Koninklijke Mij voor),Koninklijke Maatschappij voor Dierkunde van Antwerpen,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,BE,BE,non
+969500IJO9LS9EG0DV72,a_revoir,PERRIER (GERARD),GERARD PERRIER INDUSTRIE,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+969500WPA3Q15Q63VY06,a_revoir,Scemi SHRS,GROUPE SCEMI/ VALUE DATA SERVICES,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+9845001C3N4C36B25X63,a_revoir,DOTSOFT S.A. (CR),DOTSOFT OLOKLIRONENES LYSEIS TECHNOLOGIAS PLIROFORIKIS ANONYMI ETAIRIA,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+984500558A4B099PCC34,a_revoir,Lumi Education Group AS SHRS,LUMI GRUPPEN AS,0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,NO,NO,non
+984500C635EA7EDB7420,a_revoir,C100 AB Namn-Aktier o.N.,C100 AB (publ),0.5,similarite basse (0.5) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+2594006KPU4W75VW0O90,a_revoir,"Eo Networks S.A. Inh.-Aktien A,B,C,D,E ZY -,10",EO NETWORKS SPÓŁKA AKCYJNA,0.509,similarite basse (0.509) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+529900ZIETUJG71XNM98,a_revoir,Dt. Grundstücksauktionen AG Inhaber-Aktien o.N.,Deutsche Grundstücksauktionen AG vormals Berliner Grundstücksauktionen,0.511,similarite basse (0.511) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+391200VC4LWGA9FR8550,a_revoir,"InflaRX N.V. Aandelen op naam EO 0,12",InflaRx N.V. Germany,0.513,similarite basse (0.513) mais pas assez extreme pour conclure a un LEI douteux,NL,DE,non
+2594000Q8OXX59YS4Q04,a_revoir,BTCSTUDIO,BTC STUDIOS SPÓŁKA AKCYJNA,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594002ON76MLEI4HQ80,a_revoir,BLACKPOIN,BLACK POINT SPÓŁKA AKCYJNA,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594005KE2S8SVJDKU60,a_revoir,INSIDPARK,INSIDE PARK SPÓŁKA AKCYJNA,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400IJV1V3TF45QC25,a_revoir,IFCAPITAL,Investment Friends Capital SE,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,EE,non
+259400VMSJKACIO8DV14,a_revoir,XBSPROLOG,XBS PRO-LOG Spółka Akcyjna,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400WU08VJ9LDDWH54,a_revoir,GREENLANE,GREEN LANES SPÓŁKA AKCYJNA,0.514,similarite basse (0.514) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+959800CHLXTS5M688863,a_revoir,NORTEM BIOGROUP SHRS,NORTEM CHEM SA,0.516,similarite basse (0.516) mais pas assez extreme pour conclure a un LEI douteux,ES,ES,non
+485100BTLQ4TTTH6G473,a_revoir,Sofia Commerce-Pawn Brokerage AD,SOFIA KOMERS ZALOZHNI KUSHTI,0.526,similarite basse (0.526) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+724500OX0EBQRYTVV639,a_revoir,"Cosmo N.V. Aandelen EO -,26",COSMO Pharmaceuticals N.V.,0.526,similarite basse (0.526) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+2594001TDUNNQ5WROK94,a_revoir,OVIDWORKS,Ovid Works Spółka Akcyjna,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940028HEPJJ75HI851,a_revoir,DRFINANCE,DR.FINANCE SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594005N8UOAAMKXW724,a_revoir,MPLVERBUM,MPL VERBUM SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940082VX0OUZKC4L72,a_revoir,FROZENWAY,FROZEN WAY SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400BSVPWDZBYIKE14,a_revoir,PLOTTWIST,Plot Twist spółka akcyjna,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400GNL7BTKZV9TP40,a_revoir,PLANETB2B,PLANET B2B SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400GQSRD8CNJERX02,a_revoir,"Moliera2 S.A. Inhaber-Aktien ZY -,10",MOLIERA2 SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400M3HXJEYPFNZ042,a_revoir,"Geotrans S.A. Inhaber-Aktien ZY -,10",GEOTRANS SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400ND13Y44ADMG554,a_revoir,"Genomtec S.A. Namens-Aktien ZY -,10",GENOMTEC SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400W02PUEBU2NRR74,a_revoir,"polWAX S.A. Inhaber-Aktien B,C ZY -,05",POLWAX SPÓŁKA AKCYJNA,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400WCJ4EQ9UROOR12,a_revoir,WERTHHOLZ,"""WERTH-HOLZ"" SPÓŁKA AKCYJNA",0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+5493002QLDY8O75RTR78,a_revoir,"Adient PLC Registered Shares DL -,001",ADIENT PUBLIC LIMITED COMPANY,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+549300X1IFD75XISOR81,a_revoir,"Cimpress PLC Registered Shares EO-,01",CIMPRESS PUBLIC LIMITED COMPANY,0.529,similarite basse (0.529) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+485100WDI9KEAB0IJD61,a_revoir,Helios Marine AD,Helios Yachts JSC,0.533,similarite basse (0.533) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+549300LS1K5S7AWHV603,a_revoir,"Infortar AS Registered Shares EO -,3",AKTSIASELTS INFORTAR,0.533,similarite basse (0.533) mais pas assez extreme pour conclure a un LEI douteux,EE,EE,non
+2594002TXS19AUYHIF82,a_revoir,"MMultiQure S.A. Inhaber-Aktien ZY -,10",MULTIQURE SPÓŁKA AKCYJNA,0.541,similarite basse (0.541) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+4851001GE3V3VGVUKJ19,a_revoir,Transstroy-AM AD,TRANSSTROJ AVTOMATIKA I MANTAJI,0.545,similarite basse (0.545) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+894500AO07SY4UI1DD21,a_revoir,Zenith Properties REIT,ZENIT IMOTI,0.545,similarite basse (0.545) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+969500Y9OS90CR85XK68,a_revoir,Ste Immo.Par.d.l.Perle Pi.Pre. Actions Nominatives EO 39,SOCIETE ANONYME IMMOBILIERE PARISIENNE DE LA PERLE ET DES PIERRES PRECIEUSES,0.55,similarite basse (0.55) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+2594007JZ95WULE8HS05,a_revoir,EDITELPL,EDITEL SPOLKA AKCYJNA,0.552,similarite basse (0.552) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+5299007GQ0BZ88LXS693,a_revoir,Ormester Vagyonvedel.Ny.Mk.Rt.Namens-Akt. UF 100,Őrmester Vagyonvédelmi Nyilvánosan Működő Részvénytársaság,0.552,similarite basse (0.552) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+815600CB93311F9F2A51,a_revoir,Masi Agricola S.p.A. Azioni nom. o.N.,MASI AGRICOLA S.P.A. E PER BREVITA' M.AGRI S.P.A.,0.552,similarite basse (0.552) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+894500DEE7OJ1YCWHD15,a_revoir,Energetics and Energy Savings Fund-FEEI SPV,FOND ZA ENERGETIKA I ENERGIINI IKONOMII - FEEI,0.552,similarite basse (0.552) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+2138009EU3AKHX5FPI12,a_revoir,Selected Energy S.A,EPILEKTOS ENERGEIAKH AE (SELECTED ENERGY SA),0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+25940023NOV2F7H6Q680,a_revoir,PBSFINANSE,PBS Finanse Spółka Akcyjna,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003SJJK7ZVGK7P67,a_revoir,OZECAPITAL,OZE CAPITAL SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400GAPNZTGIR9PK55,a_revoir,"Labocanna S.A. Inhaber-Aktien ZY -,10",LABOCANNA SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400IGQXCHZTU0NF34,a_revoir,"Noctiluca S.A. Inhaber-Aktien ZY -,15",NOCTILUCA SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400QZD5JYK8SLZU51,a_revoir,"Bioceltix S.A. Inhaber-Aktien ZY -,10",BIOCELTIX SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400Z2RV60RNM5I405,a_revoir,"Kool2Play S.A. Inhaber-Aktien ZY -,10",KOOL2PLAY SPÓŁKA AKCYJNA,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+54930094UMSXWVWJMT48,a_revoir,Budapesti Értéktõzsde Nyrt. Inhaber-Aktien UF 100,Budapesti Értéktőzsde Nyilvánosan Működő Részvénytársaság,0.556,similarite basse (0.556) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+KHCL65TP05J1HUW2D560,a_revoir,KBL European Private Bankers,QUINTET PRIVATE BANK (EUROPE) S.A.,0.561,similarite basse (0.561) mais pas assez extreme pour conclure a un LEI douteux,LU,LU,non
+549300NYXXGXTSV6LL78,a_revoir,Level Bio AB Namn-Aktier SK 1,Level Bio AB (publ),0.564,similarite basse (0.564) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+485100YD4DGH2NGSSO15,a_revoir,Premium Property Invest REIT,Green Industry Properties,0.566,similarite basse (0.566) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+485100QKUD4PL7P9IV45,a_revoir,TK-Properties AD,TK-IMOTI,0.571,similarite basse (0.571) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+894500EDI0VKLPLDO304,a_revoir,Qbrick AB Namn-Aktier o.N.,Qbrick AB (publ),0.571,similarite basse (0.571) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+969500CGTBE91NX76Q18,a_revoir,NR21 SA SHRS,NR 21,0.571,similarite basse (0.571) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+969500WCWQK79VV9SJ13,a_revoir,ARDOIN ST AMAND A,LES MOTOCYCLES ARDOIN SAINT AMAND & CIE,0.571,similarite basse (0.571) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+81560078F49038D13E57,a_revoir,Convergenze S.p.A. SB Azioni nom. o.N.,CONVERGENZE S.P.A. SOCIETA' BENEFIT,0.577,similarite basse (0.577) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+25940023S7TV13RNGG63,a_revoir,"Play2Chill S.A. Inhaber-Aktien ZY -,10",Play2Chill Spółka Akcyjna,0.579,similarite basse (0.579) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594006SDN9F99AXG397,a_revoir,"Excellence S.A. Inhaber-Aktien ZY -,10",Excellence Spółka Akcyjna,0.579,similarite basse (0.579) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400GMIFCHBC35MN80,a_revoir,"Woodpecker.Co S.A. Inhaber-Aktien ZY -,10",WOODPECKER.CO SPÓŁKA AKCYJNA,0.579,similarite basse (0.579) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400TFXLK4AHADC670,a_revoir,"Qubicgames S.A. Inhaber-Aktien ZY -,10",QUBICGAMES SPÓŁKA AKCYJNA,0.579,similarite basse (0.579) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+636700Q32ZU92M86MH76,a_revoir,NVENT ELECTRIC PLC,NVENT THERMAL LLC,0.581,similarite basse (0.581) mais pas assez extreme pour conclure a un LEI douteux,IE,US,non
+21380057JCMNND7C2I20,a_revoir,"Spyrou Agricultural Products Namens-Aktien EO 0,3",SPIROU HOUSE OF AGRICULTURE S.A.,0.582,similarite basse (0.582) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+894500RSIIEY6BQP9U56,a_revoir,Telelink Biznes Sarvisis Gr.ADRegistered Shares BW 1,TELELINK BUSINESS SERVICES GROUP,0.582,similarite basse (0.582) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+391200ZW8KFV3AHVHG19,a_revoir,MUENCH.TIER.HEL. INH.O.N.,Münchener Tierpark Hellabrunn Aktiengesellschaft,0.583,similarite basse (0.583) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+894500MLQTCOTWH4KX91,a_revoir,CBA Asset Management AD,TSBA ASET MENIDZHMANT AD,0.585,similarite basse (0.585) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+8945008K3I3GF0TJSH52,a_revoir,PRC REIT,PRC ADSIC,0.588,similarite basse (0.588) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+894500OLCBOOO8WZUE76,a_revoir,"Altisource Ptf Solns S.A. Actions Nominatives DL 0,01",Altisource Portfolio Solutions S.A.,0.59,similarite basse (0.59) mais pas assez extreme pour conclure a un LEI douteux,LU,LU,non
+549300UYJUX7755YPG41,a_revoir,Ortelius International AB,International Vehicles AB,0.591,similarite basse (0.591) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+5299009ZXQ8NIIJ8OL30,a_revoir,"Prothena Corp. PLC Registered Shares DL -,01",Prothena Corporation Public Limited Company,0.593,similarite basse (0.593) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+743700SNJLIHHMNMRM35,a_revoir,Auroora Group Oyj,Auroora Yhtiöt Oyj,0.593,similarite basse (0.593) mais pas assez extreme pour conclure a un LEI douteux,FI,FI,non
+259400S94LVJHMI2HK12,a_revoir,"Merit Invest S.A. Inhaber-Aktien A,B,C ZY -,10",MERIT INVESTMENTS ASI SPÓŁKA AKCYJNA,0.596,similarite basse (0.596) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+894500AYMOOX6K9PIP24,a_revoir,Forucom Real Estate Fund REIT,Forucom Fond Imoti,0.596,similarite basse (0.596) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+39120067NAUEDINWPB62,a_revoir,Reed. H. Ekkenga AG Passagier. Namens-Stammaktien EO 550,Reederei Herbert Ekkenga Aktiengesellschaft Passagierschiffahrt,0.598,similarite basse (0.598) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+213800MHHMB2EDLWIB54,a_revoir,MetMax Europe Zrt SHRS,MetMax Europe Zártkörűen Működő Részvénytársaság,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+213800MM1BRNC3393O45,a_revoir,PHARMACEUTICAL CENTRE S.A.,FARMAKEYTIKO KENTRO A.E.,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800USGL7Q5UR9M221,a_revoir,ALPHA  TRUST-ANDROMEDA INVESTMENT TRUST S.A. (CR),ALPHA TRUST- ANDROMEDA ANONYMI ETAIREIA EPENDYSEON CHARTOFYLAKIOU,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+259400OWZM67D079S374,a_revoir,"Synthaverse S.A. Inhaber-Aktien ZY -,10","""SYNTHAVERSE"" SPÓŁKA AKCYJNA",0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400XGDU2DGN562O61,a_revoir,"GameHunters S.A. Inhaber-Aktien ZY -,10",GAMEHUNTERS SPÓŁKA AKCYJNA,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+724500OXA42JYYP09150,a_revoir,Van Aalst Group Certificaten van aandelen C,Stichting Administratiekantoor Van Aalst Group,0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+894500IE8D5SS15O5R66,a_revoir,Adverty AB Namn-Aktier o.N.,Adverty AB (publ),0.6,similarite basse (0.6) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+549300BNBJMO4DUS6P16,a_revoir,FINANCIERE DES SUCRES (Sté) - FINASUCRE,Société Financière des Sucres,0.606,similarite basse (0.606) mais pas assez extreme pour conclure a un LEI douteux,BE,BE,non
+8945007RAYEW1I44FL03,a_revoir,CEE Properties REIT,CII IMOTI REIT,0.606,similarite basse (0.606) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+635400NZ1RTHSGDVNQ43,a_revoir,"Great Western Mining Corp. Registered Shs EO -,0001",Great Western Mining Corporation Public Limited Company,0.609,similarite basse (0.609) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+636700QAWC6SZD422R49,a_revoir,GreenMerc AB Namn-Aktier B o.N.,GreenMerc AB (publ),0.611,similarite basse (0.611) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+529900DCWYI92XM86065,a_revoir,Deutsche Eff.-u.Wechs.-Bet. AG Inhaber-Aktien o.N.,Deutsche Effecten- und Wechsel-Beteiligungsgesellschaft AG,0.615,similarite basse (0.615) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+529900E3X20C712R8898,a_revoir,Mineralbr.Überkingen-Tein.KGaAInhaber-Stammaktien o.N.,Mineralbrunnen Überkingen-Teinach GmbH & Co. KGaA,0.619,similarite basse (0.619) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+549300QIZP5BC76GPS64,a_revoir,"Mindark Pe AB Namn-Aktier SK SK 0,05",MindArk PE Aktiebolag (publ),0.621,similarite basse (0.621) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+2594007J8EIE7USAH935,a_revoir,Poznanska Korp. Bud. Pek. S.A. Inhaber-Aktien A ZY 1,Poznanska Korporacja Budowlana Pekabex Spolka Akcyjna,0.623,similarite basse (0.623) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+213800KO1I8DQRSUZ467,a_revoir,DUROS S.A. (CR),DOUROS SA,0.625,similarite basse (0.625) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+5299003627Q9PI138B45,a_revoir,DMKER,DM-KER Nyrt.,0.625,similarite basse (0.625) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+549300UEMQUDQP5T4P36,a_revoir,Byhmgard AB Namn-Aktier o.N.,Byhmgard AB (publ),0.625,similarite basse (0.625) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+894500W0YBCK3DD02614,a_revoir,EPROLIUSIA,Eprolius Ingatlan Nyrt.,0.625,similarite basse (0.625) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+5299009ZMEBI9NXXD898,a_revoir,LANDSHUTER KUNSTM.AKTIEN,Landshuter Kunstmuhle C.A. Meyers Nachfolger Aktiengesellschaft,0.627,similarite basse (0.627) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+21380057G5WL3YANMJ18,a_revoir,"Proodeftikh Technical Co. S.A. Namens-Aktien EO -,30",PROODEFTIKI SA,0.629,similarite basse (0.629) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+984500FCF48A554E7035,a_revoir,VIVETECH ZARTKOERUEN MUKOEDO RESZVENYTARSASAG,ViVeTech Nyilvánosan Működő Részvénytársaság,0.629,similarite basse (0.629) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+969500MBA2IX17UII261,a_revoir,LEXIBOOK LINGUIST.,LEXIBOOK LINGUISTIC ELECTRONIC SYSTEM,0.63,similarite basse (0.63) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+549300KMD1FJPEDFW426,a_revoir,Exalt AB SHRS,Exalt AB (publ),0.632,similarite basse (0.632) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+2549005DD4RV36NOVX85,a_revoir,Gaiashopping SICAFI SA SHRS,"GAIASHOPPING - SIC IMOBILIÁRIA FECHADA, S.A.",0.633,similarite basse (0.633) mais pas assez extreme pour conclure a un LEI douteux,PT,PT,non
+213800G3VIJY4T38BW33,a_revoir,"Philippos Nakas S.A. Inhaber-Aktien EO -,53",FILIPPOS NAKAS A.V.E.E.T.E.,0.636,similarite basse (0.636) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2594001TZOUDJHIXDH67,a_revoir,"Vivid Games S.A. Inhaber-Aktien A,B ZY -,10",Vivid Games Spółka akcyjna,0.636,similarite basse (0.636) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+254900BNJKBGSU9LON27,a_revoir,Octave Intelligence PLC Reg. Shares Cl. B o.N.,OCTAVE INTELLIGENCE PUBLIC LIMITED COMPANY,0.638,similarite basse (0.638) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+213800M6H5Z41UFF4D65,a_revoir,Garpco B,GARPCO AKTIEBOLAG,0.64,similarite basse (0.64) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+635400FMV7DDT9Q37O79,a_revoir,Copam-Cia.Portug.de Amidos SA Acções Nominativas EO 5,"COPAM COMPANHIA PORTUGUESA DE AMIDOS, S.A.",0.642,similarite basse (0.642) mais pas assez extreme pour conclure a un LEI douteux,PT,PT,non
+636700PWJH5T0BF28W24,a_revoir,Mahvie Minerals AB Namn-Aktier Ser.A1 o.N.,Mahvie Minerals AB (publ),0.642,similarite basse (0.642) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+635400GWH5YE1XNIVG85,a_revoir,Fusion Fuel Green PLC Reg. Shares Cl. A o.N.,Fusion Fuel Green Public Limited Company,0.646,similarite basse (0.646) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+549300WK66I1N5RE2T81,a_revoir,Cinkarna Met.kem.ind. Celje ddNam.-Akt. o.N.,"CINKARNA Metalurško-kemična industrija Celje, d.d.",0.65,similarite basse (0.65) mais pas assez extreme pour conclure a un LEI douteux,SI,SI,non
+549300EQF6IH6OIAYL40,a_revoir,GronlandsBANKEN A/S,"GRØNLANDSBANKEN, AKTIESELSKAB",0.651,similarite basse (0.651) mais pas assez extreme pour conclure a un LEI douteux,DK,GL,non
+529900694XN793PP8088,a_revoir,MULTIHOME INGATLANFORGALMAZO ZRT,MULTIHOME Ingatlanforgalmazó Zártkörűen Működő Részvénytársaság,0.653,similarite basse (0.653) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+635400RUXIFEZSRU8X70,a_revoir,"Seagate Technolog.Holdings PLCRegistered Shares DL -,00001",SEAGATE TECHNOLOGY HOLDINGS PUBLIC LIMITED COMPANY,0.653,similarite basse (0.653) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+21380029I4NIQ9ZXE146,a_revoir,MEDICON HELLAS S.A. (CR),AUTOMATED ANALYSERS-DIAGNOSTIC REAGENTS AND PRIVATE DIAGNOSTIC LABORATORIES-MEDICON HELLAS S.A.,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800E2YWTRWHBWH463,a_revoir,TREK DEVELOPMENT S.A. (CR),TREK DEVELOPMENT OF INFRASTRUCTURES AND SERVICES S.A.,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800FWWLECQADHEP35,a_revoir,R ENERGY 1 S.A,R ENERGEIA 1 ENERGEIAKI MONOPROSOPI ANONYMI ETAIREIA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800HXVMES8WAJ4N73,a_revoir,D.A.P.P. Digital Access Pass PTE Investments Public Company Ltd,EXELIXI INVESTMENTS PUBLIC LIMITED,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,CY,CY,non
+213800Q23BDHSW1OQT90,a_revoir,"BLE KEDROS REIC Namens-Aktien EO 1,10",BLE KEDROS REAL ESTATE INVESTMENT COMPANY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+213800ST2AK5XQ1O5207,a_revoir,"Talisman Metals PLC Registered Shares EO -,02",TALISMAN METALS PUBLIC LIMITED COMPANY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+213800VY7E9XRJK5RH03,a_revoir,Allspark Asia Pacific Group Public Company Ltd,METRANACO PUBLIC COMPANY LTD,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,CY,CY,non
+213800WYDLD78V7N1563,a_revoir,"Petrel Resources PLC Registered Shares EO -,0125",PETREL RESOURCES PUBLIC LIMITED COMPANY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+213800ZZR66YH2UI7L80,a_revoir,"Kordellos Ch. Bros. S.A. Namens-Aktien (CR) EO -,42",KORDELLOU BROS S.A.,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+2330000630O55009DD59,a_revoir,VERTIKAL GROUP NYRT,VERTIKAL Group Nyilvánosan Működő Részvénytársaság,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+23300024OBT04T63ZZ07,a_revoir,ENERGY INVESTMENT ORD SHS,Energy Investment SE Nyilvánosan Működő Európai Részvénytársaság,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+254900Y0UV2Z6924JE91,a_revoir,ECHMI S.A. INVESTMENT CONSULTANTS,Echmi Industrial Investment Consultancy Export Import Anonymous Company,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,CY,GR,non
+2594000S9I4OYXNFSY69,a_revoir,"Detalion Games S.A. Inhaber-Aktien ZY -,10",DETALION GAMES SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594001AR6180Q4I5M53,a_revoir,"Games Operators SA Inhaber-Aktien ZY-,10",GAMES OPERATORS SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003861748MH77265,a_revoir,"Games Box S.A. Inhaber-Aktien ZY -,10",GAMES BOX SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594003VZ5JTOOJWBI40,a_revoir,"Military Group S.A. Inhaber-Aktien ZY -,10",Military Group Spółka Akcyjna,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400495WJY6X05RD11,a_revoir,"Inno-Gene SA Inhaber-Aktien ZY -,10",Inno-Gene Spółka Akcyjna,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940049K7NEFYIM4049,a_revoir,"BAKED GAMES S.A. Inhaber-Aktien ZY -,10",Baked Games Spółka Akcyjna,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940056U85867L1C089,a_revoir,"CONSOLE LABS S.A. Inhaber-Aktien ZY -,10",CONSOLE LABS SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+2594006MFLE4NUTO2L22,a_revoir,"QNA Technology S.A. Inhaber-Aktien ZY -,10",QNA TECHNOLOGY SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+25940078SIHYSK1JO771,a_revoir,"ANSWEAR.COM SA Inhaber-Aktien ZY -,05",ANSWEAR.COM SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400C2YGLP0G2OBL08,a_revoir,"Image Power S.A. Inhaber-Aktien ZY -,10",IMAGE POWER SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400E6RU9JDZBMVZ94,a_revoir,"T-Bull S.A. Inhaber-Aktien ZY-,1",T- BULL SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400H6Q2X44R0BKF19,a_revoir,"Thorium Space S.A. Inhaber-Aktien ZY -,10",THORIUM SPACE SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400K207QFVSVSA489,a_revoir,"Arena.pl S.A. Inhaber-Aktien ZY -,50",ARENA.PL SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400MWAPT1HS532002,a_revoir,"The Dust S.A. Namens-Aktien ZY-,1",The Dust Spółka Akcyjna,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400Q0ERJT0NC5DT24,a_revoir,"Celon Pharma S.A. Inhaber-Aktien  ZY -,10","""CELON PHARMA"" SPÓŁKA AKCYJNA",0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400T5NWGU1IJ1SC04,a_revoir,"ECC Games SA Inhaber-Aktien ZY-,1",ECC GAMES SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400X5XIXDAT4E5O08,a_revoir,"MADMIND STUDIO S.A. Inhaber-Aktien ZY -,50",MADMIND STUDIO SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400YIV23XGX5OOR05,a_revoir,"RENDER CUBE S.A. Inhaber-Aktien BRSA ZY-,10",RENDER CUBE SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+48510000DWP0BMQCTM64,a_revoir,"Rigas Kugu Bovetava Registered Shares EO 1,40","Akciju sabiedriba ""Rigas kugu buvetava""",0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,LV,LV,non
+529900AS1XLZP15O8887,a_revoir,Merko Ehitus (asutam.) aktsia Registered Shares o.N.,Aktsiaselts MERKO EHITUS,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,EE,EE,non
+529900DX58JSJHLKEA56,a_revoir,BIGGEORGE PROPERTY NYRT,Biggeorge Property Nyilvánosan Működő Részvénytársaság,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,HU,HU,non
+529900GUX76NPUS2VT85,a_revoir,"ADS TEC ENERGY PLC Registered Shares DL -,0001",ADS-TEC ENERGY PUBLIC LIMITED COMPANY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+529900M0NQ3SK9EFD968,a_revoir,Bulgarian Private Equity Fund AD,Bulgarian Share Investment Fund AD,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+529900RNBJ2OSEC3SC79,a_revoir,Fund Estates REIT,Fund Estates Real Estate Investment Trust Plc,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+5493001CS06BN7WZ5P32,a_revoir,Holdflight AB Namn-Aktier o.N.,Holdflight AB (publ),0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+54930048HZ7YRK2FGE08,a_revoir,Zaharni Zavodi AD-Gorna Oryahovitsa,Zaharni zavodi Ethanol,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+549300E0O2PB52T65X22,a_revoir,"Karelia Tobacco Co. Inc. S.A. Namens-Aktien EO 11,83",TOBACCO INDUSTRY KARELIA JSC,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+549300HI3464J8OIIZ26,a_revoir,DD Income Fund A,STICHTING DD INCOME FUND,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+549300KPG3MTPY88U971,a_revoir,Igrene AB SHRS,AB Igrene (publ),0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+549300WHC56FF48KL350,a_revoir,Willis Towers W,WILLIS TOWERS WATSON PUBLIC LIMITED COMPANY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+549300XA2KZ8F50M5X10,a_revoir,Latvian Forest Co. AB Namn-Aktier B o.N.,Latvian Forest Company AB,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+635400WTCRIZB6TVGZ23,a_revoir,"Kibo Energy PLC Registered Shares EO -,0001",Kibo Energy Public Limited Company,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+7872005CU7IMPL0XZT69,a_revoir,Star Invest Imobiliare,STAR RESIDENCE INVEST S.A.,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,RO,RO,non
+8945001MNHCQFIP27M14,a_revoir,ODI Pharma AB Namn-Aktier o.N.,ODI Pharma AB (publ),0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+8945008Q3OIEBAOUB529,a_revoir,Doverie Obedinen Hldg.AD-SofiaBearer Shares BW 1,DOVERIE-OBEDINEN HOLDING,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+959800AWF26KMY2SXF71,a_revoir,Corporation America Airports S Actions Nominatives DL 1,CORPORACION AMERICA AIRPORTS S.A.,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,LU,LU,non
+9695003CV1KE3DI24K30,a_revoir,GECI INTL,GECI INTERNATIONAL,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+9695004FALTKA67E3T78,a_revoir,VIEL & Cie SA,VIEL ET COMPAGNIE,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+9695004HHD4PHW3LNK02,a_revoir,Body One SHRS,BODY ONE LINGERIE,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+969500HGMRK6AD1XI361,a_revoir,MGI DIGITAL GRAPHI,MGI DIGITAL TECHNOLOGY,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+969500LXL8AZAI9TDZ20,a_revoir,GPE Groupe Pizzorno,GROUPE PIZZORNO ENVIRONNEMENT,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+98450063A5936E8A2B77,a_revoir,Intl School Augsburg AG Namens-Aktien o.N.,International School Augsburg -ISA- gemeinnützige AG,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+9845008636C4DE89FC65,a_revoir,"DB Energy S.A. Inhaber-Aktien ZY -,10",DB ENERGY SPÓŁKA AKCYJNA,0.667,similarite basse (0.667) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+254900MAXRCO8KWAYC84,a_revoir,Telematik Interaktiv BalgariyaRegistered Shares BW 1,Telematic Interactive Bulgaria,0.675,similarite basse (0.675) mais pas assez extreme pour conclure a un LEI douteux,BG,BG,non
+529900MUF4C20K50JS49,a_revoir,Muenchener Rueckversicherungs AG,Munchener Ruckversicherungs-Gesellschaft Aktiengesellschaft in Munchen,0.675,similarite basse (0.675) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+95980064QMM6SEWM7761,a_revoir,EDIFICIO ROSTOWER SOCIMI,EDIFICIO ROSTOWER S.L.(SOCIEDAD UNIPERSONAL),0.676,similarite basse (0.676) mais pas assez extreme pour conclure a un LEI douteux,ES,ES,non
+815600FD72D4EEB8A083,a_revoir,"Lifestyle Group S.p.A., The Azioni nom. o.N.",THE LIFESTYLE GROUP S.P.A. IN LIQUIDAZIONE,0.677,similarite basse (0.677) mais pas assez extreme pour conclure a un LEI douteux,IT,IT,non
+2594006AIX56Y3OPA682,a_revoir,"Grupa Niewiadow PGM S.A. Inhaber-Aktien ZY -,10",GRUPA NIEWIADÓW - PGM SPÓŁKA AKCYJNA,0.679,similarite basse (0.679) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+529900ACULN0YBE8ZV37,a_revoir,COMMERCIALE BELGE (Cie),Compagnie Commerciale Belge,0.68,similarite basse (0.68) mais pas assez extreme pour conclure a un LEI douteux,BE,BE,non
+259400PXQ3FWONSEYH77,a_revoir,Letus Capital S.A. Inhaber-Aktien PLN 1,Letus Capital Spółka Akcyjna,0.681,similarite basse (0.681) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+63540092EZYLYI8LGX48,a_revoir,"Karelian Diamond Resources PLCRegistered Shs EO -,00025",Karelian Diamond Resources Public Limited Company,0.681,similarite basse (0.681) mais pas assez extreme pour conclure a un LEI douteux,IE,IE,non
+724500SL3VW4OXK03L12,a_revoir,BrightCop Certificaten,Bright Coöperatief U.A.,0.682,similarite basse (0.682) mais pas assez extreme pour conclure a un LEI douteux,NL,NL,non
+8945007GIXZ5CT0KMQ09,a_revoir,SpielVGG Unterhaching KGaA Namens-Aktien o.N.,Spielvereinigung Unterhaching Fußball GmbH & Co. KGaA,0.689,similarite basse (0.689) mais pas assez extreme pour conclure a un LEI douteux,DE,DE,non
+969500GKS79O8C1HDB31,a_revoir,Colipays SHRS,COLIPAYS REUNION,0.69,similarite basse (0.69) mais pas assez extreme pour conclure a un LEI douteux,FR,FR,non
+2594003WO9Q9HHAFL031,a_revoir,"Ryvu Therapeutics S.A. Inhaber-Aktien ZY -,40",RYVU THERAPEUTICS SPÓŁKA AKCYJNA,0.692,similarite basse (0.692) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400RH1X2I3208ZF45,a_revoir,"Cannabis Poland S.A. Inhaber-Aktien A,B ZY -,10",CANNABIS POLAND SPÓŁKA AKCYJNA,0.692,similarite basse (0.692) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400S5PBXB6PYCWM34,a_revoir,"Creotech Quantum S.A. Inhaber-Aktien B ZY -,10",CREOTECH QUANTUM SPÓŁKA AKCYJNA,0.692,similarite basse (0.692) mais pas assez extreme pour conclure a un LEI douteux,PL,PL,non
+259400XGMBNWYWK1YR73,a_revoir,INTERAOLT,"AB ""INTER RAO Lietuva""",0.692,similarite basse (0.692) mais pas assez extreme pour conclure a un LEI douteux,LT,LT,non
+21380054CNOGH2BJQJ59,a_revoir,"Thessal.Water Suppl.+Sewer.Co. Namens-Aktien EO 1,12",THESSALONIKI WATER SUPPLY AND SEWERAGE COMPANY CO S.A.,0.694,similarite basse (0.694) mais pas assez extreme pour conclure a un LEI douteux,GR,GR,non
+5493000QETTE0LV24T83,a_revoir,Servana AB SHRS,Servana AB (publ),0.696,similarite basse (0.696) mais pas assez extreme pour conclure a un LEI douteux,SE,SE,non
+959800T8BZ03XM28L350,a_revoir,"Energia Innovac.Y Dess.Fotov. Acciones Port. EO 0,25","ENERGIA, INNOVACION Y DESARROLLO FOTOVOLTAICO SA",0.698,similarite basse (0.698) mais pas assez extreme pour conclure a un LEI douteux,ES,ES,non
+259400SNA6RWFD4ZG249,a_revoir,AATHOLD,AAT HOLDING S.A.,0.778,statut GLEIF INACTIVE,PL,PL,non
+222100SOZQEBWOVHDQ35,a_revoir,VelcanHoldings ordinary shares,VELCAN HOLDINGS,0.966,pays ISIN FR != pays GLEIF LU,FR,LU,non
+213800RPWI2W331TBF44,a_revoir,ORCA INVESTMENT PLC,ORCA INVESTMENTS LIMITED,0.968,pays ISIN CY != pays GLEIF GB,CY,GB,non
+213800AYTYOYD61S4569,a_revoir,Zenith Energy Ltd DPRS,ZENITH ENERGY LTD.,1.0,pays ISIN SE != pays GLEIF CA,SE,CA,non
+213800BCDB1MZLK5NZ58,a_revoir,ISXIS INVESTMENT PUBLIC LTD,ΙΣΧΥΣ ΕΠΕΝΔΥΤΙΚΗ ΔΗΜΟΣΙΑ ΛΙΜΙΤΕΔ,,"alphabet non latin, non comparable automatiquement",CY,CY,non
+222100UH8Y1135OGDV16,a_revoir,DNXCORP,DNXCORP SE,1.0,pays ISIN FR != pays GLEIF LU,FR,LU,non
+2549000WCDQX6ZM7AW92,a_revoir,INNIO N.V. Registered Shares o.N.,INNIO N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+2594005ZEVW1K2X4W161,a_revoir,NETMEDIA,NETMEDIA SPÓŁKA AKCYJNA,1.0,statut GLEIF INACTIVE,PL,PL,non
+259400J93E33KWXTJJ27,a_revoir,MILKILAND,MILKILAND N.V.,1.0,statut GLEIF INACTIVE,NL,NL,non
+259400LECIHX7BY5QV60,a_revoir,KERDOS,KERDOS GROUP SPÓŁKA AKCYJNA,1.0,statut GLEIF INACTIVE,PL,PL,non
+259400LW8FPYICLC0I09,a_revoir,FAM,FAM S.A.,1.0,statut GLEIF INACTIVE,PL,PL,non
+259400OUSH0TQ8J7FY40,a_revoir,NANOTEL,NANOTEL S.A.,1.0,statut GLEIF INACTIVE,PL,PL,non
+259400WB3K1M8CZO6N24,a_revoir,FON,FON SE,1.0,pays ISIN PL != pays GLEIF EE,PL,EE,non
+259400WR3GCVAK1D8J30,a_revoir,INDATA,INDATA SPÓŁKA AKCYJNA,1.0,statut GLEIF INACTIVE,PL,PL,non
+259400YNK7S9JKQ7YZ83,a_revoir,EGB,EGB INVESTMENTS S.A.,1.0,statut GLEIF INACTIVE,PL,PL,non
+31570078IM9ILNPQUB16,a_revoir,CSG NV,CSG N.V.,1.0,pays ISIN NL != pays GLEIF CZ,NL,CZ,non
+315700I9B3QNEE3VKB13,a_revoir,FORTUNA,Fortuna Entertainment Group N.V.,1.0,statut GLEIF INACTIVE,NL,NL,non
+3912004AMB0KGZXZYJ15,a_revoir,Vivoryon Therapeutics NV,Vivoryon Therapeutics N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+391200AKM532DZX95425,a_revoir,"Lilium N.V. Aandelen op naam Cl.A EO 0,01",Lilium N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+391200ECRGNL09Y2KJ67,a_revoir,Encavis Ord Shs,ENCAVIS AG,1.0,statut GLEIF INACTIVE,DE,DE,non
+391200GTRCF4TK71DT34,a_revoir,"Sono Group N.V. Aand.op naam EO 0,06",Sono Group N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+391200MYZ5ZKDKRWF481,a_revoir,"Reliable African Energy N.V. Aandelen EO -,10",Reliable African Energy N.V.,1.0,pays ISIN NL != pays GLEIF ZA,NL,ZA,non
+485100F8EVJRLERPVY86,a_revoir,Sevko AD,СЕВКО,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+485100IMXUYP3YHSHP60,a_revoir,Elea Capital Holding AD,Елеа Кепитъл Холдинг,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+485100O54DPHP2PUGT94,a_revoir,IpoTech Sofcom AD,ИПОТЕХ СОФКОМ АД,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+485100TG0S2CA0LD1G30,a_revoir,Katex AD,КАТЕКС,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+5299003VDHTK75D1JE38,a_revoir,"Tchaikapharma Highq.Medicin.ADRegistered Shares EO 0,51",ЧАЙКАФАРМА ВИСОКОКАЧЕСТВЕНИТЕ ЛЕКАРСТВА,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+529900493806K77LRE72,a_revoir,Morphosys Ord Shs,MorphoSys AG,1.0,statut GLEIF INACTIVE,DE,DE,non
+529900BUP3KWPCJNLS49,a_revoir,Playa Hotels & Resorts NV,PLAYA HOTELS & RESORTS N.V,1.0,statut GLEIF INACTIVE,NL,NL,non
+549300F1857N5E6G6T48,a_revoir,"Steris PLC Registered Shares DL 0,0010",STERIS LIMITED,1.0,pays ISIN IE != pays GLEIF GB,IE,GB,non
+549300GZ6EBLMTJZ3V26,a_revoir,Aker Horizons AS,AKER HORIZONS AS,1.0,statut GLEIF INACTIVE,NO,NO,non
+549300OA1EE1DC2MDO68,a_revoir,TISSAGES BRUGGEMAN,TISSAGES BRUGGEMAN,1.0,statut GLEIF INACTIVE,BE,BE,non
+549300SUB58CZD2F8N84,a_revoir,Northern CapSek Ventures,Northern CapSek Ventures AB (publ),1.0,statut GLEIF INACTIVE,SE,SE,non
+549300VB8GBX4UO7WG59,a_revoir,Brait ord,BRAIT PLC,1.0,pays ISIN LU != pays GLEIF MU,LU,MU,non
+549300XNQIMIFOSO0039,a_revoir,Sequa Petroleum NV SHRS,SEQUA PETROLEUM N.V.,1.0,pays ISIN NL != pays GLEIF GB,NL,GB,non
+5967007LIEEXZX90NS38,a_revoir,LEA BANK ASA,LEA BANK ASA,1.0,statut GLEIF INACTIVE,NO,NO,non
+724500BUT8GAG9LMYN56,a_revoir,Curevac Ord Shs,CureVac N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+724500EPNADXWZ58U595,a_revoir,TME PHARMA,TME Pharma N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+724500WU54AQ8OJ2SU41,a_revoir,VAM Investments Spac BV,VAM Investments SPAC B.V.,1.0,pays ISIN NL != pays GLEIF IT,NL,IT,non
+74370088B8DSLETGN802,a_revoir,Enersize Oyj,Enersize Oyj,1.0,pays ISIN FI != pays GLEIF SE,FI,SE,non
+815600743C347B1A7A92,a_revoir,Almawave S.p.A. Azioni nom. o. N.,ALMAWAVE S.P.A.,1.0,statut GLEIF INACTIVE,IT,IT,non
+81560085446E4A223993,a_revoir,PORTALE SARDEGNA,PORTALE SARDEGNA S.P.A.,1.0,statut GLEIF INACTIVE,IT,IT,non
+8945002W8F7JBHB4WB42,a_revoir,Industrial Park - ELPE,Индустриален парк - ЕЛПЕ,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+8945003GPN8N8072XA67,a_revoir,Tiz Invest AD,ТИЗ ИНВЕСТ,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+89450058X738BFEZCM08,a_revoir,Vida Health JSC,Вида Хелт,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+8945007COD8YE9RL9T06,a_revoir,Grand Vision Properties REIT,ГРАНД ВИЖЪН ПРОПЪРТИС,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+89450080DZT6PEL01D29,a_revoir,Bulgarian River Shipping AD-Ruse,ПАРАХОДСТВО БЪЛГАРСКО РЕЧНО ПЛАВАНЕ,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+894500DKEE3GY8870322,a_revoir,About You Holding SE,ABOUT YOU Holding SE,1.0,statut GLEIF INACTIVE,DE,DE,non
+894500ETO1J6MR8PDF91,a_revoir,Apontis Pharma AG,APONTIS PHARMA AG,1.0,statut GLEIF INACTIVE,DE,DE,non
+894500KFDAZH06WBYJ09,a_revoir,Green Innovation AD,ГРИЙН ИНОВЕЙШЪН,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+894500TLC0PQ1B1N6267,a_revoir,GREEN HILL PARK 2022 AD,ГРИЙН ХИЛ ПАРК 2022,,"alphabet non latin, non comparable automatiquement",BG,BG,non
+959800QLN27ZHMRSEL44,a_revoir,"SAINT CROIX HOLDING IMMOBILIER, SOCIMI, S.A.",SAINT CROIX HOLDING IMMOBILIER SOCIMI SA,1.0,pays ISIN LU != pays GLEIF ES,LU,ES,non
+969500AW5FA86IVLHY37,a_revoir,MONDO TV FRANCE,MONDO TV FRANCE,1.0,pays ISIN FR != pays GLEIF IT,FR,IT,non
+969500EELFB4RDMFHA76,a_revoir,"Criteo S.A. Actions Nom. EO -,025",CRITEO,1.0,pays ISIN LU != pays GLEIF FR,LU,FR,non
+969500TFCD8K9RPM9K97,a_revoir,QUANTUM GENOMICS,QUANTUM GENOMICS,1.0,statut GLEIF INACTIVE,FR,FR,non
+984500DC691EZ96AF394,a_revoir,Immatics N.V. Namensaktie  o.N.,Immatics N.V.,1.0,pays ISIN NL != pays GLEIF DE,NL,DE,non
+BN6WCCZ8OVP3ITUUVN49,a_revoir,LyondellBasell,LyondellBasell Industries N.V.,1.0,pays ISIN NL != pays GLEIF GB,NL,GB,non
+259400TZG21SXKFKFD76,concordance_confirmee_manuellement,AB S.A. Inhaber-Aktien ZY 1,AB SPÓŁKA AKCYJNA,0.0,"AB = nom de la societe, SPOLKA AKCYJNA = forme juridique polonaise (S.A.) -- meme entite",PL,PL,n/a
+81560094A389646CAF21,concordance_confirmee_manuellement,Fila SpA,F.I.L.A - FABBRICA ITALIANA LAPIS ED AFFINI - SOCIETA' PER AZIONI SIGLABILE IN FORMA F.I.L.A. S.P.A. O IN FORMA ABBREVIATA CON LA DICITURA ANTICIPATA DAL SIMBOLO DEL GIGLIO STILIZZATO,0.046,Fila SpA = abreviation de F.I.L.A. - Fabbrica Italiana Lapis ed Affini (societe italienne connue) -- meme entite,IT,IT,n/a
+5493004R70ROOK9XLT54,concordance_confirmee_manuellement,CO.BR.HA (D),"Societe Commerciale De Brasserie, SA",0.146,"CO.BR.HA = sigle de COmmerciale BRasserie HAiti, correspond a Societe Commerciale De Brasserie -- meme entite",BE,BE,n/a
+259400QX54KSSJYJGN90,concordance_confirmee_manuellement,EUCO,"""EUROPEJSKIE CENTRUM ODSZKODOWAŃ"" SPÓŁKA AKCYJNA",0.16,EUCO = sigle d'EUropejskie CentrOm Odszkodowan (Centre Europeen d'Indemnisation) -- meme entite,PL,PL,n/a
+259400NUG5QDCLQ2L718,concordance_confirmee_manuellement,CMI,CM INTERNATIONAL SPÓŁKA AKCYJNA,0.176,CMI = sigle de C.M. International -- meme entite,PL,PL,n/a
+64883Z56AVG75UR23W69,concordance_confirmee_manuellement,LAU Infra Grupa,"Valsts akciju sabiedriba ""Latvijas autocelu uzturetajs""",0.176,LAU = sigle letton de Latvijas AutoceLu Uzturetajs (entretien routier letton) -- meme entite,LV,LV,n/a
+529900SL3K21WAN6X611,concordance_confirmee_manuellement,"Bank of Greece Namens-Aktien EO 5,60",TRAPEZA TIS ELLADOS,0.182,Trapeza tis Ellados = traduction grecque litterale de « Bank of Greece » -- meme entite,GR,GR,n/a
+5493000LKS7B3UTF7H35,concordance_confirmee_manuellement,PEKAO,BANK POLSKA KASA OPIEKI - SPÓŁKA AKCYJNA,0.186,PEKAO = sigle historique de Polska Kasa Opieki (banque polonaise connue) -- meme entite,PL,PL,n/a
+21380024BQ2ILRDQFI71,concordance_confirmee_manuellement,"Crete Plastics S.A. Namens-Aktien EO 1,43","PLASTIKA KRITIS, ANONYMOS VIOMICHANIKI KAI EMPORIKI ETAIREIA",0.192,Plastika Kritis = traduction grecque litterale de « Crete Plastics » -- meme entite,GR,GR,n/a
+213800SA1M6NZ4YSQU91,concordance_confirmee_manuellement,"EYDAP S.A. Inhaber-Aktien EO 0,6",ATHENS WATER SUPPLY SEWERAGE COMPANY SOCIETE ANONYME,0.195,EYDAP = sigle grec d'Etaireia Ydrefsis kai Apoxeteusis Protevousis = « Athens Water Supply Sewerage Company » -- meme entite,GR,GR,n/a

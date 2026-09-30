@@ -1,0 +1,152 @@
+{
+ "FI": {
+  "n_leis_a": 137,
+  "n_couverts_fy2024_2025": 127,
+  "taux_pct": 92.7
+ },
+ "BE": {
+  "n_leis_a": 101,
+  "n_couverts_fy2024_2025": 70,
+  "taux_pct": 69.3
+ },
+ "DK": {
+  "n_leis_a": 109,
+  "n_couverts_fy2024_2025": 97,
+  "taux_pct": 89.0
+ },
+ "HR": {
+  "n_leis_a": 69,
+  "n_couverts_fy2024_2025": 18,
+  "taux_pct": 26.1
+ },
+ "NL": {
+  "n_leis_a": 110,
+  "n_couverts_fy2024_2025": 95,
+  "taux_pct": 86.4
+ },
+ "SE": {
+  "n_leis_a": 359,
+  "n_couverts_fy2024_2025": 304,
+  "taux_pct": 84.7
+ },
+ "NO": {
+  "n_leis_a": 152,
+  "n_couverts_fy2024_2025": 130,
+  "taux_pct": 85.5
+ },
+ "PT": {
+  "n_leis_a": 30,
+  "n_couverts_fy2024_2025": 6,
+  "taux_pct": 20.0
+ },
+ "DE": {
+  "n_leis_a": 322,
+  "n_couverts_fy2024_2025": 0,
+  "taux_pct": 0.0
+ },
+ "RO": {
+  "n_leis_a": 85,
+  "n_couverts_fy2024_2025": 0,
+  "taux_pct": 0.0
+ },
+ "FR": {
+  "n_leis_a": 287,
+  "n_couverts_fy2024_2025": 197,
+  "taux_pct": 68.6
+ },
+ "EE": {
+  "n_leis_a": 22,
+  "n_couverts_fy2024_2025": 3,
+  "taux_pct": 13.6
+ },
+ "HU": {
+  "n_leis_a": 47,
+  "n_couverts_fy2024_2025": 18,
+  "taux_pct": 38.3
+ },
+ "MT": {
+  "n_leis_a": 36,
+  "n_couverts_fy2024_2025": 26,
+  "taux_pct": 72.2
+ },
+ "SI": {
+  "n_leis_a": 18,
+  "n_couverts_fy2024_2025": 10,
+  "taux_pct": 55.6
+ },
+ "LU": {
+  "n_leis_a": 39,
+  "n_couverts_fy2024_2025": 31,
+  "taux_pct": 79.5
+ },
+ "AT": {
+  "n_leis_a": 58,
+  "n_couverts_fy2024_2025": 52,
+  "taux_pct": 89.7
+ },
+ "CZ": {
+  "n_leis_a": 12,
+  "n_couverts_fy2024_2025": 0,
+  "taux_pct": 0.0
+ },
+ "ES": {
+  "n_leis_a": 119,
+  "n_couverts_fy2024_2025": 104,
+  "taux_pct": 87.4
+ },
+ "LI": {
+  "n_leis_a": 1,
+  "n_couverts_fy2024_2025": 0,
+  "taux_pct": 0.0
+ },
+ "LV": {
+  "n_leis_a": 7,
+  "n_couverts_fy2024_2025": 0,
+  "taux_pct": 0.0
+ },
+ "PL": {
+  "n_leis_a": 389,
+  "n_couverts_fy2024_2025": 5,
+  "taux_pct": 1.3
+ },
+ "SK": {
+  "n_leis_a": 12,
+  "n_couverts_fy2024_2025": 5,
+  "taux_pct": 41.7
+ },
+ "BG": {
+  "n_leis_a": 246,
+  "n_couverts_fy2024_2025": 0,
+  "taux_pct": 0.0
+ },
+ "CY": {
+  "n_leis_a": 76,
+  "n_couverts_fy2024_2025": 3,
+  "taux_pct": 3.9
+ },
+ "GR": {
+  "n_leis_a": 126,
+  "n_couverts_fy2024_2025": 34,
+  "taux_pct": 27.0
+ },
+ "IE": {
+  "n_leis_a": 15,
+  "n_couverts_fy2024_2025": 11,
+  "taux_pct": 73.3
+ },
+ "IS": {
+  "n_leis_a": 24,
+  "n_couverts_fy2024_2025": 23,
+  "taux_pct": 95.8
+ },
+ "IT": {
+  "n_leis_a": 185,
+  "n_couverts_fy2024_2025": 153,
+  "taux_pct": 82.7
+ },
+ "LT": {
+  "n_leis_a": 23,
+  "n_couverts_fy2024_2025": 19,
+  "taux_pct": 82.6
+ }
+}
